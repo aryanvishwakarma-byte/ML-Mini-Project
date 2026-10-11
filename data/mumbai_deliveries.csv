@@ -1,0 +1,1002 @@
+order_id,customer_name,area,latitude,longitude,package_weight_kg,time_window,priority,is_depot
+DEPOT-000,Main Mumbai Central Logistics Hub (BKC),Bandra Kurla Complex,19.0657,72.8687,0.0,00:00-23:59,DEPOT,1
+MUM-0001,Karan Joshi,Colaba,18.912661,72.813041,7.38,15:00 - 18:00,Standard,0
+MUM-0002,Varun Deshmukh,Colaba,18.905565,72.803554,2.14,15:00 - 18:00,Standard,0
+MUM-0003,Varun Sharma,Colaba,18.899729,72.808398,4.0,12:00 - 15:00,Standard,0
+MUM-0004,Priya Merchant,Colaba,18.906967,72.809566,3.18,12:00 - 15:00,High,0
+MUM-0005,Rohan Shah,Colaba,18.90751,72.797603,7.49,09:00 - 12:00,Standard,0
+MUM-0006,Varun Patel,Colaba,18.882379,72.828133,8.37,15:00 - 18:00,High,0
+MUM-0007,Rohan Pawar,Colaba,18.920263,72.819177,5.0,12:00 - 15:00,High,0
+MUM-0008,Priya Deshmukh,Colaba,18.909206,72.791184,2.63,15:00 - 18:00,High,0
+MUM-0009,Pooja Pawar,Colaba,18.88056,72.802173,8.86,15:00 - 18:00,Standard,0
+MUM-0010,Divya Shetty,Colaba,18.894591,72.7957,10.03,12:00 - 15:00,Express,0
+MUM-0011,Arjun Chavan,Colaba,18.888581,72.823358,1.36,15:00 - 18:00,Standard,0
+MUM-0012,Karan Gokhale,Colaba,18.887943,72.805152,8.63,15:00 - 18:00,High,0
+MUM-0013,Rahul Verma,Colaba,18.915081,72.816783,10.28,18:00 - 21:00,Standard,0
+MUM-0014,Simran Shah,Colaba,18.904567,72.809775,8.89,18:00 - 21:00,Standard,0
+MUM-0015,Arjun Pawar,Colaba,18.882167,72.827534,10.26,09:00 - 12:00,Standard,0
+MUM-0016,Rahul Shetty,Colaba,18.90627,72.833476,5.42,12:00 - 15:00,Standard,0
+MUM-0017,Manish Kadam,Colaba,18.908506,72.813339,6.98,18:00 - 21:00,Express,0
+MUM-0018,Karan Deshmukh,Colaba,18.900287,72.796759,11.34,15:00 - 18:00,Standard,0
+MUM-0019,Sneha Gupta,Colaba,18.912717,72.828598,2.65,12:00 - 15:00,Express,0
+MUM-0020,Aditya Sharma,Colaba,18.897411,72.810383,3.63,15:00 - 18:00,Standard,0
+MUM-0021,Aditya Kulkarni,Colaba,18.910253,72.817833,6.37,09:00 - 12:00,Standard,0
+MUM-0022,Simran Shetty,Colaba,18.893545,72.825679,2.44,18:00 - 21:00,Standard,0
+MUM-0023,Manish Kadam,Colaba,18.895383,72.831548,3.34,15:00 - 18:00,Standard,0
+MUM-0024,Manish Bhat,Colaba,18.89383,72.802789,11.73,18:00 - 21:00,Standard,0
+MUM-0025,Sameer Patel,Colaba,18.912433,72.811592,6.61,12:00 - 15:00,Express,0
+MUM-0026,Karan Patil,Colaba,18.915908,72.800902,3.23,15:00 - 18:00,High,0
+MUM-0027,Anjali Sawant,Colaba,18.910974,72.814437,9.89,18:00 - 21:00,High,0
+MUM-0028,Rohan Kadam,Colaba,18.894814,72.807904,4.25,18:00 - 21:00,Standard,0
+MUM-0029,Aditya Kadam,Colaba,18.888092,72.815523,11.32,18:00 - 21:00,Standard,0
+MUM-0030,Gaurav Nair,Colaba,18.897301,72.810835,3.47,18:00 - 21:00,Standard,0
+MUM-0031,Manish Patel,Colaba,18.906856,72.819233,11.96,12:00 - 15:00,Express,0
+MUM-0032,Rahul Fernandes,Colaba,18.909819,72.824082,4.52,18:00 - 21:00,High,0
+MUM-0033,Aarav Patil,Colaba,18.903274,72.827484,10.29,09:00 - 12:00,Standard,0
+MUM-0034,Rohan Merchant,Colaba,18.909415,72.824869,1.67,15:00 - 18:00,Express,0
+MUM-0035,Ananya Pandey,Colaba,18.894875,72.801573,5.66,09:00 - 12:00,Standard,0
+MUM-0036,Varun Merchant,Nariman Point / Marine Drive,18.913904,72.833645,9.08,18:00 - 21:00,High,0
+MUM-0037,Kavya Gupta,Nariman Point / Marine Drive,18.914081,72.837459,6.35,12:00 - 15:00,Standard,0
+MUM-0038,Ananya Tiwari,Nariman Point / Marine Drive,18.936144,72.821325,6.28,18:00 - 21:00,High,0
+MUM-0039,Kavya Gokhale,Nariman Point / Marine Drive,18.921123,72.830243,7.08,18:00 - 21:00,High,0
+MUM-0040,Varun Mehta,Nariman Point / Marine Drive,18.92411,72.833084,11.77,18:00 - 21:00,Standard,0
+MUM-0041,Rohan Rane,Nariman Point / Marine Drive,18.938147,72.820094,6.9,15:00 - 18:00,High,0
+MUM-0042,Gaurav Patel,Nariman Point / Marine Drive,18.933221,72.811238,3.42,12:00 - 15:00,Express,0
+MUM-0043,Karan Pandey,Nariman Point / Marine Drive,18.936069,72.836994,4.63,09:00 - 12:00,Standard,0
+MUM-0044,Simran Chavan,Nariman Point / Marine Drive,18.906983,72.818074,1.44,15:00 - 18:00,Standard,0
+MUM-0045,Ishita Merchant,Nariman Point / Marine Drive,18.932451,72.837827,1.08,15:00 - 18:00,Standard,0
+MUM-0046,Gaurav Pandey,Nariman Point / Marine Drive,18.916326,72.821358,4.27,12:00 - 15:00,Standard,0
+MUM-0047,Anjali Bhat,Nariman Point / Marine Drive,18.933835,72.804847,0.93,12:00 - 15:00,Standard,0
+MUM-0048,Neha Tiwari,Nariman Point / Marine Drive,18.901702,72.829312,3.62,18:00 - 21:00,High,0
+MUM-0049,Gaurav Joshi,Nariman Point / Marine Drive,18.954268,72.846321,8.85,09:00 - 12:00,Express,0
+MUM-0050,Gaurav Shah,Nariman Point / Marine Drive,18.909905,72.800313,2.62,12:00 - 15:00,High,0
+MUM-0051,Aarav Shetty,Nariman Point / Marine Drive,18.916338,72.844136,3.38,12:00 - 15:00,Standard,0
+MUM-0052,Vikram Pandey,Nariman Point / Marine Drive,18.928853,72.851138,8.9,15:00 - 18:00,Standard,0
+MUM-0053,Ishita Shah,Nariman Point / Marine Drive,18.940803,72.815708,1.58,12:00 - 15:00,Express,0
+MUM-0054,Kavya Tiwari,Nariman Point / Marine Drive,18.922751,72.846664,5.94,09:00 - 12:00,Standard,0
+MUM-0055,Anjali Shah,Nariman Point / Marine Drive,18.920559,72.82587,10.7,18:00 - 21:00,Standard,0
+MUM-0056,Aarav Patil,Nariman Point / Marine Drive,18.926302,72.852376,8.07,18:00 - 21:00,High,0
+MUM-0057,Rhea Patil,Nariman Point / Marine Drive,18.929729,72.835315,8.29,15:00 - 18:00,High,0
+MUM-0058,Vikram Gupta,Nariman Point / Marine Drive,18.951196,72.800775,4.94,09:00 - 12:00,High,0
+MUM-0059,Tanvi Pawar,Nariman Point / Marine Drive,18.917572,72.813783,0.71,15:00 - 18:00,High,0
+MUM-0060,Priya Patel,Nariman Point / Marine Drive,18.940363,72.808705,3.5,15:00 - 18:00,Standard,0
+MUM-0061,Simran Deshmukh,Nariman Point / Marine Drive,18.937024,72.841631,5.31,09:00 - 12:00,Standard,0
+MUM-0062,Rohan Bhat,Nariman Point / Marine Drive,18.932221,72.815678,8.91,18:00 - 21:00,Standard,0
+MUM-0063,Vikram Gupta,Nariman Point / Marine Drive,18.91757,72.838143,5.43,09:00 - 12:00,High,0
+MUM-0064,Manish Kadam,Nariman Point / Marine Drive,18.918078,72.808096,10.0,12:00 - 15:00,Standard,0
+MUM-0065,Rhea Gokhale,Nariman Point / Marine Drive,18.930305,72.822706,6.17,18:00 - 21:00,Standard,0
+MUM-0066,Varun Deshmukh,Nariman Point / Marine Drive,18.913528,72.80963,11.38,18:00 - 21:00,High,0
+MUM-0067,Aditya Pawar,Nariman Point / Marine Drive,18.925453,72.813433,6.82,09:00 - 12:00,High,0
+MUM-0068,Arjun Gupta,Nariman Point / Marine Drive,18.947364,72.829055,8.41,12:00 - 15:00,High,0
+MUM-0069,Divya Patel,Nariman Point / Marine Drive,18.9204,72.826646,1.44,09:00 - 12:00,Standard,0
+MUM-0070,Anjali Kadam,Nariman Point / Marine Drive,18.938328,72.82705,3.22,15:00 - 18:00,Express,0
+MUM-0071,Sameer Gupta,Nariman Point / Marine Drive,18.917629,72.840521,6.92,15:00 - 18:00,Standard,0
+MUM-0072,Siddharth Chavan,Nariman Point / Marine Drive,18.916908,72.801691,5.16,12:00 - 15:00,Standard,0
+MUM-0073,Siddharth Bhat,Nariman Point / Marine Drive,18.940854,72.83345,1.45,09:00 - 12:00,Standard,0
+MUM-0074,Karan Shah,Nariman Point / Marine Drive,18.926436,72.836002,3.41,15:00 - 18:00,Express,0
+MUM-0075,Ishita Shetty,Nariman Point / Marine Drive,18.952909,72.829075,5.73,09:00 - 12:00,High,0
+MUM-0076,Karan Gupta,Nariman Point / Marine Drive,18.942841,72.81578,11.53,18:00 - 21:00,Express,0
+MUM-0077,Neha Deshmukh,Nariman Point / Marine Drive,18.951878,72.8145,5.83,12:00 - 15:00,Standard,0
+MUM-0078,Pooja Pandey,Nariman Point / Marine Drive,18.916021,72.808146,0.87,09:00 - 12:00,Standard,0
+MUM-0079,Siddharth Pawar,Fort / CSMT,18.946656,72.847046,1.38,12:00 - 15:00,Express,0
+MUM-0080,Ananya Nair,Fort / CSMT,18.948704,72.85312,11.23,12:00 - 15:00,Standard,0
+MUM-0081,Anjali Sharma,Fort / CSMT,18.936083,72.821362,6.02,15:00 - 18:00,Standard,0
+MUM-0082,Anjali Bhat,Fort / CSMT,18.919242,72.851646,10.14,12:00 - 15:00,Standard,0
+MUM-0083,Vikram Shah,Fort / CSMT,18.942424,72.829587,11.96,09:00 - 12:00,Standard,0
+MUM-0084,Sameer Bhat,Fort / CSMT,18.95089,72.845154,3.27,09:00 - 12:00,Standard,0
+MUM-0085,Aarav Bhat,Fort / CSMT,18.941244,72.841573,9.21,12:00 - 15:00,Standard,0
+MUM-0086,Ananya Pandey,Fort / CSMT,18.943788,72.826418,9.38,15:00 - 18:00,Standard,0
+MUM-0087,Gaurav Shetty,Fort / CSMT,18.933041,72.865871,9.52,12:00 - 15:00,High,0
+MUM-0088,Ananya Kulkarni,Fort / CSMT,18.934596,72.831292,7.49,12:00 - 15:00,Standard,0
+MUM-0089,Rhea Kulkarni,Fort / CSMT,18.950433,72.833755,5.69,15:00 - 18:00,Standard,0
+MUM-0090,Vikram Deshmukh,Fort / CSMT,18.951579,72.839368,5.78,09:00 - 12:00,Standard,0
+MUM-0091,Ananya Kulkarni,Fort / CSMT,18.936423,72.815424,6.17,09:00 - 12:00,Standard,0
+MUM-0092,Arjun Mishra,Fort / CSMT,18.917968,72.846375,1.97,15:00 - 18:00,Standard,0
+MUM-0093,Pooja Patil,Fort / CSMT,18.928903,72.842132,5.23,18:00 - 21:00,Standard,0
+MUM-0094,Sameer Gokhale,Fort / CSMT,18.927971,72.841449,9.95,12:00 - 15:00,Standard,0
+MUM-0095,Ishita Patel,Fort / CSMT,18.938516,72.822977,1.98,12:00 - 15:00,High,0
+MUM-0096,Karan Merchant,Fort / CSMT,18.931403,72.837968,1.2,12:00 - 15:00,Express,0
+MUM-0097,Rhea Shetty,Fort / CSMT,18.941978,72.826097,6.67,18:00 - 21:00,Standard,0
+MUM-0098,Simran Patel,Fort / CSMT,18.921618,72.851802,9.1,12:00 - 15:00,Standard,0
+MUM-0099,Gaurav Pawar,Fort / CSMT,18.944603,72.825986,9.12,18:00 - 21:00,Standard,0
+MUM-0100,Arjun Mishra,Fort / CSMT,18.958085,72.805919,4.84,12:00 - 15:00,Standard,0
+MUM-0101,Siddharth Kadam,Fort / CSMT,18.921074,72.83788,5.95,12:00 - 15:00,High,0
+MUM-0102,Arjun Pandey,Fort / CSMT,18.929312,72.83536,7.25,18:00 - 21:00,Standard,0
+MUM-0103,Vikram Kulkarni,Fort / CSMT,18.915709,72.848209,10.85,18:00 - 21:00,Standard,0
+MUM-0104,Anjali Tiwari,Fort / CSMT,18.923017,72.842156,2.26,15:00 - 18:00,Standard,0
+MUM-0105,Arjun Kulkarni,Fort / CSMT,18.94937,72.837142,11.71,12:00 - 15:00,Standard,0
+MUM-0106,Arjun Sawant,Fort / CSMT,18.94614,72.83789,7.07,15:00 - 18:00,High,0
+MUM-0107,Rhea Bhat,Fort / CSMT,18.928884,72.843063,6.59,09:00 - 12:00,High,0
+MUM-0108,Karan Deshmukh,Fort / CSMT,18.947463,72.815462,4.19,15:00 - 18:00,Standard,0
+MUM-0109,Gaurav Nair,Fort / CSMT,18.929475,72.830785,11.88,09:00 - 12:00,High,0
+MUM-0110,Rohan Bhat,Fort / CSMT,18.968479,72.828147,10.28,18:00 - 21:00,Express,0
+MUM-0111,Rahul Patel,Fort / CSMT,18.944254,72.828152,2.58,15:00 - 18:00,Express,0
+MUM-0112,Vikram Pawar,Fort / CSMT,18.946752,72.841368,9.69,15:00 - 18:00,Standard,0
+MUM-0113,Pooja Chavan,Fort / CSMT,18.946322,72.847819,7.27,12:00 - 15:00,High,0
+MUM-0114,Sameer Kulkarni,Fort / CSMT,18.915343,72.823303,6.71,15:00 - 18:00,Standard,0
+MUM-0115,Gaurav Patel,Fort / CSMT,18.943723,72.832771,6.75,18:00 - 21:00,Standard,0
+MUM-0116,Rohan Verma,Fort / CSMT,18.912331,72.85259,8.9,12:00 - 15:00,Standard,0
+MUM-0117,Rhea Verma,Fort / CSMT,18.945913,72.850368,7.09,09:00 - 12:00,Standard,0
+MUM-0118,Gaurav Sharma,Fort / CSMT,18.926703,72.825596,0.89,12:00 - 15:00,High,0
+MUM-0119,Anjali Kulkarni,Fort / CSMT,18.959505,72.834934,6.67,15:00 - 18:00,High,0
+MUM-0120,Neha Shah,Fort / CSMT,18.936562,72.823655,6.09,18:00 - 21:00,High,0
+MUM-0121,Sameer Deshmukh,Fort / CSMT,18.950235,72.851668,6.74,15:00 - 18:00,Standard,0
+MUM-0122,Gaurav Shetty,Fort / CSMT,18.925667,72.827237,3.81,15:00 - 18:00,Standard,0
+MUM-0123,Aarav Shetty,Fort / CSMT,18.941966,72.867123,8.85,15:00 - 18:00,Express,0
+MUM-0124,Simran Shah,Fort / CSMT,18.961186,72.842483,8.63,12:00 - 15:00,High,0
+MUM-0125,Sameer Pawar,Fort / CSMT,18.932242,72.833198,11.25,12:00 - 15:00,Express,0
+MUM-0126,Ishita Deshmukh,Fort / CSMT,18.935849,72.829757,1.93,09:00 - 12:00,Standard,0
+MUM-0127,Arjun Tiwari,Fort / CSMT,18.927144,72.826646,4.86,09:00 - 12:00,Standard,0
+MUM-0128,Karan Kulkarni,Fort / CSMT,18.927655,72.815542,4.48,12:00 - 15:00,Standard,0
+MUM-0129,Tanvi Gokhale,Girgaon / Malabar Hill,18.957336,72.815906,3.35,09:00 - 12:00,Standard,0
+MUM-0130,Manish Sawant,Girgaon / Malabar Hill,18.965053,72.804713,7.77,18:00 - 21:00,Standard,0
+MUM-0131,Rahul Bhat,Girgaon / Malabar Hill,18.960745,72.806771,6.91,12:00 - 15:00,Standard,0
+MUM-0132,Aarav Chavan,Girgaon / Malabar Hill,18.955408,72.808499,5.07,15:00 - 18:00,Standard,0
+MUM-0133,Manish Chavan,Girgaon / Malabar Hill,18.954022,72.80846,4.84,18:00 - 21:00,Standard,0
+MUM-0134,Manish Rane,Girgaon / Malabar Hill,18.972063,72.774688,6.22,15:00 - 18:00,Standard,0
+MUM-0135,Aditya Mehta,Girgaon / Malabar Hill,18.958878,72.803542,4.79,12:00 - 15:00,Express,0
+MUM-0136,Gaurav Rane,Girgaon / Malabar Hill,18.97238,72.808101,10.47,18:00 - 21:00,Standard,0
+MUM-0137,Neha Pandey,Girgaon / Malabar Hill,18.946946,72.79786,4.4,09:00 - 12:00,Standard,0
+MUM-0138,Ananya Mehta,Girgaon / Malabar Hill,18.940734,72.815156,3.3,12:00 - 15:00,High,0
+MUM-0139,Divya Verma,Girgaon / Malabar Hill,18.935081,72.795794,7.78,09:00 - 12:00,Standard,0
+MUM-0140,Ananya Sharma,Girgaon / Malabar Hill,18.935363,72.827776,9.9,18:00 - 21:00,Standard,0
+MUM-0141,Gaurav Gupta,Girgaon / Malabar Hill,18.949898,72.819662,10.05,09:00 - 12:00,Standard,0
+MUM-0142,Tanvi Mehta,Girgaon / Malabar Hill,18.930417,72.826957,11.41,12:00 - 15:00,High,0
+MUM-0143,Ishita Mishra,Girgaon / Malabar Hill,18.957397,72.794888,9.7,09:00 - 12:00,Standard,0
+MUM-0144,Ananya Chavan,Girgaon / Malabar Hill,18.975817,72.807652,5.13,09:00 - 12:00,Standard,0
+MUM-0145,Gaurav Shah,Girgaon / Malabar Hill,18.939939,72.80781,0.71,12:00 - 15:00,Standard,0
+MUM-0146,Ananya Bhat,Girgaon / Malabar Hill,18.955301,72.82291,5.16,12:00 - 15:00,High,0
+MUM-0147,Tanvi Chavan,Girgaon / Malabar Hill,18.958472,72.818392,8.15,15:00 - 18:00,Standard,0
+MUM-0148,Ishita Patel,Girgaon / Malabar Hill,18.951521,72.820317,2.41,15:00 - 18:00,Standard,0
+MUM-0149,Varun Sawant,Girgaon / Malabar Hill,18.957166,72.80393,3.82,18:00 - 21:00,Express,0
+MUM-0150,Anjali Patel,Girgaon / Malabar Hill,18.964376,72.824612,5.06,18:00 - 21:00,Express,0
+MUM-0151,Pooja Shetty,Girgaon / Malabar Hill,18.9451,72.815004,3.52,15:00 - 18:00,High,0
+MUM-0152,Ananya Tiwari,Girgaon / Malabar Hill,18.959895,72.794014,4.46,18:00 - 21:00,High,0
+MUM-0153,Priya Verma,Girgaon / Malabar Hill,18.9791,72.806033,1.37,12:00 - 15:00,High,0
+MUM-0154,Ananya Gupta,Girgaon / Malabar Hill,18.942347,72.817754,4.65,18:00 - 21:00,High,0
+MUM-0155,Tanvi Merchant,Girgaon / Malabar Hill,18.95801,72.82995,10.54,18:00 - 21:00,High,0
+MUM-0156,Kavya Kulkarni,Girgaon / Malabar Hill,18.965058,72.817763,11.78,12:00 - 15:00,Standard,0
+MUM-0157,Gaurav Tiwari,Girgaon / Malabar Hill,18.960555,72.809092,5.94,15:00 - 18:00,Standard,0
+MUM-0158,Kavya Joshi,Girgaon / Malabar Hill,18.942427,72.819238,11.67,15:00 - 18:00,High,0
+MUM-0159,Aditya Bhat,Girgaon / Malabar Hill,18.97168,72.77405,7.98,18:00 - 21:00,Standard,0
+MUM-0160,Gaurav Mishra,Girgaon / Malabar Hill,18.94289,72.821935,1.25,15:00 - 18:00,High,0
+MUM-0161,Siddharth Rane,Girgaon / Malabar Hill,18.979909,72.812422,6.48,09:00 - 12:00,High,0
+MUM-0162,Rohan Verma,Girgaon / Malabar Hill,18.956387,72.819386,0.61,09:00 - 12:00,High,0
+MUM-0163,Kavya Patil,Girgaon / Malabar Hill,18.949282,72.776785,3.62,09:00 - 12:00,High,0
+MUM-0164,Vikram Sharma,Girgaon / Malabar Hill,18.935218,72.785497,3.25,15:00 - 18:00,Standard,0
+MUM-0165,Divya Shah,Byculla,18.984434,72.824572,0.98,09:00 - 12:00,Express,0
+MUM-0166,Vikram Shah,Byculla,18.963558,72.826699,1.53,12:00 - 15:00,Express,0
+MUM-0167,Siddharth Patel,Byculla,18.977922,72.841137,2.42,18:00 - 21:00,Standard,0
+MUM-0168,Anjali Tiwari,Byculla,18.988658,72.826021,10.05,12:00 - 15:00,Standard,0
+MUM-0169,Manish Mehta,Byculla,18.96879,72.822813,10.0,09:00 - 12:00,Standard,0
+MUM-0170,Divya Rane,Byculla,18.970519,72.815917,8.5,18:00 - 21:00,Express,0
+MUM-0171,Arjun Fernandes,Byculla,19.001828,72.822009,10.79,09:00 - 12:00,Standard,0
+MUM-0172,Rahul Mehta,Byculla,18.97065,72.837006,11.49,18:00 - 21:00,Standard,0
+MUM-0173,Karan Patel,Byculla,18.981081,72.827591,5.2,15:00 - 18:00,Standard,0
+MUM-0174,Divya Kulkarni,Byculla,18.972175,72.831226,11.56,18:00 - 21:00,High,0
+MUM-0175,Sameer Mehta,Byculla,18.93323,72.819557,4.5,12:00 - 15:00,Standard,0
+MUM-0176,Simran Gokhale,Byculla,18.979913,72.837656,10.48,18:00 - 21:00,Express,0
+MUM-0177,Karan Chavan,Byculla,18.979867,72.83858,8.52,12:00 - 15:00,Standard,0
+MUM-0178,Vikram Sawant,Byculla,18.963861,72.837132,11.56,09:00 - 12:00,Standard,0
+MUM-0179,Karan Tiwari,Byculla,18.972995,72.831761,9.05,15:00 - 18:00,Standard,0
+MUM-0180,Tanvi Verma,Byculla,18.993808,72.834117,2.72,09:00 - 12:00,High,0
+MUM-0181,Ananya Patil,Byculla,18.975296,72.831079,9.91,18:00 - 21:00,Standard,0
+MUM-0182,Ananya Shetty,Byculla,18.977993,72.848929,11.22,09:00 - 12:00,High,0
+MUM-0183,Pooja Bhat,Byculla,18.981224,72.822504,9.37,09:00 - 12:00,Standard,0
+MUM-0184,Divya Rane,Byculla,18.989341,72.811722,11.89,15:00 - 18:00,Express,0
+MUM-0185,Tanvi Verma,Byculla,18.968293,72.834527,1.25,09:00 - 12:00,Standard,0
+MUM-0186,Gaurav Patel,Byculla,18.993786,72.829211,3.65,09:00 - 12:00,Express,0
+MUM-0187,Karan Kadam,Byculla,18.990584,72.831292,10.16,15:00 - 18:00,High,0
+MUM-0188,Manish Gupta,Byculla,18.959636,72.840469,0.86,09:00 - 12:00,Express,0
+MUM-0189,Sneha Gokhale,Byculla,18.99716,72.817159,3.65,15:00 - 18:00,Standard,0
+MUM-0190,Ananya Mehta,Byculla,18.988962,72.818848,0.86,09:00 - 12:00,High,0
+MUM-0191,Neha Pawar,Byculla,18.961041,72.860769,2.84,09:00 - 12:00,High,0
+MUM-0192,Rhea Verma,Byculla,18.981837,72.835373,7.7,18:00 - 21:00,Standard,0
+MUM-0193,Ishita Verma,Byculla,18.97306,72.813905,1.94,18:00 - 21:00,Standard,0
+MUM-0194,Anjali Pandey,Byculla,18.957159,72.833797,4.25,12:00 - 15:00,High,0
+MUM-0195,Neha Tiwari,Byculla,18.969646,72.807326,1.33,18:00 - 21:00,Standard,0
+MUM-0196,Sneha Fernandes,Byculla,18.989582,72.838905,0.96,12:00 - 15:00,High,0
+MUM-0197,Anjali Pandey,Byculla,18.97112,72.830571,2.92,09:00 - 12:00,Standard,0
+MUM-0198,Siddharth Sharma,Byculla,18.964484,72.830452,9.98,12:00 - 15:00,Standard,0
+MUM-0199,Ishita Rane,Byculla,18.977345,72.817248,9.95,12:00 - 15:00,Standard,0
+MUM-0200,Rohan Kulkarni,Byculla,18.978306,72.820417,7.34,09:00 - 12:00,Standard,0
+MUM-0201,Neha Joshi,Worli / Lower Parel,19.023344,72.830095,8.71,12:00 - 15:00,High,0
+MUM-0202,Karan Kadam,Worli / Lower Parel,18.997575,72.854761,6.86,12:00 - 15:00,High,0
+MUM-0203,Rahul Nair,Worli / Lower Parel,19.026503,72.81753,5.54,12:00 - 15:00,Standard,0
+MUM-0204,Siddharth Gokhale,Worli / Lower Parel,18.993783,72.819993,3.02,15:00 - 18:00,Standard,0
+MUM-0205,Varun Mishra,Worli / Lower Parel,19.008454,72.830303,1.0,18:00 - 21:00,Standard,0
+MUM-0206,Simran Fernandes,Worli / Lower Parel,18.990401,72.83484,6.17,18:00 - 21:00,Standard,0
+MUM-0207,Arjun Sharma,Worli / Lower Parel,18.995573,72.828339,10.17,09:00 - 12:00,Express,0
+MUM-0208,Rhea Shah,Worli / Lower Parel,19.012795,72.836278,4.48,18:00 - 21:00,High,0
+MUM-0209,Sameer Fernandes,Worli / Lower Parel,19.038858,72.829969,5.54,09:00 - 12:00,Standard,0
+MUM-0210,Pooja Kulkarni,Worli / Lower Parel,19.019717,72.845486,8.03,15:00 - 18:00,Standard,0
+MUM-0211,Arjun Sharma,Worli / Lower Parel,19.019318,72.842361,2.01,18:00 - 21:00,Standard,0
+MUM-0212,Ishita Pawar,Worli / Lower Parel,19.021519,72.841108,6.4,09:00 - 12:00,Express,0
+MUM-0213,Arjun Pawar,Worli / Lower Parel,18.981794,72.825195,6.42,09:00 - 12:00,High,0
+MUM-0214,Ananya Mehta,Worli / Lower Parel,19.004819,72.817237,8.05,15:00 - 18:00,Standard,0
+MUM-0215,Gaurav Shetty,Worli / Lower Parel,18.982179,72.844352,3.2,12:00 - 15:00,Standard,0
+MUM-0216,Priya Gupta,Worli / Lower Parel,19.002522,72.810404,10.03,09:00 - 12:00,Standard,0
+MUM-0217,Anjali Kadam,Worli / Lower Parel,19.008653,72.827182,4.86,15:00 - 18:00,High,0
+MUM-0218,Manish Patil,Worli / Lower Parel,18.99774,72.850721,9.77,18:00 - 21:00,Express,0
+MUM-0219,Rhea Rane,Worli / Lower Parel,19.020608,72.853494,11.85,09:00 - 12:00,Standard,0
+MUM-0220,Varun Shah,Worli / Lower Parel,19.000029,72.813381,1.69,15:00 - 18:00,Standard,0
+MUM-0221,Aditya Patil,Worli / Lower Parel,19.003272,72.83123,6.43,12:00 - 15:00,Standard,0
+MUM-0222,Siddharth Kadam,Worli / Lower Parel,18.988813,72.826902,8.6,12:00 - 15:00,High,0
+MUM-0223,Gaurav Joshi,Worli / Lower Parel,18.996867,72.820673,2.3,12:00 - 15:00,Express,0
+MUM-0224,Gaurav Mishra,Worli / Lower Parel,19.008167,72.814794,11.36,12:00 - 15:00,Standard,0
+MUM-0225,Arjun Joshi,Worli / Lower Parel,19.009622,72.819597,9.34,15:00 - 18:00,Express,0
+MUM-0226,Sameer Merchant,Worli / Lower Parel,19.014866,72.840044,10.01,18:00 - 21:00,High,0
+MUM-0227,Divya Kulkarni,Worli / Lower Parel,19.005232,72.816749,4.16,09:00 - 12:00,Standard,0
+MUM-0228,Siddharth Fernandes,Worli / Lower Parel,19.005456,72.830863,1.75,12:00 - 15:00,Standard,0
+MUM-0229,Sneha Patel,Worli / Lower Parel,19.015874,72.811069,9.27,09:00 - 12:00,Standard,0
+MUM-0230,Anjali Verma,Worli / Lower Parel,18.997765,72.837178,0.57,15:00 - 18:00,High,0
+MUM-0231,Sameer Sharma,Worli / Lower Parel,19.015659,72.85014,3.23,09:00 - 12:00,Standard,0
+MUM-0232,Neha Pawar,Worli / Lower Parel,19.0021,72.823011,7.89,12:00 - 15:00,Standard,0
+MUM-0233,Kavya Patel,Worli / Lower Parel,19.013381,72.821902,6.01,09:00 - 12:00,High,0
+MUM-0234,Pooja Shetty,Worli / Lower Parel,18.982032,72.827852,5.04,15:00 - 18:00,High,0
+MUM-0235,Karan Gokhale,Worli / Lower Parel,18.998568,72.830505,1.19,09:00 - 12:00,Standard,0
+MUM-0236,Pooja Merchant,Worli / Lower Parel,18.995998,72.820672,6.52,12:00 - 15:00,Standard,0
+MUM-0237,Kavya Nair,Worli / Lower Parel,19.003759,72.842504,7.52,12:00 - 15:00,Standard,0
+MUM-0238,Tanvi Nair,Worli / Lower Parel,18.988896,72.826558,9.7,15:00 - 18:00,High,0
+MUM-0239,Priya Patil,Worli / Lower Parel,19.003526,72.814553,11.57,18:00 - 21:00,Standard,0
+MUM-0240,Siddharth Nair,Worli / Lower Parel,18.99606,72.839628,1.79,09:00 - 12:00,High,0
+MUM-0241,Rahul Fernandes,Worli / Lower Parel,19.002186,72.826287,7.94,18:00 - 21:00,Standard,0
+MUM-0242,Vikram Deshmukh,Worli / Lower Parel,18.986674,72.817485,3.66,15:00 - 18:00,Express,0
+MUM-0243,Sameer Deshmukh,Worli / Lower Parel,19.013946,72.832638,2.22,15:00 - 18:00,Standard,0
+MUM-0244,Ananya Sharma,Worli / Lower Parel,19.007892,72.816981,2.99,09:00 - 12:00,Standard,0
+MUM-0245,Aditya Sawant,Worli / Lower Parel,18.988839,72.816919,3.17,12:00 - 15:00,High,0
+MUM-0246,Divya Mehta,Worli / Lower Parel,19.009604,72.807206,5.59,09:00 - 12:00,High,0
+MUM-0247,Aditya Chavan,Worli / Lower Parel,19.008428,72.845341,1.41,18:00 - 21:00,High,0
+MUM-0248,Aarav Kulkarni,Worli / Lower Parel,18.982022,72.844771,4.58,18:00 - 21:00,Standard,0
+MUM-0249,Tanvi Tiwari,Worli / Lower Parel,19.007521,72.837385,3.62,18:00 - 21:00,High,0
+MUM-0250,Rohan Pandey,Worli / Lower Parel,18.977675,72.830289,8.2,15:00 - 18:00,Standard,0
+MUM-0251,Anjali Gupta,Worli / Lower Parel,18.978187,72.818253,1.52,09:00 - 12:00,Standard,0
+MUM-0252,Kavya Nair,Worli / Lower Parel,18.989712,72.833353,1.61,09:00 - 12:00,High,0
+MUM-0253,Siddharth Mishra,Worli / Lower Parel,19.00136,72.830403,5.09,18:00 - 21:00,Standard,0
+MUM-0254,Aarav Tiwari,Worli / Lower Parel,19.011984,72.834969,1.57,12:00 - 15:00,Standard,0
+MUM-0255,Kavya Gupta,Worli / Lower Parel,18.99527,72.83014,9.49,12:00 - 15:00,Standard,0
+MUM-0256,Siddharth Patel,Worli / Lower Parel,18.99811,72.820906,4.88,12:00 - 15:00,Express,0
+MUM-0257,Rhea Mishra,Worli / Lower Parel,18.979566,72.831896,11.34,12:00 - 15:00,Standard,0
+MUM-0258,Anjali Shah,Dadar,19.017727,72.857862,5.0,18:00 - 21:00,Express,0
+MUM-0259,Rohan Patil,Dadar,19.018782,72.846613,6.62,12:00 - 15:00,High,0
+MUM-0260,Rahul Shetty,Dadar,19.009783,72.859705,5.13,12:00 - 15:00,Standard,0
+MUM-0261,Ananya Pandey,Dadar,19.026347,72.849243,4.11,15:00 - 18:00,Standard,0
+MUM-0262,Rhea Mehta,Dadar,19.034482,72.854494,11.46,12:00 - 15:00,Standard,0
+MUM-0263,Ananya Deshmukh,Dadar,19.010486,72.845556,2.05,18:00 - 21:00,Standard,0
+MUM-0264,Siddharth Pawar,Dadar,19.012855,72.85142,10.58,09:00 - 12:00,Standard,0
+MUM-0265,Ananya Mishra,Dadar,19.003284,72.854999,2.25,15:00 - 18:00,Standard,0
+MUM-0266,Karan Rane,Dadar,19.011049,72.840581,1.16,18:00 - 21:00,Standard,0
+MUM-0267,Varun Fernandes,Dadar,19.003031,72.844676,9.5,12:00 - 15:00,Standard,0
+MUM-0268,Pooja Deshmukh,Dadar,19.013142,72.849845,11.96,09:00 - 12:00,Standard,0
+MUM-0269,Pooja Kulkarni,Dadar,19.010686,72.841712,5.4,15:00 - 18:00,High,0
+MUM-0270,Rohan Verma,Dadar,19.038374,72.835087,6.54,12:00 - 15:00,High,0
+MUM-0271,Gaurav Patel,Dadar,19.028344,72.856946,2.04,09:00 - 12:00,Standard,0
+MUM-0272,Simran Verma,Dadar,19.028157,72.838243,7.62,09:00 - 12:00,Standard,0
+MUM-0273,Karan Tiwari,Dadar,19.005871,72.847429,10.21,15:00 - 18:00,Standard,0
+MUM-0274,Rohan Fernandes,Dadar,19.026588,72.83294,7.56,09:00 - 12:00,Standard,0
+MUM-0275,Rahul Bhat,Dadar,19.021219,72.850285,8.07,09:00 - 12:00,High,0
+MUM-0276,Priya Rane,Dadar,18.99861,72.842919,0.94,18:00 - 21:00,High,0
+MUM-0277,Neha Pandey,Dadar,19.01758,72.863541,7.82,15:00 - 18:00,Express,0
+MUM-0278,Vikram Gupta,Dadar,19.02993,72.846234,6.39,09:00 - 12:00,Standard,0
+MUM-0279,Rohan Patil,Dadar,19.030917,72.854704,0.91,18:00 - 21:00,High,0
+MUM-0280,Karan Kadam,Dadar,19.001634,72.836141,9.41,15:00 - 18:00,High,0
+MUM-0281,Vikram Pandey,Dadar,19.00488,72.826456,9.29,18:00 - 21:00,Standard,0
+MUM-0282,Manish Joshi,Dadar,19.018157,72.837624,9.35,09:00 - 12:00,Express,0
+MUM-0283,Rahul Fernandes,Dadar,19.007463,72.837234,11.54,15:00 - 18:00,Standard,0
+MUM-0284,Kavya Patel,Dadar,19.035267,72.869391,1.97,15:00 - 18:00,Standard,0
+MUM-0285,Neha Pawar,Dadar,19.007852,72.85022,5.55,09:00 - 12:00,Standard,0
+MUM-0286,Tanvi Gokhale,Dadar,19.02158,72.845803,10.7,18:00 - 21:00,Express,0
+MUM-0287,Aditya Bhat,Dadar,19.003251,72.861426,3.47,15:00 - 18:00,Standard,0
+MUM-0288,Neha Pawar,Dadar,19.014816,72.867088,8.88,15:00 - 18:00,Standard,0
+MUM-0289,Anjali Sawant,Dadar,19.016036,72.843426,3.6,18:00 - 21:00,Standard,0
+MUM-0290,Arjun Kadam,Dadar,19.016668,72.846769,9.9,15:00 - 18:00,Standard,0
+MUM-0291,Anjali Sawant,Dadar,19.01271,72.836518,9.22,09:00 - 12:00,Standard,0
+MUM-0292,Aditya Gupta,Dadar,19.024586,72.826671,7.82,18:00 - 21:00,Standard,0
+MUM-0293,Neha Sharma,Dadar,19.020275,72.833338,9.03,15:00 - 18:00,Express,0
+MUM-0294,Priya Patel,Dadar,19.015292,72.837594,2.85,12:00 - 15:00,High,0
+MUM-0295,Ananya Fernandes,Dadar,19.022997,72.862045,4.82,09:00 - 12:00,Standard,0
+MUM-0296,Sameer Mishra,Dadar,19.000402,72.834524,5.91,15:00 - 18:00,Express,0
+MUM-0297,Rhea Nair,Dadar,19.007994,72.822671,10.69,15:00 - 18:00,Standard,0
+MUM-0298,Siddharth Kadam,Dadar,19.013072,72.842858,5.13,15:00 - 18:00,Standard,0
+MUM-0299,Kavya Mishra,Dadar,19.011029,72.850015,8.58,18:00 - 21:00,High,0
+MUM-0300,Sameer Bhat,Dadar,19.030089,72.85491,7.82,15:00 - 18:00,Standard,0
+MUM-0301,Sneha Tiwari,Dadar,19.031191,72.840009,9.57,18:00 - 21:00,Standard,0
+MUM-0302,Manish Mishra,Dadar,19.006946,72.844163,3.21,15:00 - 18:00,Standard,0
+MUM-0303,Karan Pandey,Dadar,19.035961,72.85537,7.89,09:00 - 12:00,High,0
+MUM-0304,Arjun Kulkarni,Dadar,19.001867,72.84761,11.9,18:00 - 21:00,Standard,0
+MUM-0305,Rhea Nair,Dadar,19.040415,72.866319,4.35,09:00 - 12:00,High,0
+MUM-0306,Sneha Bhat,Dadar,19.038044,72.867887,11.19,15:00 - 18:00,Express,0
+MUM-0307,Sameer Shah,Dadar,19.012208,72.828664,10.18,09:00 - 12:00,Standard,0
+MUM-0308,Pooja Kulkarni,Dadar,19.026126,72.846566,7.76,12:00 - 15:00,High,0
+MUM-0309,Pooja Kulkarni,Dadar,18.983345,72.845869,1.16,12:00 - 15:00,High,0
+MUM-0310,Simran Deshmukh,Dadar,19.022544,72.840919,0.65,18:00 - 21:00,Standard,0
+MUM-0311,Rohan Mishra,Dadar,19.006083,72.837091,10.92,18:00 - 21:00,Express,0
+MUM-0312,Siddharth Kulkarni,Kurla / BKC,19.052869,72.845462,1.25,09:00 - 12:00,Express,0
+MUM-0313,Karan Tiwari,Kurla / BKC,19.067249,72.862832,6.62,09:00 - 12:00,High,0
+MUM-0314,Simran Sawant,Kurla / BKC,19.06389,72.865856,11.58,15:00 - 18:00,Express,0
+MUM-0315,Simran Pawar,Kurla / BKC,19.079617,72.864177,8.9,12:00 - 15:00,Express,0
+MUM-0316,Vikram Patil,Kurla / BKC,19.071052,72.860261,4.39,15:00 - 18:00,Express,0
+MUM-0317,Rahul Sharma,Kurla / BKC,19.046318,72.882677,2.24,18:00 - 21:00,Standard,0
+MUM-0318,Aarav Bhat,Kurla / BKC,19.068867,72.861614,11.78,09:00 - 12:00,Express,0
+MUM-0319,Anjali Bhat,Kurla / BKC,19.062154,72.870528,6.75,12:00 - 15:00,Standard,0
+MUM-0320,Vikram Patel,Kurla / BKC,19.06286,72.882503,8.14,09:00 - 12:00,High,0
+MUM-0321,Aditya Pandey,Kurla / BKC,19.037345,72.856583,3.84,15:00 - 18:00,Standard,0
+MUM-0322,Sameer Bhat,Kurla / BKC,19.063505,72.885199,2.82,15:00 - 18:00,Express,0
+MUM-0323,Rhea Pandey,Kurla / BKC,19.084693,72.871996,0.71,18:00 - 21:00,Express,0
+MUM-0324,Manish Patel,Kurla / BKC,19.062198,72.849942,1.25,12:00 - 15:00,Standard,0
+MUM-0325,Rohan Kulkarni,Kurla / BKC,19.056562,72.850506,4.78,15:00 - 18:00,High,0
+MUM-0326,Sameer Sawant,Kurla / BKC,19.081414,72.861882,2.84,12:00 - 15:00,Standard,0
+MUM-0327,Vikram Tiwari,Kurla / BKC,19.080948,72.860212,4.09,09:00 - 12:00,Standard,0
+MUM-0328,Priya Kadam,Kurla / BKC,19.066514,72.878933,6.91,12:00 - 15:00,Standard,0
+MUM-0329,Neha Shah,Kurla / BKC,19.061683,72.863856,8.93,18:00 - 21:00,Standard,0
+MUM-0330,Anjali Gokhale,Kurla / BKC,19.09045,72.85589,10.65,18:00 - 21:00,High,0
+MUM-0331,Siddharth Patel,Kurla / BKC,19.053007,72.868208,2.41,12:00 - 15:00,Express,0
+MUM-0332,Vikram Mehta,Kurla / BKC,19.055357,72.873063,6.57,09:00 - 12:00,High,0
+MUM-0333,Rohan Fernandes,Kurla / BKC,19.059412,72.853613,9.92,12:00 - 15:00,Standard,0
+MUM-0334,Rahul Tiwari,Kurla / BKC,19.069021,72.877486,3.42,12:00 - 15:00,High,0
+MUM-0335,Varun Patil,Kurla / BKC,19.053708,72.862643,1.5,09:00 - 12:00,Standard,0
+MUM-0336,Arjun Rane,Kurla / BKC,19.060999,72.857631,9.11,09:00 - 12:00,Standard,0
+MUM-0337,Tanvi Sawant,Kurla / BKC,19.08469,72.874862,10.2,15:00 - 18:00,High,0
+MUM-0338,Ananya Mehta,Kurla / BKC,19.070169,72.859219,8.39,18:00 - 21:00,High,0
+MUM-0339,Aarav Joshi,Kurla / BKC,19.071335,72.856621,1.34,18:00 - 21:00,High,0
+MUM-0340,Sneha Shetty,Kurla / BKC,19.067217,72.891967,2.95,15:00 - 18:00,High,0
+MUM-0341,Pooja Gupta,Kurla / BKC,19.083195,72.862512,3.18,09:00 - 12:00,High,0
+MUM-0342,Aarav Kulkarni,Kurla / BKC,19.051155,72.878711,8.21,15:00 - 18:00,Standard,0
+MUM-0343,Ishita Deshmukh,Kurla / BKC,19.046969,72.851564,4.89,12:00 - 15:00,Standard,0
+MUM-0344,Simran Pawar,Kurla / BKC,19.059276,72.867614,11.06,15:00 - 18:00,Standard,0
+MUM-0345,Rhea Chavan,Kurla / BKC,19.07219,72.879317,11.57,15:00 - 18:00,Standard,0
+MUM-0346,Sameer Shetty,Kurla / BKC,19.072532,72.895514,5.67,18:00 - 21:00,High,0
+MUM-0347,Rahul Sharma,Kurla / BKC,19.054772,72.869802,5.89,09:00 - 12:00,High,0
+MUM-0348,Pooja Joshi,Kurla / BKC,19.073567,72.887033,10.59,09:00 - 12:00,Standard,0
+MUM-0349,Manish Merchant,Kurla / BKC,19.064447,72.866674,0.9,15:00 - 18:00,Standard,0
+MUM-0350,Varun Shah,Kurla / BKC,19.069941,72.885418,3.4,09:00 - 12:00,Standard,0
+MUM-0351,Manish Patel,Kurla / BKC,19.068882,72.876403,10.61,09:00 - 12:00,Standard,0
+MUM-0352,Anjali Gupta,Kurla / BKC,19.059485,72.871593,5.84,15:00 - 18:00,High,0
+MUM-0353,Neha Tiwari,Kurla / BKC,19.064051,72.880134,7.76,18:00 - 21:00,High,0
+MUM-0354,Pooja Pandey,Kurla / BKC,19.082519,72.882009,9.55,15:00 - 18:00,High,0
+MUM-0355,Gaurav Fernandes,Kurla / BKC,19.067178,72.875318,6.32,15:00 - 18:00,Standard,0
+MUM-0356,Neha Gokhale,Kurla / BKC,19.066974,72.863065,3.68,09:00 - 12:00,Standard,0
+MUM-0357,Ishita Mehta,Kurla / BKC,19.093257,72.862621,5.65,18:00 - 21:00,Standard,0
+MUM-0358,Ishita Bhat,Kurla / BKC,19.063241,72.868782,3.02,15:00 - 18:00,High,0
+MUM-0359,Varun Bhat,Kurla / BKC,19.061981,72.847169,3.01,12:00 - 15:00,Standard,0
+MUM-0360,Vikram Bhat,Kurla / BKC,19.063778,72.876756,7.6,18:00 - 21:00,Standard,0
+MUM-0361,Aditya Chavan,Kurla / BKC,19.068045,72.88061,8.27,12:00 - 15:00,Express,0
+MUM-0362,Aarav Joshi,Kurla / BKC,19.060911,72.860865,5.35,18:00 - 21:00,Express,0
+MUM-0363,Kavya Sharma,Kurla / BKC,19.051517,72.878726,9.97,15:00 - 18:00,Express,0
+MUM-0364,Ishita Mishra,Kurla / BKC,19.073954,72.873736,8.75,15:00 - 18:00,Standard,0
+MUM-0365,Ananya Deshmukh,Kurla / BKC,19.085047,72.879462,4.91,15:00 - 18:00,High,0
+MUM-0366,Neha Kadam,Kurla / BKC,19.068021,72.858877,10.85,18:00 - 21:00,Standard,0
+MUM-0367,Rahul Nair,Kurla / BKC,19.071843,72.86668,4.66,15:00 - 18:00,Standard,0
+MUM-0368,Rahul Verma,Kurla / BKC,19.052011,72.868782,10.55,18:00 - 21:00,High,0
+MUM-0369,Rohan Merchant,Kurla / BKC,19.068219,72.88894,11.9,12:00 - 15:00,Standard,0
+MUM-0370,Aarav Mishra,Kurla / BKC,19.045335,72.860953,7.14,12:00 - 15:00,Express,0
+MUM-0371,Gaurav Patil,Kurla / BKC,19.058858,72.876122,8.0,18:00 - 21:00,Standard,0
+MUM-0372,Siddharth Mishra,Kurla / BKC,19.062148,72.881703,6.74,12:00 - 15:00,High,0
+MUM-0373,Rohan Mehta,Kurla / BKC,19.08241,72.865699,10.36,15:00 - 18:00,High,0
+MUM-0374,Simran Verma,Kurla / BKC,19.064761,72.864553,6.38,18:00 - 21:00,Standard,0
+MUM-0375,Priya Rane,Kurla / BKC,19.054127,72.863538,7.82,15:00 - 18:00,Standard,0
+MUM-0376,Manish Kulkarni,Ghatkopar,19.091237,72.924916,10.24,18:00 - 21:00,Standard,0
+MUM-0377,Siddharth Rane,Ghatkopar,19.108697,72.903455,6.08,18:00 - 21:00,Express,0
+MUM-0378,Ishita Pandey,Ghatkopar,19.072623,72.910172,11.14,15:00 - 18:00,Standard,0
+MUM-0379,Vikram Shah,Ghatkopar,19.064355,72.90474,11.49,09:00 - 12:00,Standard,0
+MUM-0380,Rahul Bhat,Ghatkopar,19.087509,72.90883,1.51,15:00 - 18:00,Express,0
+MUM-0381,Kavya Pandey,Ghatkopar,19.067524,72.891165,6.73,09:00 - 12:00,Standard,0
+MUM-0382,Varun Mishra,Ghatkopar,19.070784,72.91048,5.57,12:00 - 15:00,High,0
+MUM-0383,Varun Pawar,Ghatkopar,19.075679,72.915682,8.29,09:00 - 12:00,Express,0
+MUM-0384,Simran Mehta,Ghatkopar,19.062248,72.917975,2.23,12:00 - 15:00,Standard,0
+MUM-0385,Simran Gokhale,Ghatkopar,19.089502,72.919794,2.82,09:00 - 12:00,Standard,0
+MUM-0386,Anjali Gokhale,Ghatkopar,19.091461,72.918129,2.02,15:00 - 18:00,Express,0
+MUM-0387,Tanvi Pandey,Ghatkopar,19.089191,72.930229,2.0,15:00 - 18:00,Standard,0
+MUM-0388,Rahul Pawar,Ghatkopar,19.087936,72.904262,0.9,12:00 - 15:00,Standard,0
+MUM-0389,Tanvi Kadam,Ghatkopar,19.090525,72.908649,10.43,15:00 - 18:00,Standard,0
+MUM-0390,Simran Mishra,Ghatkopar,19.125056,72.894066,4.95,15:00 - 18:00,Express,0
+MUM-0391,Varun Pawar,Ghatkopar,19.102352,72.899022,5.74,18:00 - 21:00,High,0
+MUM-0392,Siddharth Mehta,Ghatkopar,19.090976,72.926903,2.81,09:00 - 12:00,Standard,0
+MUM-0393,Sneha Mehta,Ghatkopar,19.073721,72.899467,5.66,09:00 - 12:00,Express,0
+MUM-0394,Divya Pandey,Ghatkopar,19.094672,72.898652,8.41,15:00 - 18:00,Express,0
+MUM-0395,Varun Merchant,Ghatkopar,19.112877,72.914521,9.93,09:00 - 12:00,Standard,0
+MUM-0396,Aditya Verma,Ghatkopar,19.097438,72.915157,1.01,18:00 - 21:00,High,0
+MUM-0397,Neha Joshi,Ghatkopar,19.078302,72.914183,9.34,18:00 - 21:00,High,0
+MUM-0398,Neha Mishra,Ghatkopar,19.09019,72.917052,6.11,12:00 - 15:00,Standard,0
+MUM-0399,Ishita Chavan,Ghatkopar,19.091644,72.88673,11.4,12:00 - 15:00,Standard,0
+MUM-0400,Ananya Nair,Ghatkopar,19.077409,72.913034,3.29,12:00 - 15:00,Standard,0
+MUM-0401,Arjun Patel,Ghatkopar,19.084064,72.900485,3.73,18:00 - 21:00,Standard,0
+MUM-0402,Anjali Verma,Ghatkopar,19.080369,72.900627,5.98,09:00 - 12:00,Standard,0
+MUM-0403,Anjali Bhat,Ghatkopar,19.081122,72.892406,8.78,18:00 - 21:00,Standard,0
+MUM-0404,Rhea Kadam,Ghatkopar,19.107606,72.923867,8.35,12:00 - 15:00,Standard,0
+MUM-0405,Arjun Pandey,Ghatkopar,19.076796,72.896591,6.98,18:00 - 21:00,Standard,0
+MUM-0406,Gaurav Pawar,Ghatkopar,19.077134,72.919679,10.64,18:00 - 21:00,High,0
+MUM-0407,Anjali Kulkarni,Ghatkopar,19.078486,72.909185,10.8,18:00 - 21:00,High,0
+MUM-0408,Karan Sharma,Ghatkopar,19.075699,72.922507,1.99,09:00 - 12:00,High,0
+MUM-0409,Arjun Gokhale,Ghatkopar,19.098329,72.901035,5.49,09:00 - 12:00,Standard,0
+MUM-0410,Manish Mishra,Ghatkopar,19.088218,72.914525,6.18,09:00 - 12:00,Express,0
+MUM-0411,Arjun Mishra,Ghatkopar,19.091538,72.919842,3.42,15:00 - 18:00,High,0
+MUM-0412,Rahul Tiwari,Ghatkopar,19.087064,72.911368,5.97,15:00 - 18:00,High,0
+MUM-0413,Kavya Verma,Ghatkopar,19.084327,72.903598,6.25,09:00 - 12:00,Standard,0
+MUM-0414,Rohan Gupta,Ghatkopar,19.089458,72.898994,0.53,15:00 - 18:00,High,0
+MUM-0415,Ananya Merchant,Ghatkopar,19.100821,72.905159,4.77,12:00 - 15:00,Standard,0
+MUM-0416,Siddharth Mishra,Ghatkopar,19.082724,72.913382,7.49,12:00 - 15:00,Standard,0
+MUM-0417,Anjali Pandey,Ghatkopar,19.08766,72.904921,7.16,09:00 - 12:00,Standard,0
+MUM-0418,Anjali Pandey,Ghatkopar,19.079471,72.907046,6.43,18:00 - 21:00,Standard,0
+MUM-0419,Sneha Patil,Ghatkopar,19.073012,72.918463,10.14,09:00 - 12:00,Standard,0
+MUM-0420,Arjun Kulkarni,Ghatkopar,19.083384,72.877334,6.61,12:00 - 15:00,Standard,0
+MUM-0421,Sneha Sharma,Ghatkopar,19.093404,72.913409,4.09,18:00 - 21:00,Standard,0
+MUM-0422,Tanvi Pandey,Ghatkopar,19.080696,72.904967,0.69,15:00 - 18:00,Standard,0
+MUM-0423,Aditya Tiwari,Ghatkopar,19.072481,72.903382,4.43,15:00 - 18:00,Standard,0
+MUM-0424,Kavya Merchant,Ghatkopar,19.071131,72.89139,3.95,18:00 - 21:00,Standard,0
+MUM-0425,Karan Joshi,Ghatkopar,19.09027,72.918222,9.51,09:00 - 12:00,Standard,0
+MUM-0426,Neha Mehta,Bhandup / Mulund,19.149338,72.93523,8.67,09:00 - 12:00,Standard,0
+MUM-0427,Gaurav Gupta,Bhandup / Mulund,19.175058,72.938709,1.17,12:00 - 15:00,Express,0
+MUM-0428,Rhea Rane,Bhandup / Mulund,19.157254,72.920875,7.91,18:00 - 21:00,Standard,0
+MUM-0429,Tanvi Verma,Bhandup / Mulund,19.139878,72.932604,2.12,12:00 - 15:00,High,0
+MUM-0430,Siddharth Tiwari,Bhandup / Mulund,19.141354,72.928727,6.56,18:00 - 21:00,Standard,0
+MUM-0431,Manish Shetty,Bhandup / Mulund,19.14096,72.950183,11.05,18:00 - 21:00,High,0
+MUM-0432,Ishita Rane,Bhandup / Mulund,19.146535,72.940748,8.44,12:00 - 15:00,Standard,0
+MUM-0433,Anjali Sharma,Bhandup / Mulund,19.144978,72.965074,11.52,15:00 - 18:00,High,0
+MUM-0434,Ishita Shah,Bhandup / Mulund,19.160467,72.938226,7.64,12:00 - 15:00,High,0
+MUM-0435,Siddharth Mehta,Bhandup / Mulund,19.181252,72.917266,2.41,09:00 - 12:00,Standard,0
+MUM-0436,Manish Merchant,Bhandup / Mulund,19.158619,72.948256,11.94,12:00 - 15:00,Express,0
+MUM-0437,Karan Shah,Bhandup / Mulund,19.155576,72.943982,5.53,15:00 - 18:00,Standard,0
+MUM-0438,Manish Sawant,Bhandup / Mulund,19.145131,72.955804,5.04,18:00 - 21:00,Express,0
+MUM-0439,Neha Deshmukh,Bhandup / Mulund,19.147302,72.945854,3.34,09:00 - 12:00,Standard,0
+MUM-0440,Tanvi Fernandes,Bhandup / Mulund,19.161748,72.945007,10.11,18:00 - 21:00,Standard,0
+MUM-0441,Neha Patel,Bhandup / Mulund,19.139995,72.947254,6.42,18:00 - 21:00,Standard,0
+MUM-0442,Rohan Gupta,Bhandup / Mulund,19.149759,72.939206,8.12,12:00 - 15:00,Express,0
+MUM-0443,Aditya Bhat,Bhandup / Mulund,19.154914,72.94738,7.81,18:00 - 21:00,High,0
+MUM-0444,Divya Chavan,Bhandup / Mulund,19.132602,72.95209,3.39,18:00 - 21:00,Standard,0
+MUM-0445,Aarav Chavan,Bhandup / Mulund,19.168514,72.936716,11.71,15:00 - 18:00,Standard,0
+MUM-0446,Pooja Shah,Bhandup / Mulund,19.150116,72.948236,8.77,18:00 - 21:00,Standard,0
+MUM-0447,Sameer Chavan,Bhandup / Mulund,19.174407,72.941252,4.56,15:00 - 18:00,Express,0
+MUM-0448,Ishita Deshmukh,Bhandup / Mulund,19.151208,72.953238,9.97,18:00 - 21:00,Standard,0
+MUM-0449,Rahul Merchant,Bhandup / Mulund,19.159908,72.924094,4.31,15:00 - 18:00,Standard,0
+MUM-0450,Arjun Mehta,Bhandup / Mulund,19.138427,72.956622,6.33,15:00 - 18:00,Standard,0
+MUM-0451,Simran Nair,Bhandup / Mulund,19.165793,72.948935,9.99,12:00 - 15:00,Express,0
+MUM-0452,Gaurav Chavan,Bhandup / Mulund,19.133657,72.943836,0.93,12:00 - 15:00,Standard,0
+MUM-0453,Anjali Kulkarni,Bhandup / Mulund,19.184069,72.950293,1.13,12:00 - 15:00,Standard,0
+MUM-0454,Anjali Shetty,Bhandup / Mulund,19.16694,72.93805,2.7,18:00 - 21:00,Standard,0
+MUM-0455,Vikram Chavan,Bhandup / Mulund,19.169608,72.949847,5.36,12:00 - 15:00,Express,0
+MUM-0456,Sameer Pawar,Bhandup / Mulund,19.148152,72.948811,1.94,18:00 - 21:00,Express,0
+MUM-0457,Varun Joshi,Bhandup / Mulund,19.14783,72.957068,8.1,15:00 - 18:00,Standard,0
+MUM-0458,Manish Sawant,Bhandup / Mulund,19.156599,72.919009,7.73,12:00 - 15:00,Standard,0
+MUM-0459,Varun Shah,Bhandup / Mulund,19.135938,72.949515,1.68,09:00 - 12:00,High,0
+MUM-0460,Arjun Verma,Bhandup / Mulund,19.140531,72.937828,5.81,09:00 - 12:00,Standard,0
+MUM-0461,Rahul Fernandes,Bhandup / Mulund,19.152541,72.939185,4.47,12:00 - 15:00,High,0
+MUM-0462,Siddharth Mishra,Bhandup / Mulund,19.163848,72.953694,6.82,09:00 - 12:00,Standard,0
+MUM-0463,Pooja Rane,Bhandup / Mulund,19.16045,72.933583,0.68,15:00 - 18:00,High,0
+MUM-0464,Pooja Patil,Bhandup / Mulund,19.154277,72.945458,8.61,15:00 - 18:00,High,0
+MUM-0465,Varun Sharma,Bhandup / Mulund,19.182478,72.963131,4.05,18:00 - 21:00,Express,0
+MUM-0466,Rohan Gokhale,Bhandup / Mulund,19.160904,72.933688,5.06,15:00 - 18:00,Express,0
+MUM-0467,Tanvi Mishra,Bhandup / Mulund,19.161961,72.952133,4.14,12:00 - 15:00,High,0
+MUM-0468,Simran Mishra,Bhandup / Mulund,19.147207,72.949265,7.08,18:00 - 21:00,Express,0
+MUM-0469,Neha Sharma,Powai,19.101454,72.914185,6.81,12:00 - 15:00,Standard,0
+MUM-0470,Sneha Sharma,Powai,19.113202,72.890638,5.45,18:00 - 21:00,Standard,0
+MUM-0471,Sameer Pandey,Powai,19.11117,72.885512,4.32,12:00 - 15:00,Standard,0
+MUM-0472,Rhea Pandey,Powai,19.119577,72.905514,8.94,15:00 - 18:00,Standard,0
+MUM-0473,Simran Kadam,Powai,19.135844,72.900063,3.7,12:00 - 15:00,Express,0
+MUM-0474,Ananya Kulkarni,Powai,19.122459,72.905492,6.8,18:00 - 21:00,Standard,0
+MUM-0475,Rahul Bhat,Powai,19.128282,72.918423,4.49,18:00 - 21:00,Standard,0
+MUM-0476,Rohan Merchant,Powai,19.122287,72.935447,7.75,18:00 - 21:00,High,0
+MUM-0477,Aditya Shetty,Powai,19.118651,72.910751,11.44,15:00 - 18:00,Standard,0
+MUM-0478,Rohan Shetty,Powai,19.112787,72.928448,6.86,09:00 - 12:00,Standard,0
+MUM-0479,Kavya Kulkarni,Powai,19.131879,72.918164,4.1,18:00 - 21:00,Standard,0
+MUM-0480,Varun Shetty,Powai,19.115993,72.893916,2.95,15:00 - 18:00,Express,0
+MUM-0481,Ananya Chavan,Powai,19.122288,72.890082,5.19,09:00 - 12:00,Standard,0
+MUM-0482,Sameer Sharma,Powai,19.118435,72.914671,3.04,09:00 - 12:00,High,0
+MUM-0483,Kavya Kulkarni,Powai,19.124375,72.893764,1.67,12:00 - 15:00,High,0
+MUM-0484,Varun Shetty,Powai,19.126337,72.902126,3.48,09:00 - 12:00,Standard,0
+MUM-0485,Rahul Nair,Powai,19.120766,72.887707,8.56,09:00 - 12:00,Standard,0
+MUM-0486,Rhea Shetty,Powai,19.121131,72.903187,0.84,09:00 - 12:00,Standard,0
+MUM-0487,Neha Sawant,Powai,19.106606,72.896018,5.78,15:00 - 18:00,Standard,0
+MUM-0488,Kavya Mishra,Powai,19.136747,72.92561,10.14,12:00 - 15:00,Standard,0
+MUM-0489,Simran Pawar,Powai,19.09567,72.905342,5.07,12:00 - 15:00,High,0
+MUM-0490,Sameer Pawar,Powai,19.119452,72.926543,4.77,09:00 - 12:00,Standard,0
+MUM-0491,Aarav Pandey,Powai,19.110443,72.918891,10.39,12:00 - 15:00,High,0
+MUM-0492,Karan Kulkarni,Powai,19.143297,72.896993,5.42,18:00 - 21:00,Standard,0
+MUM-0493,Divya Patel,Powai,19.122194,72.900247,6.25,18:00 - 21:00,Standard,0
+MUM-0494,Anjali Patil,Powai,19.109315,72.906049,11.16,15:00 - 18:00,Standard,0
+MUM-0495,Varun Merchant,Powai,19.126447,72.904097,6.44,09:00 - 12:00,Standard,0
+MUM-0496,Siddharth Shetty,Powai,19.127084,72.910081,8.38,15:00 - 18:00,High,0
+MUM-0497,Varun Kadam,Powai,19.140035,72.882172,10.54,09:00 - 12:00,Standard,0
+MUM-0498,Priya Verma,Powai,19.103854,72.88964,3.17,09:00 - 12:00,Standard,0
+MUM-0499,Rohan Verma,Powai,19.130379,72.880317,2.73,12:00 - 15:00,High,0
+MUM-0500,Kavya Mehta,Powai,19.113709,72.915635,5.27,15:00 - 18:00,High,0
+MUM-0501,Siddharth Pawar,Powai,19.123284,72.894883,4.93,18:00 - 21:00,Standard,0
+MUM-0502,Divya Pandey,Powai,19.12931,72.917021,6.73,12:00 - 15:00,Standard,0
+MUM-0503,Sameer Deshmukh,Powai,19.109085,72.890898,1.86,12:00 - 15:00,High,0
+MUM-0504,Arjun Patil,Powai,19.101069,72.899223,7.59,09:00 - 12:00,Standard,0
+MUM-0505,Rohan Nair,Powai,19.124037,72.910399,5.24,12:00 - 15:00,Standard,0
+MUM-0506,Anjali Sharma,Powai,19.085971,72.906041,7.76,18:00 - 21:00,Express,0
+MUM-0507,Aditya Patil,Powai,19.117094,72.929177,8.46,15:00 - 18:00,Standard,0
+MUM-0508,Manish Verma,Powai,19.126589,72.919305,5.32,09:00 - 12:00,High,0
+MUM-0509,Rohan Shetty,Powai,19.122626,72.916367,10.68,15:00 - 18:00,High,0
+MUM-0510,Aarav Pandey,Powai,19.120968,72.927103,10.2,15:00 - 18:00,Standard,0
+MUM-0511,Sameer Gokhale,Powai,19.120795,72.884295,10.33,09:00 - 12:00,Standard,0
+MUM-0512,Neha Rane,Powai,19.117158,72.903618,10.87,18:00 - 21:00,Standard,0
+MUM-0513,Arjun Joshi,Powai,19.11728,72.898941,11.63,18:00 - 21:00,Standard,0
+MUM-0514,Siddharth Chavan,Powai,19.117161,72.910272,11.88,18:00 - 21:00,Express,0
+MUM-0515,Sameer Mehta,Powai,19.095081,72.913437,4.53,18:00 - 21:00,High,0
+MUM-0516,Rhea Sawant,Powai,19.106979,72.923485,8.05,15:00 - 18:00,Express,0
+MUM-0517,Manish Fernandes,Powai,19.130921,72.901145,0.56,18:00 - 21:00,Standard,0
+MUM-0518,Vikram Merchant,Powai,19.097674,72.927836,9.15,15:00 - 18:00,High,0
+MUM-0519,Aditya Fernandes,Powai,19.125624,72.894984,4.49,12:00 - 15:00,High,0
+MUM-0520,Rohan Tiwari,Powai,19.119968,72.909736,8.02,18:00 - 21:00,Express,0
+MUM-0521,Tanvi Nair,Powai,19.13667,72.909075,5.27,15:00 - 18:00,Standard,0
+MUM-0522,Neha Chavan,Powai,19.110036,72.893903,2.97,12:00 - 15:00,Express,0
+MUM-0523,Kavya Bhat,Bandra West,19.070911,72.839825,7.22,12:00 - 15:00,Standard,0
+MUM-0524,Manish Kulkarni,Bandra West,19.06573,72.841867,6.63,15:00 - 18:00,Express,0
+MUM-0525,Siddharth Tiwari,Bandra West,19.042536,72.842761,8.49,09:00 - 12:00,High,0
+MUM-0526,Gaurav Mishra,Bandra West,19.066968,72.835841,2.66,18:00 - 21:00,High,0
+MUM-0527,Neha Sharma,Bandra West,19.051902,72.83496,5.84,12:00 - 15:00,Standard,0
+MUM-0528,Vikram Patil,Bandra West,19.055608,72.835399,10.37,18:00 - 21:00,Standard,0
+MUM-0529,Neha Chavan,Bandra West,19.067649,72.825993,9.99,12:00 - 15:00,High,0
+MUM-0530,Sneha Merchant,Bandra West,19.066704,72.84024,10.01,18:00 - 21:00,Standard,0
+MUM-0531,Priya Mehta,Bandra West,19.068681,72.83685,11.97,15:00 - 18:00,Standard,0
+MUM-0532,Rohan Kadam,Bandra West,19.046682,72.815583,10.75,09:00 - 12:00,High,0
+MUM-0533,Kavya Tiwari,Bandra West,19.037856,72.837186,3.17,12:00 - 15:00,Standard,0
+MUM-0534,Pooja Mishra,Bandra West,19.062475,72.83531,10.13,15:00 - 18:00,Standard,0
+MUM-0535,Priya Gokhale,Bandra West,19.058062,72.837417,7.18,09:00 - 12:00,High,0
+MUM-0536,Karan Kadam,Bandra West,19.070211,72.843538,7.05,15:00 - 18:00,Express,0
+MUM-0537,Vikram Shah,Bandra West,19.057122,72.836226,11.95,18:00 - 21:00,Standard,0
+MUM-0538,Sneha Pawar,Bandra West,19.058148,72.842996,1.11,15:00 - 18:00,High,0
+MUM-0539,Simran Mishra,Bandra West,19.070859,72.825241,11.14,18:00 - 21:00,Standard,0
+MUM-0540,Rahul Pandey,Bandra West,19.072955,72.842432,3.67,15:00 - 18:00,High,0
+MUM-0541,Neha Gupta,Bandra West,19.055339,72.84484,0.99,12:00 - 15:00,High,0
+MUM-0542,Rhea Rane,Bandra West,19.055578,72.833608,9.46,15:00 - 18:00,Standard,0
+MUM-0543,Rhea Kulkarni,Bandra West,19.035681,72.804896,6.66,18:00 - 21:00,Express,0
+MUM-0544,Manish Kulkarni,Bandra West,19.062175,72.841128,7.89,12:00 - 15:00,Standard,0
+MUM-0545,Anjali Kadam,Bandra West,19.038731,72.842855,0.87,18:00 - 21:00,Standard,0
+MUM-0546,Gaurav Merchant,Bandra West,19.06208,72.838362,8.44,15:00 - 18:00,Standard,0
+MUM-0547,Simran Fernandes,Bandra West,19.067154,72.819848,11.97,18:00 - 21:00,Standard,0
+MUM-0548,Neha Shetty,Bandra West,19.069996,72.848792,10.24,12:00 - 15:00,Standard,0
+MUM-0549,Tanvi Bhat,Bandra West,19.049759,72.806271,8.2,12:00 - 15:00,Express,0
+MUM-0550,Divya Verma,Bandra West,19.05713,72.820541,2.92,12:00 - 15:00,Standard,0
+MUM-0551,Rhea Mehta,Bandra West,19.058261,72.820248,11.83,09:00 - 12:00,Express,0
+MUM-0552,Neha Sawant,Bandra West,19.039173,72.823946,4.25,18:00 - 21:00,Standard,0
+MUM-0553,Siddharth Deshmukh,Bandra West,19.04262,72.813901,2.92,12:00 - 15:00,Express,0
+MUM-0554,Vikram Kulkarni,Bandra West,19.069813,72.847507,9.48,18:00 - 21:00,Standard,0
+MUM-0555,Gaurav Bhat,Bandra West,19.042483,72.838876,5.58,15:00 - 18:00,Standard,0
+MUM-0556,Siddharth Merchant,Bandra West,19.04537,72.801637,6.79,18:00 - 21:00,High,0
+MUM-0557,Gaurav Verma,Bandra West,19.054631,72.839171,6.97,18:00 - 21:00,Express,0
+MUM-0558,Divya Chavan,Bandra West,19.045388,72.823507,9.03,15:00 - 18:00,Standard,0
+MUM-0559,Rohan Merchant,Bandra West,19.072689,72.844986,5.18,15:00 - 18:00,High,0
+MUM-0560,Neha Chavan,Bandra West,19.064807,72.797979,10.73,09:00 - 12:00,Standard,0
+MUM-0561,Ishita Pandey,Bandra West,19.08245,72.849012,3.14,15:00 - 18:00,Express,0
+MUM-0562,Sneha Patil,Bandra West,19.049061,72.841043,2.63,12:00 - 15:00,Express,0
+MUM-0563,Kavya Pandey,Bandra West,19.028713,72.826447,7.44,12:00 - 15:00,Express,0
+MUM-0564,Ishita Mehta,Bandra West,19.046342,72.832146,11.3,18:00 - 21:00,Standard,0
+MUM-0565,Vikram Kadam,Bandra West,19.073757,72.831829,8.24,09:00 - 12:00,Standard,0
+MUM-0566,Anjali Deshmukh,Bandra West,19.089353,72.856706,0.51,15:00 - 18:00,High,0
+MUM-0567,Manish Pandey,Bandra West,19.057832,72.823108,3.55,09:00 - 12:00,Standard,0
+MUM-0568,Divya Chavan,Bandra West,19.059227,72.818584,11.36,18:00 - 21:00,Standard,0
+MUM-0569,Aditya Shah,Bandra West,19.063106,72.827252,5.86,09:00 - 12:00,High,0
+MUM-0570,Manish Verma,Bandra West,19.076065,72.836787,11.25,12:00 - 15:00,Standard,0
+MUM-0571,Varun Tiwari,Bandra West,19.05498,72.834096,1.02,09:00 - 12:00,Standard,0
+MUM-0572,Priya Gupta,Bandra West,19.068818,72.832085,6.26,15:00 - 18:00,High,0
+MUM-0573,Rahul Pandey,Bandra West,19.068276,72.824055,11.96,18:00 - 21:00,Standard,0
+MUM-0574,Arjun Gupta,Bandra West,19.040962,72.825882,8.83,12:00 - 15:00,Express,0
+MUM-0575,Priya Gokhale,Bandra West,19.070173,72.848172,9.13,15:00 - 18:00,High,0
+MUM-0576,Varun Tiwari,Bandra West,19.062943,72.812372,10.1,18:00 - 21:00,Standard,0
+MUM-0577,Rahul Bhat,Bandra West,19.060777,72.84505,3.2,15:00 - 18:00,Standard,0
+MUM-0578,Neha Gokhale,Bandra West,19.044805,72.817462,7.83,15:00 - 18:00,High,0
+MUM-0579,Ananya Kulkarni,Bandra West,19.045533,72.843263,11.39,15:00 - 18:00,Standard,0
+MUM-0580,Pooja Chavan,Juhu / Vile Parle,19.110626,72.834656,0.62,18:00 - 21:00,Standard,0
+MUM-0581,Sameer Mehta,Juhu / Vile Parle,19.092737,72.814373,2.14,18:00 - 21:00,Standard,0
+MUM-0582,Neha Sharma,Juhu / Vile Parle,19.092658,72.822583,11.26,18:00 - 21:00,Express,0
+MUM-0583,Rahul Shetty,Juhu / Vile Parle,19.085839,72.834993,2.37,18:00 - 21:00,Standard,0
+MUM-0584,Ananya Mehta,Juhu / Vile Parle,19.094767,72.813661,3.34,12:00 - 15:00,Standard,0
+MUM-0585,Neha Nair,Juhu / Vile Parle,19.105672,72.846302,2.54,18:00 - 21:00,High,0
+MUM-0586,Ananya Mishra,Juhu / Vile Parle,19.091113,72.858568,10.67,18:00 - 21:00,High,0
+MUM-0587,Kavya Sharma,Juhu / Vile Parle,19.08998,72.824844,5.56,12:00 - 15:00,Standard,0
+MUM-0588,Manish Kadam,Juhu / Vile Parle,19.092467,72.814983,1.88,12:00 - 15:00,Standard,0
+MUM-0589,Ishita Kadam,Juhu / Vile Parle,19.106679,72.82881,8.94,09:00 - 12:00,Standard,0
+MUM-0590,Manish Sawant,Juhu / Vile Parle,19.103974,72.825496,4.46,15:00 - 18:00,Standard,0
+MUM-0591,Rohan Pandey,Juhu / Vile Parle,19.091551,72.839862,6.52,18:00 - 21:00,Express,0
+MUM-0592,Manish Joshi,Juhu / Vile Parle,19.082641,72.826079,10.01,09:00 - 12:00,High,0
+MUM-0593,Sneha Shah,Juhu / Vile Parle,19.093721,72.83462,1.27,18:00 - 21:00,High,0
+MUM-0594,Karan Gupta,Juhu / Vile Parle,19.113144,72.855777,1.69,12:00 - 15:00,High,0
+MUM-0595,Anjali Fernandes,Juhu / Vile Parle,19.107211,72.856686,0.87,12:00 - 15:00,Standard,0
+MUM-0596,Rhea Gupta,Juhu / Vile Parle,19.097331,72.835847,6.52,12:00 - 15:00,Standard,0
+MUM-0597,Priya Pandey,Juhu / Vile Parle,19.085503,72.845438,10.82,15:00 - 18:00,High,0
+MUM-0598,Neha Shetty,Juhu / Vile Parle,19.076528,72.833657,1.1,12:00 - 15:00,Standard,0
+MUM-0599,Ishita Chavan,Juhu / Vile Parle,19.101681,72.827384,10.17,12:00 - 15:00,Standard,0
+MUM-0600,Siddharth Bhat,Juhu / Vile Parle,19.105253,72.824626,3.67,18:00 - 21:00,Express,0
+MUM-0601,Arjun Shah,Juhu / Vile Parle,19.106533,72.861086,4.09,12:00 - 15:00,Standard,0
+MUM-0602,Manish Pawar,Juhu / Vile Parle,19.104427,72.83824,10.22,15:00 - 18:00,Standard,0
+MUM-0603,Karan Shetty,Juhu / Vile Parle,19.1057,72.826716,8.11,09:00 - 12:00,High,0
+MUM-0604,Kavya Gupta,Juhu / Vile Parle,19.111347,72.824501,9.87,09:00 - 12:00,Standard,0
+MUM-0605,Sneha Pawar,Juhu / Vile Parle,19.121653,72.833319,3.7,15:00 - 18:00,Standard,0
+MUM-0606,Kavya Deshmukh,Juhu / Vile Parle,19.097975,72.833405,5.32,18:00 - 21:00,Standard,0
+MUM-0607,Neha Patil,Juhu / Vile Parle,19.096007,72.840975,11.64,15:00 - 18:00,Express,0
+MUM-0608,Simran Gupta,Juhu / Vile Parle,19.106743,72.834529,11.04,12:00 - 15:00,Standard,0
+MUM-0609,Sneha Rane,Juhu / Vile Parle,19.096476,72.834441,1.0,09:00 - 12:00,Standard,0
+MUM-0610,Siddharth Mishra,Juhu / Vile Parle,19.111802,72.844236,10.08,12:00 - 15:00,Express,0
+MUM-0611,Gaurav Kulkarni,Juhu / Vile Parle,19.097739,72.834411,3.39,12:00 - 15:00,Standard,0
+MUM-0612,Priya Kadam,Juhu / Vile Parle,19.081836,72.841948,2.97,18:00 - 21:00,Standard,0
+MUM-0613,Vikram Pandey,Juhu / Vile Parle,19.120592,72.829294,9.93,15:00 - 18:00,Express,0
+MUM-0614,Karan Chavan,Juhu / Vile Parle,19.11866,72.831908,11.89,15:00 - 18:00,Express,0
+MUM-0615,Divya Bhat,Juhu / Vile Parle,19.100361,72.821229,4.0,09:00 - 12:00,Standard,0
+MUM-0616,Arjun Kadam,Juhu / Vile Parle,19.086982,72.844469,6.78,12:00 - 15:00,High,0
+MUM-0617,Arjun Nair,Juhu / Vile Parle,19.104742,72.824939,10.83,09:00 - 12:00,High,0
+MUM-0618,Ishita Mehta,Juhu / Vile Parle,19.115499,72.830803,7.43,12:00 - 15:00,Standard,0
+MUM-0619,Anjali Chavan,Juhu / Vile Parle,19.110135,72.831472,4.0,09:00 - 12:00,Standard,0
+MUM-0620,Karan Merchant,Juhu / Vile Parle,19.095373,72.836325,7.1,12:00 - 15:00,Express,0
+MUM-0621,Arjun Merchant,Juhu / Vile Parle,19.094204,72.850142,8.52,18:00 - 21:00,Standard,0
+MUM-0622,Arjun Joshi,Juhu / Vile Parle,19.102996,72.842916,10.9,15:00 - 18:00,Standard,0
+MUM-0623,Manish Patil,Juhu / Vile Parle,19.088557,72.833893,3.48,18:00 - 21:00,Express,0
+MUM-0624,Arjun Gupta,Juhu / Vile Parle,19.101172,72.82684,3.8,15:00 - 18:00,Standard,0
+MUM-0625,Rohan Shetty,Juhu / Vile Parle,19.067616,72.833102,5.04,12:00 - 15:00,Standard,0
+MUM-0626,Vikram Mishra,Juhu / Vile Parle,19.094687,72.829993,2.27,18:00 - 21:00,High,0
+MUM-0627,Kavya Rane,Juhu / Vile Parle,19.089965,72.816758,1.15,18:00 - 21:00,Standard,0
+MUM-0628,Karan Pandey,Juhu / Vile Parle,19.115449,72.830653,3.49,12:00 - 15:00,Standard,0
+MUM-0629,Sameer Gokhale,Juhu / Vile Parle,19.093658,72.833199,7.95,18:00 - 21:00,High,0
+MUM-0630,Pooja Rane,Andheri East / SEEPZ,19.119798,72.881376,5.07,18:00 - 21:00,High,0
+MUM-0631,Pooja Gupta,Andheri East / SEEPZ,19.103577,72.870543,1.43,12:00 - 15:00,Standard,0
+MUM-0632,Priya Mehta,Andheri East / SEEPZ,19.101194,72.86985,7.14,09:00 - 12:00,High,0
+MUM-0633,Ananya Patil,Andheri East / SEEPZ,19.093384,72.844924,6.99,18:00 - 21:00,High,0
+MUM-0634,Simran Sharma,Andheri East / SEEPZ,19.112922,72.865107,1.99,09:00 - 12:00,High,0
+MUM-0635,Ananya Nair,Andheri East / SEEPZ,19.121561,72.861009,10.45,18:00 - 21:00,Standard,0
+MUM-0636,Karan Chavan,Andheri East / SEEPZ,19.107355,72.866443,2.05,15:00 - 18:00,High,0
+MUM-0637,Kavya Patel,Andheri East / SEEPZ,19.133607,72.887979,7.12,12:00 - 15:00,Standard,0
+MUM-0638,Aarav Chavan,Andheri East / SEEPZ,19.121804,72.869035,8.1,12:00 - 15:00,Standard,0
+MUM-0639,Karan Fernandes,Andheri East / SEEPZ,19.126475,72.873605,11.96,18:00 - 21:00,Standard,0
+MUM-0640,Tanvi Fernandes,Andheri East / SEEPZ,19.111092,72.876102,7.66,09:00 - 12:00,Standard,0
+MUM-0641,Aarav Gokhale,Andheri East / SEEPZ,19.114511,72.866428,6.8,18:00 - 21:00,Standard,0
+MUM-0642,Ananya Shetty,Andheri East / SEEPZ,19.127603,72.875814,10.74,18:00 - 21:00,Standard,0
+MUM-0643,Ishita Pawar,Andheri East / SEEPZ,19.112915,72.867327,10.16,18:00 - 21:00,Standard,0
+MUM-0644,Simran Kulkarni,Andheri East / SEEPZ,19.111526,72.878963,8.72,18:00 - 21:00,High,0
+MUM-0645,Siddharth Deshmukh,Andheri East / SEEPZ,19.094494,72.88019,7.57,12:00 - 15:00,Standard,0
+MUM-0646,Neha Gokhale,Andheri East / SEEPZ,19.121432,72.856048,7.32,15:00 - 18:00,Standard,0
+MUM-0647,Gaurav Pawar,Andheri East / SEEPZ,19.121189,72.873179,1.96,12:00 - 15:00,Standard,0
+MUM-0648,Siddharth Kadam,Andheri East / SEEPZ,19.116377,72.877458,7.92,18:00 - 21:00,High,0
+MUM-0649,Sameer Pawar,Andheri East / SEEPZ,19.102605,72.885965,0.65,15:00 - 18:00,High,0
+MUM-0650,Anjali Patel,Andheri East / SEEPZ,19.115077,72.880792,7.48,18:00 - 21:00,Standard,0
+MUM-0651,Tanvi Mishra,Andheri East / SEEPZ,19.108364,72.840806,1.43,15:00 - 18:00,Express,0
+MUM-0652,Kavya Mehta,Andheri East / SEEPZ,19.130622,72.839846,10.75,15:00 - 18:00,High,0
+MUM-0653,Manish Patel,Andheri East / SEEPZ,19.099116,72.856796,8.23,12:00 - 15:00,Standard,0
+MUM-0654,Rohan Shah,Andheri East / SEEPZ,19.101765,72.886723,7.15,18:00 - 21:00,Standard,0
+MUM-0655,Sameer Pandey,Andheri East / SEEPZ,19.12297,72.862205,11.94,15:00 - 18:00,High,0
+MUM-0656,Varun Chavan,Andheri East / SEEPZ,19.108085,72.848843,10.27,15:00 - 18:00,Standard,0
+MUM-0657,Sameer Mishra,Andheri East / SEEPZ,19.128468,72.901912,7.23,18:00 - 21:00,High,0
+MUM-0658,Sameer Gupta,Andheri East / SEEPZ,19.12582,72.875284,5.95,15:00 - 18:00,Standard,0
+MUM-0659,Sneha Patel,Andheri East / SEEPZ,19.126847,72.875402,6.23,18:00 - 21:00,Standard,0
+MUM-0660,Aarav Mehta,Andheri East / SEEPZ,19.13388,72.882773,9.81,15:00 - 18:00,Standard,0
+MUM-0661,Tanvi Sawant,Andheri East / SEEPZ,19.125728,72.878689,11.33,09:00 - 12:00,Standard,0
+MUM-0662,Anjali Pandey,Andheri East / SEEPZ,19.10911,72.867833,4.31,12:00 - 15:00,High,0
+MUM-0663,Karan Pandey,Andheri East / SEEPZ,19.116038,72.875661,6.83,09:00 - 12:00,Standard,0
+MUM-0664,Anjali Gokhale,Andheri East / SEEPZ,19.11874,72.870626,1.38,12:00 - 15:00,Standard,0
+MUM-0665,Siddharth Shetty,Andheri East / SEEPZ,19.088821,72.861468,5.7,09:00 - 12:00,Standard,0
+MUM-0666,Anjali Kadam,Andheri East / SEEPZ,19.132602,72.856287,5.06,18:00 - 21:00,High,0
+MUM-0667,Divya Bhat,Andheri East / SEEPZ,19.11567,72.87583,2.24,12:00 - 15:00,Standard,0
+MUM-0668,Rhea Sharma,Andheri East / SEEPZ,19.101638,72.870477,1.96,09:00 - 12:00,High,0
+MUM-0669,Anjali Deshmukh,Andheri East / SEEPZ,19.114902,72.864686,6.85,12:00 - 15:00,Standard,0
+MUM-0670,Rhea Sawant,Andheri East / SEEPZ,19.103333,72.857365,7.01,12:00 - 15:00,Standard,0
+MUM-0671,Pooja Shah,Andheri East / SEEPZ,19.126344,72.87171,1.43,18:00 - 21:00,Standard,0
+MUM-0672,Anjali Sawant,Andheri East / SEEPZ,19.116918,72.829626,9.6,18:00 - 21:00,High,0
+MUM-0673,Aditya Sharma,Andheri East / SEEPZ,19.105119,72.880484,4.22,12:00 - 15:00,Express,0
+MUM-0674,Neha Patil,Andheri East / SEEPZ,19.120315,72.859938,5.16,09:00 - 12:00,Standard,0
+MUM-0675,Aditya Fernandes,Andheri East / SEEPZ,19.119942,72.885077,10.55,18:00 - 21:00,High,0
+MUM-0676,Arjun Patel,Andheri East / SEEPZ,19.105501,72.864863,7.91,09:00 - 12:00,Standard,0
+MUM-0677,Divya Gupta,Andheri East / SEEPZ,19.110954,72.866525,9.15,12:00 - 15:00,Standard,0
+MUM-0678,Manish Patel,Andheri East / SEEPZ,19.11751,72.8842,9.7,12:00 - 15:00,Standard,0
+MUM-0679,Gaurav Tiwari,Andheri East / SEEPZ,19.112915,72.878504,5.26,18:00 - 21:00,Express,0
+MUM-0680,Sameer Mishra,Andheri East / SEEPZ,19.110026,72.85558,6.0,12:00 - 15:00,Standard,0
+MUM-0681,Priya Tiwari,Andheri East / SEEPZ,19.115346,72.862331,6.52,12:00 - 15:00,Standard,0
+MUM-0682,Arjun Mehta,Andheri East / SEEPZ,19.130794,72.852387,2.62,18:00 - 21:00,Standard,0
+MUM-0683,Sneha Chavan,Andheri East / SEEPZ,19.093621,72.886742,11.45,15:00 - 18:00,Standard,0
+MUM-0684,Pooja Gokhale,Andheri East / SEEPZ,19.111227,72.871969,1.21,09:00 - 12:00,Standard,0
+MUM-0685,Rahul Pawar,Andheri East / SEEPZ,19.116003,72.869799,11.54,09:00 - 12:00,Express,0
+MUM-0686,Anjali Patil,Andheri East / SEEPZ,19.1209,72.875992,6.54,18:00 - 21:00,Standard,0
+MUM-0687,Tanvi Bhat,Andheri East / SEEPZ,19.108145,72.867076,9.66,12:00 - 15:00,Standard,0
+MUM-0688,Karan Kulkarni,Andheri East / SEEPZ,19.104996,72.854285,8.37,15:00 - 18:00,Standard,0
+MUM-0689,Sameer Patil,Andheri East / SEEPZ,19.125242,72.855241,5.22,15:00 - 18:00,Standard,0
+MUM-0690,Pooja Pawar,Andheri East / SEEPZ,19.125032,72.891665,11.87,18:00 - 21:00,Express,0
+MUM-0691,Kavya Verma,Andheri East / SEEPZ,19.131962,72.877679,5.02,09:00 - 12:00,Standard,0
+MUM-0692,Divya Patel,Andheri East / SEEPZ,19.115258,72.863367,7.26,09:00 - 12:00,Standard,0
+MUM-0693,Karan Gokhale,Andheri East / SEEPZ,19.10283,72.853954,11.91,09:00 - 12:00,High,0
+MUM-0694,Karan Mishra,Andheri West / Lokhandwala,19.163984,72.825555,7.54,18:00 - 21:00,High,0
+MUM-0695,Aarav Gokhale,Andheri West / Lokhandwala,19.15095,72.817179,6.5,18:00 - 21:00,Express,0
+MUM-0696,Ananya Mehta,Andheri West / Lokhandwala,19.138217,72.823305,5.79,12:00 - 15:00,Standard,0
+MUM-0697,Kavya Merchant,Andheri West / Lokhandwala,19.138187,72.827775,9.34,09:00 - 12:00,Standard,0
+MUM-0698,Karan Sawant,Andheri West / Lokhandwala,19.152717,72.813675,5.31,12:00 - 15:00,Express,0
+MUM-0699,Varun Verma,Andheri West / Lokhandwala,19.121354,72.818941,6.86,09:00 - 12:00,Standard,0
+MUM-0700,Kavya Kadam,Andheri West / Lokhandwala,19.134098,72.807662,8.54,15:00 - 18:00,High,0
+MUM-0701,Neha Merchant,Andheri West / Lokhandwala,19.152818,72.831458,2.0,09:00 - 12:00,Standard,0
+MUM-0702,Manish Fernandes,Andheri West / Lokhandwala,19.129923,72.808886,2.6,12:00 - 15:00,Standard,0
+MUM-0703,Sneha Kulkarni,Andheri West / Lokhandwala,19.114219,72.827313,0.78,12:00 - 15:00,Standard,0
+MUM-0704,Aarav Patil,Andheri West / Lokhandwala,19.138768,72.81529,0.86,18:00 - 21:00,Standard,0
+MUM-0705,Aarav Deshmukh,Andheri West / Lokhandwala,19.143253,72.79757,3.67,09:00 - 12:00,Express,0
+MUM-0706,Ananya Gokhale,Andheri West / Lokhandwala,19.147535,72.829918,9.8,09:00 - 12:00,High,0
+MUM-0707,Sameer Sharma,Andheri West / Lokhandwala,19.138032,72.83762,3.59,18:00 - 21:00,High,0
+MUM-0708,Siddharth Kulkarni,Andheri West / Lokhandwala,19.122849,72.803475,7.28,12:00 - 15:00,High,0
+MUM-0709,Rhea Rane,Andheri West / Lokhandwala,19.137155,72.812178,3.76,18:00 - 21:00,Standard,0
+MUM-0710,Neha Fernandes,Andheri West / Lokhandwala,19.117233,72.845461,4.05,12:00 - 15:00,Express,0
+MUM-0711,Rhea Shetty,Andheri West / Lokhandwala,19.135012,72.839693,8.12,12:00 - 15:00,High,0
+MUM-0712,Rohan Merchant,Andheri West / Lokhandwala,19.13153,72.823911,4.18,18:00 - 21:00,Express,0
+MUM-0713,Priya Chavan,Andheri West / Lokhandwala,19.126413,72.819071,2.91,09:00 - 12:00,High,0
+MUM-0714,Rhea Verma,Andheri West / Lokhandwala,19.145686,72.818209,4.09,18:00 - 21:00,Express,0
+MUM-0715,Varun Mishra,Andheri West / Lokhandwala,19.150853,72.833467,4.94,12:00 - 15:00,High,0
+MUM-0716,Divya Kadam,Andheri West / Lokhandwala,19.145421,72.840353,5.03,09:00 - 12:00,Standard,0
+MUM-0717,Priya Mishra,Andheri West / Lokhandwala,19.135401,72.833527,6.3,12:00 - 15:00,Standard,0
+MUM-0718,Vikram Gokhale,Andheri West / Lokhandwala,19.128537,72.815501,5.08,18:00 - 21:00,Standard,0
+MUM-0719,Simran Fernandes,Andheri West / Lokhandwala,19.143457,72.820089,4.76,09:00 - 12:00,Standard,0
+MUM-0720,Sameer Kulkarni,Andheri West / Lokhandwala,19.129698,72.832606,7.88,12:00 - 15:00,Standard,0
+MUM-0721,Neha Gokhale,Andheri West / Lokhandwala,19.136024,72.818956,3.36,18:00 - 21:00,Standard,0
+MUM-0722,Siddharth Chavan,Andheri West / Lokhandwala,19.171349,72.816746,10.52,12:00 - 15:00,High,0
+MUM-0723,Gaurav Kulkarni,Andheri West / Lokhandwala,19.141637,72.817792,8.35,09:00 - 12:00,Standard,0
+MUM-0724,Sameer Patel,Andheri West / Lokhandwala,19.122624,72.836319,1.23,15:00 - 18:00,Express,0
+MUM-0725,Neha Gokhale,Andheri West / Lokhandwala,19.150613,72.812606,11.38,18:00 - 21:00,High,0
+MUM-0726,Anjali Deshmukh,Andheri West / Lokhandwala,19.127178,72.829835,7.69,15:00 - 18:00,Standard,0
+MUM-0727,Kavya Kulkarni,Andheri West / Lokhandwala,19.137178,72.825897,1.51,15:00 - 18:00,Standard,0
+MUM-0728,Divya Deshmukh,Andheri West / Lokhandwala,19.138444,72.842451,7.15,15:00 - 18:00,High,0
+MUM-0729,Rohan Kadam,Andheri West / Lokhandwala,19.151605,72.825879,11.24,15:00 - 18:00,High,0
+MUM-0730,Manish Patil,Andheri West / Lokhandwala,19.150918,72.840388,2.1,12:00 - 15:00,Standard,0
+MUM-0731,Pooja Mishra,Andheri West / Lokhandwala,19.137173,72.829948,3.61,15:00 - 18:00,High,0
+MUM-0732,Rhea Bhat,Andheri West / Lokhandwala,19.137022,72.831871,3.05,12:00 - 15:00,Standard,0
+MUM-0733,Ananya Rane,Andheri West / Lokhandwala,19.119881,72.81266,5.57,09:00 - 12:00,Standard,0
+MUM-0734,Ishita Joshi,Andheri West / Lokhandwala,19.133666,72.815864,5.06,12:00 - 15:00,Standard,0
+MUM-0735,Rhea Tiwari,Andheri West / Lokhandwala,19.148247,72.848138,5.22,12:00 - 15:00,Standard,0
+MUM-0736,Manish Sawant,Andheri West / Lokhandwala,19.142262,72.840537,5.77,12:00 - 15:00,Standard,0
+MUM-0737,Sneha Bhat,Andheri West / Lokhandwala,19.138728,72.834205,11.95,09:00 - 12:00,Standard,0
+MUM-0738,Priya Patel,Andheri West / Lokhandwala,19.126737,72.859478,0.5,18:00 - 21:00,Standard,0
+MUM-0739,Sneha Pawar,Andheri West / Lokhandwala,19.146231,72.820962,10.58,15:00 - 18:00,Express,0
+MUM-0740,Pooja Rane,Andheri West / Lokhandwala,19.124358,72.825522,1.34,15:00 - 18:00,High,0
+MUM-0741,Pooja Kulkarni,Andheri West / Lokhandwala,19.129269,72.831649,1.74,12:00 - 15:00,Standard,0
+MUM-0742,Siddharth Bhat,Andheri West / Lokhandwala,19.151334,72.822321,5.61,15:00 - 18:00,High,0
+MUM-0743,Anjali Gokhale,Andheri West / Lokhandwala,19.140038,72.832864,0.86,12:00 - 15:00,Standard,0
+MUM-0744,Priya Verma,Andheri West / Lokhandwala,19.136178,72.831256,9.18,12:00 - 15:00,High,0
+MUM-0745,Divya Sawant,Andheri West / Lokhandwala,19.133417,72.838693,3.57,12:00 - 15:00,Standard,0
+MUM-0746,Rhea Patil,Andheri West / Lokhandwala,19.144276,72.821065,1.29,18:00 - 21:00,Standard,0
+MUM-0747,Arjun Verma,Andheri West / Lokhandwala,19.126916,72.818584,2.65,15:00 - 18:00,Standard,0
+MUM-0748,Anjali Sawant,Andheri West / Lokhandwala,19.128888,72.812734,10.91,09:00 - 12:00,High,0
+MUM-0749,Kavya Rane,Andheri West / Lokhandwala,19.151003,72.829302,3.92,09:00 - 12:00,Standard,0
+MUM-0750,Simran Pandey,Andheri West / Lokhandwala,19.147208,72.833213,8.76,15:00 - 18:00,Standard,0
+MUM-0751,Sneha Shah,Goregaon,19.17212,72.846986,2.48,09:00 - 12:00,Standard,0
+MUM-0752,Anjali Joshi,Goregaon,19.163865,72.855244,2.94,18:00 - 21:00,High,0
+MUM-0753,Arjun Patel,Goregaon,19.158629,72.841909,4.84,18:00 - 21:00,High,0
+MUM-0754,Ananya Nair,Goregaon,19.191938,72.837436,2.73,09:00 - 12:00,Standard,0
+MUM-0755,Rhea Sharma,Goregaon,19.17416,72.86233,2.29,09:00 - 12:00,Standard,0
+MUM-0756,Aarav Mishra,Goregaon,19.158698,72.860573,11.43,09:00 - 12:00,Express,0
+MUM-0757,Arjun Deshmukh,Goregaon,19.16469,72.857545,2.56,18:00 - 21:00,Standard,0
+MUM-0758,Aarav Merchant,Goregaon,19.166705,72.875197,11.78,15:00 - 18:00,Standard,0
+MUM-0759,Rohan Mishra,Goregaon,19.185142,72.851064,7.78,09:00 - 12:00,Express,0
+MUM-0760,Aditya Fernandes,Goregaon,19.180483,72.858371,4.35,12:00 - 15:00,High,0
+MUM-0761,Ananya Deshmukh,Goregaon,19.168555,72.860668,6.85,18:00 - 21:00,Standard,0
+MUM-0762,Priya Gokhale,Goregaon,19.158928,72.844083,7.89,18:00 - 21:00,Standard,0
+MUM-0763,Manish Pawar,Goregaon,19.185575,72.854539,5.92,12:00 - 15:00,Standard,0
+MUM-0764,Anjali Sharma,Goregaon,19.181853,72.839314,10.32,09:00 - 12:00,High,0
+MUM-0765,Siddharth Patil,Goregaon,19.15905,72.835998,2.19,18:00 - 21:00,Standard,0
+MUM-0766,Simran Fernandes,Goregaon,19.173089,72.847378,4.44,09:00 - 12:00,Standard,0
+MUM-0767,Gaurav Patil,Goregaon,19.170134,72.872443,1.43,09:00 - 12:00,Standard,0
+MUM-0768,Manish Deshmukh,Goregaon,19.153132,72.834877,11.45,18:00 - 21:00,Standard,0
+MUM-0769,Siddharth Shetty,Goregaon,19.158828,72.853924,6.24,18:00 - 21:00,Standard,0
+MUM-0770,Ishita Bhat,Goregaon,19.16992,72.854706,5.62,09:00 - 12:00,Standard,0
+MUM-0771,Tanvi Sharma,Goregaon,19.16757,72.862496,5.45,18:00 - 21:00,Standard,0
+MUM-0772,Rohan Joshi,Goregaon,19.180114,72.849972,9.63,09:00 - 12:00,High,0
+MUM-0773,Simran Pandey,Goregaon,19.17302,72.828372,5.04,09:00 - 12:00,Standard,0
+MUM-0774,Neha Verma,Goregaon,19.164395,72.845194,4.61,18:00 - 21:00,Standard,0
+MUM-0775,Ishita Verma,Goregaon,19.152605,72.860485,6.07,09:00 - 12:00,Standard,0
+MUM-0776,Tanvi Gupta,Goregaon,19.15569,72.821539,6.66,12:00 - 15:00,Standard,0
+MUM-0777,Kavya Deshmukh,Goregaon,19.153869,72.850841,1.12,12:00 - 15:00,Express,0
+MUM-0778,Kavya Patel,Goregaon,19.175332,72.83835,2.26,15:00 - 18:00,Express,0
+MUM-0779,Pooja Pawar,Goregaon,19.189194,72.851729,7.1,12:00 - 15:00,Express,0
+MUM-0780,Pooja Pandey,Goregaon,19.158611,72.896492,1.74,18:00 - 21:00,High,0
+MUM-0781,Aditya Merchant,Goregaon,19.146553,72.870667,7.22,18:00 - 21:00,Express,0
+MUM-0782,Vikram Sawant,Goregaon,19.167464,72.850869,3.65,15:00 - 18:00,Standard,0
+MUM-0783,Arjun Mehta,Goregaon,19.170074,72.874657,2.76,09:00 - 12:00,Standard,0
+MUM-0784,Sneha Joshi,Goregaon,19.174474,72.858624,11.18,09:00 - 12:00,Standard,0
+MUM-0785,Ishita Patel,Goregaon,19.166892,72.861826,1.11,12:00 - 15:00,Standard,0
+MUM-0786,Aarav Gupta,Goregaon,19.173261,72.859121,1.16,12:00 - 15:00,Standard,0
+MUM-0787,Pooja Rane,Goregaon,19.183796,72.834646,8.87,12:00 - 15:00,Standard,0
+MUM-0788,Sameer Sawant,Goregaon,19.156288,72.859601,7.67,15:00 - 18:00,Standard,0
+MUM-0789,Varun Deshmukh,Goregaon,19.147267,72.844644,2.77,18:00 - 21:00,Standard,0
+MUM-0790,Ishita Merchant,Goregaon,19.15964,72.86857,5.53,09:00 - 12:00,High,0
+MUM-0791,Rahul Sharma,Goregaon,19.163352,72.86294,8.83,12:00 - 15:00,Standard,0
+MUM-0792,Gaurav Kulkarni,Goregaon,19.141366,72.848756,6.86,12:00 - 15:00,Standard,0
+MUM-0793,Varun Patil,Goregaon,19.180476,72.838207,2.57,09:00 - 12:00,Standard,0
+MUM-0794,Simran Kadam,Goregaon,19.133847,72.845041,10.13,18:00 - 21:00,Standard,0
+MUM-0795,Priya Nair,Goregaon,19.174914,72.846175,7.13,15:00 - 18:00,High,0
+MUM-0796,Gaurav Verma,Goregaon,19.148995,72.830073,5.54,09:00 - 12:00,Standard,0
+MUM-0797,Rhea Mehta,Goregaon,19.163599,72.842492,10.4,09:00 - 12:00,Standard,0
+MUM-0798,Tanvi Tiwari,Goregaon,19.151477,72.839134,1.64,18:00 - 21:00,Express,0
+MUM-0799,Aarav Shetty,Goregaon,19.168532,72.865327,3.77,09:00 - 12:00,Standard,0
+MUM-0800,Sameer Mishra,Goregaon,19.157556,72.878382,3.55,18:00 - 21:00,Standard,0
+MUM-0801,Vikram Pandey,Malad / Kandivali,19.205484,72.844635,3.37,09:00 - 12:00,Standard,0
+MUM-0802,Tanvi Patel,Malad / Kandivali,19.18354,72.845441,0.68,18:00 - 21:00,Standard,0
+MUM-0803,Vikram Verma,Malad / Kandivali,19.200084,72.854408,11.22,18:00 - 21:00,Standard,0
+MUM-0804,Siddharth Shah,Malad / Kandivali,19.189452,72.849937,2.71,18:00 - 21:00,High,0
+MUM-0805,Priya Patil,Malad / Kandivali,19.190246,72.83579,10.95,18:00 - 21:00,Standard,0
+MUM-0806,Pooja Tiwari,Malad / Kandivali,19.205918,72.827425,4.79,18:00 - 21:00,Standard,0
+MUM-0807,Varun Merchant,Malad / Kandivali,19.189649,72.846358,3.4,09:00 - 12:00,Express,0
+MUM-0808,Kavya Deshmukh,Malad / Kandivali,19.19034,72.841333,10.14,15:00 - 18:00,Standard,0
+MUM-0809,Vikram Merchant,Malad / Kandivali,19.194295,72.83894,0.93,09:00 - 12:00,Standard,0
+MUM-0810,Simran Mehta,Malad / Kandivali,19.192527,72.854124,2.04,12:00 - 15:00,Standard,0
+MUM-0811,Ishita Sawant,Malad / Kandivali,19.187465,72.810298,11.29,18:00 - 21:00,High,0
+MUM-0812,Vikram Gokhale,Malad / Kandivali,19.201731,72.829959,2.86,09:00 - 12:00,Standard,0
+MUM-0813,Anjali Gokhale,Malad / Kandivali,19.184644,72.825525,2.84,12:00 - 15:00,Express,0
+MUM-0814,Gaurav Gupta,Malad / Kandivali,19.211213,72.855634,3.25,09:00 - 12:00,Standard,0
+MUM-0815,Rohan Mishra,Malad / Kandivali,19.192596,72.847782,3.65,12:00 - 15:00,Standard,0
+MUM-0816,Arjun Nair,Malad / Kandivali,19.181989,72.870401,11.13,18:00 - 21:00,Standard,0
+MUM-0817,Manish Merchant,Malad / Kandivali,19.179743,72.843819,11.47,18:00 - 21:00,Standard,0
+MUM-0818,Anjali Deshmukh,Malad / Kandivali,19.215212,72.857,8.56,09:00 - 12:00,Standard,0
+MUM-0819,Neha Mishra,Malad / Kandivali,19.196432,72.844196,9.67,15:00 - 18:00,Standard,0
+MUM-0820,Ananya Mishra,Malad / Kandivali,19.194329,72.849055,10.96,18:00 - 21:00,Standard,0
+MUM-0821,Pooja Merchant,Malad / Kandivali,19.21643,72.848565,5.96,18:00 - 21:00,Standard,0
+MUM-0822,Divya Rane,Malad / Kandivali,19.204537,72.857956,6.03,09:00 - 12:00,Standard,0
+MUM-0823,Anjali Tiwari,Malad / Kandivali,19.191235,72.850042,1.22,15:00 - 18:00,Express,0
+MUM-0824,Divya Shah,Malad / Kandivali,19.172657,72.846348,10.37,12:00 - 15:00,High,0
+MUM-0825,Rhea Kadam,Malad / Kandivali,19.195641,72.829238,11.69,18:00 - 21:00,Standard,0
+MUM-0826,Ananya Patel,Malad / Kandivali,19.18919,72.833405,4.44,12:00 - 15:00,Standard,0
+MUM-0827,Priya Nair,Malad / Kandivali,19.190355,72.843227,8.66,18:00 - 21:00,High,0
+MUM-0828,Manish Verma,Malad / Kandivali,19.182206,72.845735,7.81,12:00 - 15:00,Standard,0
+MUM-0829,Neha Kulkarni,Malad / Kandivali,19.193826,72.831705,5.76,15:00 - 18:00,High,0
+MUM-0830,Manish Deshmukh,Malad / Kandivali,19.193081,72.856238,5.99,12:00 - 15:00,Standard,0
+MUM-0831,Varun Merchant,Malad / Kandivali,19.195752,72.846078,11.56,15:00 - 18:00,Standard,0
+MUM-0832,Vikram Patil,Malad / Kandivali,19.206673,72.846414,5.93,15:00 - 18:00,Standard,0
+MUM-0833,Aarav Chavan,Malad / Kandivali,19.18689,72.826141,1.13,09:00 - 12:00,Standard,0
+MUM-0834,Siddharth Kulkarni,Malad / Kandivali,19.21528,72.840375,1.23,18:00 - 21:00,Standard,0
+MUM-0835,Gaurav Merchant,Malad / Kandivali,19.191924,72.838543,11.36,15:00 - 18:00,Standard,0
+MUM-0836,Ananya Gokhale,Malad / Kandivali,19.208654,72.837908,11.41,15:00 - 18:00,Standard,0
+MUM-0837,Rahul Bhat,Malad / Kandivali,19.202077,72.846763,0.78,12:00 - 15:00,Standard,0
+MUM-0838,Aditya Rane,Malad / Kandivali,19.208103,72.855841,3.81,15:00 - 18:00,Standard,0
+MUM-0839,Simran Pawar,Malad / Kandivali,19.194083,72.84323,3.9,12:00 - 15:00,Express,0
+MUM-0840,Simran Sawant,Malad / Kandivali,19.176149,72.861267,2.46,09:00 - 12:00,Express,0
+MUM-0841,Rohan Pandey,Malad / Kandivali,19.194252,72.842868,9.66,09:00 - 12:00,High,0
+MUM-0842,Aarav Nair,Malad / Kandivali,19.185886,72.836346,3.5,15:00 - 18:00,Standard,0
+MUM-0843,Kavya Pawar,Malad / Kandivali,19.195652,72.828879,1.42,18:00 - 21:00,Express,0
+MUM-0844,Tanvi Joshi,Malad / Kandivali,19.197514,72.8319,7.21,12:00 - 15:00,High,0
+MUM-0845,Rahul Fernandes,Malad / Kandivali,19.183254,72.841455,3.31,15:00 - 18:00,Standard,0
+MUM-0846,Pooja Verma,Malad / Kandivali,19.204634,72.879758,11.62,09:00 - 12:00,Express,0
+MUM-0847,Gaurav Merchant,Malad / Kandivali,19.190948,72.840795,8.97,12:00 - 15:00,Standard,0
+MUM-0848,Aditya Gupta,Malad / Kandivali,19.191728,72.847916,11.41,18:00 - 21:00,Standard,0
+MUM-0849,Tanvi Bhat,Malad / Kandivali,19.179149,72.819516,3.28,12:00 - 15:00,Standard,0
+MUM-0850,Aditya Mishra,Malad / Kandivali,19.19075,72.857486,0.59,12:00 - 15:00,Standard,0
+MUM-0851,Tanvi Shetty,Malad / Kandivali,19.185109,72.853199,0.85,12:00 - 15:00,Standard,0
+MUM-0852,Anjali Nair,Malad / Kandivali,19.199733,72.842943,1.87,09:00 - 12:00,Standard,0
+MUM-0853,Simran Patel,Malad / Kandivali,19.209479,72.826674,1.94,15:00 - 18:00,High,0
+MUM-0854,Priya Fernandes,Malad / Kandivali,19.20591,72.835409,3.0,15:00 - 18:00,Standard,0
+MUM-0855,Vikram Joshi,Malad / Kandivali,19.177798,72.819739,8.74,15:00 - 18:00,Standard,0
+MUM-0856,Pooja Pawar,Malad / Kandivali,19.213395,72.845392,10.22,15:00 - 18:00,High,0
+MUM-0857,Manish Fernandes,Malad / Kandivali,19.188317,72.83708,11.92,09:00 - 12:00,Standard,0
+MUM-0858,Anjali Shetty,Borivali,19.245343,72.84378,2.08,15:00 - 18:00,Standard,0
+MUM-0859,Rhea Verma,Borivali,19.251093,72.851878,11.85,09:00 - 12:00,Standard,0
+MUM-0860,Priya Sharma,Borivali,19.244384,72.886686,5.06,12:00 - 15:00,Standard,0
+MUM-0861,Vikram Sawant,Borivali,19.228294,72.835496,8.81,09:00 - 12:00,Standard,0
+MUM-0862,Neha Sawant,Borivali,19.234591,72.884039,5.67,09:00 - 12:00,Standard,0
+MUM-0863,Ananya Rane,Borivali,19.230909,72.840571,5.63,18:00 - 21:00,Standard,0
+MUM-0864,Sneha Kulkarni,Borivali,19.223464,72.860515,9.79,12:00 - 15:00,High,0
+MUM-0865,Neha Shah,Borivali,19.22432,72.855851,9.29,09:00 - 12:00,Standard,0
+MUM-0866,Sneha Pandey,Borivali,19.224392,72.857089,1.44,12:00 - 15:00,Standard,0
+MUM-0867,Kavya Gupta,Borivali,19.21819,72.845863,9.64,09:00 - 12:00,Standard,0
+MUM-0868,Ananya Chavan,Borivali,19.226445,72.888277,5.87,15:00 - 18:00,Express,0
+MUM-0869,Rhea Patil,Borivali,19.218102,72.854515,7.9,12:00 - 15:00,Standard,0
+MUM-0870,Sneha Shah,Borivali,19.225825,72.849298,11.34,12:00 - 15:00,Express,0
+MUM-0871,Sameer Fernandes,Borivali,19.236253,72.820149,11.22,12:00 - 15:00,High,0
+MUM-0872,Rhea Sawant,Borivali,19.219892,72.84513,0.78,12:00 - 15:00,Standard,0
+MUM-0873,Sneha Pawar,Borivali,19.225145,72.839993,0.75,18:00 - 21:00,High,0
+MUM-0874,Rohan Mehta,Borivali,19.246665,72.872553,7.98,15:00 - 18:00,High,0
+MUM-0875,Sameer Patel,Borivali,19.236998,72.874645,10.0,18:00 - 21:00,Standard,0
+MUM-0876,Ananya Kulkarni,Borivali,19.233928,72.859628,11.18,12:00 - 15:00,Standard,0
+MUM-0877,Arjun Kulkarni,Borivali,19.238797,72.854785,11.01,15:00 - 18:00,Standard,0
+MUM-0878,Siddharth Kulkarni,Borivali,19.247136,72.843667,4.03,12:00 - 15:00,Standard,0
+MUM-0879,Aarav Merchant,Borivali,19.234904,72.846568,7.37,18:00 - 21:00,High,0
+MUM-0880,Sneha Kulkarni,Borivali,19.243903,72.856485,10.15,15:00 - 18:00,Standard,0
+MUM-0881,Sneha Tiwari,Borivali,19.253852,72.849437,3.42,12:00 - 15:00,High,0
+MUM-0882,Kavya Fernandes,Borivali,19.22815,72.870847,1.55,12:00 - 15:00,High,0
+MUM-0883,Siddharth Pandey,Borivali,19.238391,72.861433,5.11,15:00 - 18:00,Standard,0
+MUM-0884,Ishita Tiwari,Borivali,19.231849,72.84958,4.26,09:00 - 12:00,Standard,0
+MUM-0885,Neha Mishra,Borivali,19.211125,72.851858,8.4,12:00 - 15:00,Standard,0
+MUM-0886,Ishita Patel,Borivali,19.220269,72.852584,8.28,09:00 - 12:00,High,0
+MUM-0887,Anjali Mehta,Borivali,19.230998,72.846875,7.43,12:00 - 15:00,High,0
+MUM-0888,Gaurav Patel,Borivali,19.239186,72.86845,1.15,09:00 - 12:00,Standard,0
+MUM-0889,Aarav Bhat,Borivali,19.229522,72.859351,5.47,09:00 - 12:00,Standard,0
+MUM-0890,Ishita Mishra,Borivali,19.216366,72.86013,2.52,12:00 - 15:00,High,0
+MUM-0891,Simran Nair,Borivali,19.230424,72.849099,9.23,18:00 - 21:00,Standard,0
+MUM-0892,Sameer Pandey,Borivali,19.238679,72.84752,10.79,15:00 - 18:00,High,0
+MUM-0893,Sameer Deshmukh,Borivali,19.248302,72.863171,5.65,15:00 - 18:00,Standard,0
+MUM-0894,Tanvi Verma,Borivali,19.228796,72.871728,10.61,09:00 - 12:00,Standard,0
+MUM-0895,Aditya Deshmukh,Borivali,19.238986,72.859887,6.78,09:00 - 12:00,Express,0
+MUM-0896,Simran Mehta,Borivali,19.216456,72.869394,3.99,12:00 - 15:00,Standard,0
+MUM-0897,Sameer Sharma,Borivali,19.237104,72.889009,1.73,15:00 - 18:00,Standard,0
+MUM-0898,Varun Deshmukh,Borivali,19.216977,72.8632,2.42,18:00 - 21:00,Standard,0
+MUM-0899,Pooja Gupta,Borivali,19.215431,72.849133,7.73,15:00 - 18:00,Standard,0
+MUM-0900,Sameer Fernandes,Borivali,19.227571,72.841837,5.39,09:00 - 12:00,Standard,0
+MUM-0901,Aarav Mehta,Borivali,19.243786,72.871099,3.1,12:00 - 15:00,Standard,0
+MUM-0902,Sameer Shah,Borivali,19.228517,72.858358,9.9,18:00 - 21:00,High,0
+MUM-0903,Rohan Shah,Borivali,19.210032,72.833501,9.26,12:00 - 15:00,Standard,0
+MUM-0904,Pooja Deshmukh,Borivali,19.238346,72.840642,10.57,12:00 - 15:00,Express,0
+MUM-0905,Arjun Kulkarni,Borivali,19.247418,72.866772,8.77,09:00 - 12:00,High,0
+MUM-0906,Manish Gupta,Borivali,19.226023,72.834516,10.83,15:00 - 18:00,High,0
+MUM-0907,Sneha Chavan,Borivali,19.250247,72.837405,7.17,12:00 - 15:00,Standard,0
+MUM-0908,Ishita Sharma,Vashi (Navi Mumbai),19.068864,72.988479,11.6,09:00 - 12:00,Standard,0
+MUM-0909,Vikram Chavan,Vashi (Navi Mumbai),19.084555,73.014063,11.59,18:00 - 21:00,High,0
+MUM-0910,Rohan Fernandes,Vashi (Navi Mumbai),19.059304,72.999949,4.44,12:00 - 15:00,Standard,0
+MUM-0911,Aditya Gupta,Vashi (Navi Mumbai),19.099432,73.000156,2.08,15:00 - 18:00,Standard,0
+MUM-0912,Ananya Rane,Vashi (Navi Mumbai),19.079614,72.986786,4.02,09:00 - 12:00,Standard,0
+MUM-0913,Karan Patel,Vashi (Navi Mumbai),19.089358,73.009627,7.83,15:00 - 18:00,Standard,0
+MUM-0914,Rohan Patil,Vashi (Navi Mumbai),19.056783,73.006949,5.47,15:00 - 18:00,Standard,0
+MUM-0915,Ananya Rane,Vashi (Navi Mumbai),19.065372,73.008636,2.16,18:00 - 21:00,Standard,0
+MUM-0916,Divya Sawant,Vashi (Navi Mumbai),19.061038,73.008959,8.96,18:00 - 21:00,High,0
+MUM-0917,Sameer Shah,Vashi (Navi Mumbai),19.08447,72.98817,4.45,18:00 - 21:00,Standard,0
+MUM-0918,Divya Nair,Vashi (Navi Mumbai),19.063045,73.025887,9.13,18:00 - 21:00,High,0
+MUM-0919,Arjun Merchant,Vashi (Navi Mumbai),19.097109,72.993662,9.85,12:00 - 15:00,Standard,0
+MUM-0920,Varun Shah,Vashi (Navi Mumbai),19.067513,72.974835,7.15,09:00 - 12:00,Standard,0
+MUM-0921,Gaurav Sharma,Vashi (Navi Mumbai),19.081737,73.008653,6.11,12:00 - 15:00,Standard,0
+MUM-0922,Aarav Merchant,Vashi (Navi Mumbai),19.080207,73.00493,6.09,12:00 - 15:00,Standard,0
+MUM-0923,Manish Mishra,Vashi (Navi Mumbai),19.086631,73.016202,3.0,12:00 - 15:00,Express,0
+MUM-0924,Aditya Gupta,Vashi (Navi Mumbai),19.081505,72.996997,7.76,12:00 - 15:00,Express,0
+MUM-0925,Siddharth Tiwari,Vashi (Navi Mumbai),19.063061,72.996858,5.64,09:00 - 12:00,Standard,0
+MUM-0926,Siddharth Patel,Vashi (Navi Mumbai),19.076553,72.990855,8.67,12:00 - 15:00,Standard,0
+MUM-0927,Sneha Mishra,Vashi (Navi Mumbai),19.073218,72.997629,3.78,09:00 - 12:00,High,0
+MUM-0928,Tanvi Shah,Vashi (Navi Mumbai),19.055846,72.990896,11.59,09:00 - 12:00,High,0
+MUM-0929,Divya Gupta,Vashi (Navi Mumbai),19.085413,73.01187,1.4,12:00 - 15:00,Standard,0
+MUM-0930,Anjali Deshmukh,Vashi (Navi Mumbai),19.06053,72.993077,11.95,12:00 - 15:00,Standard,0
+MUM-0931,Priya Fernandes,Vashi (Navi Mumbai),19.067546,72.987199,0.73,12:00 - 15:00,Standard,0
+MUM-0932,Simran Mishra,Vashi (Navi Mumbai),19.064433,73.011385,11.98,15:00 - 18:00,High,0
+MUM-0933,Ishita Merchant,Vashi (Navi Mumbai),19.07481,72.996222,1.02,15:00 - 18:00,High,0
+MUM-0934,Varun Sharma,Vashi (Navi Mumbai),19.080113,73.008317,5.1,12:00 - 15:00,Standard,0
+MUM-0935,Siddharth Bhat,Vashi (Navi Mumbai),19.070483,72.998889,10.94,18:00 - 21:00,Standard,0
+MUM-0936,Ananya Patil,Vashi (Navi Mumbai),19.084349,72.992028,6.73,15:00 - 18:00,Express,0
+MUM-0937,Rohan Bhat,Vashi (Navi Mumbai),19.078075,72.998145,4.84,15:00 - 18:00,Standard,0
+MUM-0938,Aditya Shah,Vashi (Navi Mumbai),19.085774,72.999942,9.96,09:00 - 12:00,Express,0
+MUM-0939,Sneha Kadam,Vashi (Navi Mumbai),19.080498,73.005011,8.37,12:00 - 15:00,High,0
+MUM-0940,Rohan Sharma,Vashi (Navi Mumbai),19.069327,72.98584,6.67,09:00 - 12:00,Express,0
+MUM-0941,Sameer Mehta,Vashi (Navi Mumbai),19.064091,73.002893,6.46,09:00 - 12:00,Standard,0
+MUM-0942,Rhea Shah,Vashi (Navi Mumbai),19.080574,72.98779,5.73,12:00 - 15:00,Express,0
+MUM-0943,Kavya Rane,Vashi (Navi Mumbai),19.101803,73.001648,3.5,09:00 - 12:00,Express,0
+MUM-0944,Arjun Gupta,Vashi (Navi Mumbai),19.074269,72.993717,1.98,12:00 - 15:00,Standard,0
+MUM-0945,Divya Shetty,Vashi (Navi Mumbai),19.082344,72.999922,3.19,15:00 - 18:00,Standard,0
+MUM-0946,Divya Bhat,Vashi (Navi Mumbai),19.090391,72.989512,4.93,18:00 - 21:00,Standard,0
+MUM-0947,Divya Mishra,Vashi (Navi Mumbai),19.0747,72.98625,10.31,15:00 - 18:00,Standard,0
+MUM-0948,Ishita Kadam,Vashi (Navi Mumbai),19.084847,72.998833,7.22,09:00 - 12:00,Standard,0
+MUM-0949,Ishita Sharma,Vashi (Navi Mumbai),19.063957,72.96048,10.07,12:00 - 15:00,Standard,0
+MUM-0950,Sameer Kulkarni,Vashi (Navi Mumbai),19.078688,73.001653,9.63,09:00 - 12:00,Standard,0
+MUM-0951,Simran Tiwari,Thane West,19.222893,72.978652,1.72,18:00 - 21:00,Standard,0
+MUM-0952,Kavya Verma,Thane West,19.195597,72.973472,4.22,12:00 - 15:00,Standard,0
+MUM-0953,Varun Rane,Thane West,19.215452,72.972193,4.28,18:00 - 21:00,Standard,0
+MUM-0954,Rhea Patel,Thane West,19.215147,72.958949,1.38,09:00 - 12:00,Standard,0
+MUM-0955,Aarav Mishra,Thane West,19.235428,72.973067,6.98,12:00 - 15:00,Express,0
+MUM-0956,Ishita Pandey,Thane West,19.205505,73.006648,2.61,15:00 - 18:00,High,0
+MUM-0957,Priya Bhat,Thane West,19.225831,72.974746,6.47,18:00 - 21:00,Standard,0
+MUM-0958,Rhea Rane,Thane West,19.217548,72.980995,1.96,09:00 - 12:00,High,0
+MUM-0959,Sameer Tiwari,Thane West,19.228725,72.963864,1.77,15:00 - 18:00,Express,0
+MUM-0960,Pooja Mishra,Thane West,19.225354,72.985537,1.82,15:00 - 18:00,Standard,0
+MUM-0961,Divya Sawant,Thane West,19.23451,72.970256,1.39,12:00 - 15:00,High,0
+MUM-0962,Sneha Mishra,Thane West,19.235064,72.989733,10.27,15:00 - 18:00,Standard,0
+MUM-0963,Karan Shah,Thane West,19.208552,72.974656,9.2,12:00 - 15:00,Standard,0
+MUM-0964,Rohan Sawant,Thane West,19.246356,72.975268,7.17,18:00 - 21:00,Standard,0
+MUM-0965,Karan Verma,Thane West,19.218811,72.999549,2.83,12:00 - 15:00,High,0
+MUM-0966,Rhea Gupta,Thane West,19.219868,72.976402,0.68,15:00 - 18:00,Standard,0
+MUM-0967,Rahul Gokhale,Thane West,19.21739,72.957884,7.01,09:00 - 12:00,Standard,0
+MUM-0968,Manish Sawant,Thane West,19.220063,72.971834,2.33,12:00 - 15:00,Standard,0
+MUM-0969,Siddharth Patel,Thane West,19.203365,72.980894,4.17,15:00 - 18:00,Standard,0
+MUM-0970,Ishita Gupta,Thane West,19.206328,72.978073,3.27,18:00 - 21:00,High,0
+MUM-0971,Divya Patil,Thane West,19.209365,72.973128,8.52,18:00 - 21:00,Standard,0
+MUM-0972,Divya Gupta,Thane West,19.206834,72.982532,1.58,15:00 - 18:00,Standard,0
+MUM-0973,Ananya Sawant,Thane West,19.209039,72.997414,7.98,15:00 - 18:00,High,0
+MUM-0974,Ishita Rane,Thane West,19.217936,72.987629,9.57,18:00 - 21:00,Standard,0
+MUM-0975,Pooja Shah,Thane West,19.21525,72.966499,1.71,12:00 - 15:00,Standard,0
+MUM-0976,Vikram Patel,Thane West,19.201781,72.960693,4.66,18:00 - 21:00,Standard,0
+MUM-0977,Ishita Tiwari,Thane West,19.208557,72.974806,1.9,18:00 - 21:00,Standard,0
+MUM-0978,Sneha Shah,Thane West,19.218885,72.951412,6.87,15:00 - 18:00,Standard,0
+MUM-0979,Gaurav Verma,Thane West,19.20614,72.956073,8.16,15:00 - 18:00,Standard,0
+MUM-0980,Kavya Gokhale,Thane West,19.238265,72.981763,7.48,18:00 - 21:00,Standard,0
+MUM-0981,Arjun Merchant,Thane West,19.229771,72.979764,4.27,12:00 - 15:00,Standard,0
+MUM-0982,Varun Shetty,Thane West,19.24404,72.988836,11.89,18:00 - 21:00,Standard,0
+MUM-0983,Rahul Rane,Thane West,19.216094,72.980359,10.19,12:00 - 15:00,Standard,0
+MUM-0984,Tanvi Patel,Thane West,19.213676,72.98867,11.18,12:00 - 15:00,Standard,0
+MUM-0985,Aarav Shetty,Thane West,19.225231,72.993736,10.27,15:00 - 18:00,High,0
+MUM-0986,Karan Kadam,Thane West,19.236647,72.982484,2.89,18:00 - 21:00,Standard,0
+MUM-0987,Priya Patel,Thane West,19.219313,72.96675,3.98,15:00 - 18:00,Standard,0
+MUM-0988,Rhea Rane,Thane West,19.21682,72.981809,10.63,18:00 - 21:00,High,0
+MUM-0989,Anjali Sawant,Thane West,19.207266,72.99549,8.59,15:00 - 18:00,Standard,0
+MUM-0990,Anjali Shah,Thane West,19.211652,72.993805,4.83,18:00 - 21:00,Standard,0
+MUM-0991,Aarav Shetty,Thane West,19.231345,72.981883,6.06,12:00 - 15:00,Standard,0
+MUM-0992,Siddharth Tiwari,Thane West,19.221741,72.976334,4.12,09:00 - 12:00,Standard,0
+MUM-0993,Aarav Kadam,Thane West,19.220611,73.006805,4.63,12:00 - 15:00,Standard,0
+MUM-0994,Karan Gupta,Thane West,19.203551,72.991577,10.52,09:00 - 12:00,Standard,0
+MUM-0995,Aditya Tiwari,Thane West,19.222052,72.999489,3.3,15:00 - 18:00,Standard,0
+MUM-0996,Tanvi Patil,Thane West,19.235887,72.972366,1.71,18:00 - 21:00,High,0
+MUM-0997,Kavya Verma,Thane West,19.214564,72.992834,3.65,15:00 - 18:00,High,0
+MUM-0998,Kavya Joshi,Thane West,19.223283,72.971756,11.48,12:00 - 15:00,Express,0
+MUM-0999,Simran Gupta,Thane West,19.21261,72.98037,3.26,09:00 - 12:00,High,0
+MUM-1000,Arjun Joshi,Thane West,19.22776,72.970455,6.29,18:00 - 21:00,Express,0

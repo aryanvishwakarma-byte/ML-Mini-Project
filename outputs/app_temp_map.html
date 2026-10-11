@@ -1,0 +1,4189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0e9dc9e25ca4f1753583e6a70c38feea {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0e9dc9e25ca4f1753583e6a70c38feea" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0e9dc9e25ca4f1753583e6a70c38feea = L.map(
+                "map_0e9dc9e25ca4f1753583e6a70c38feea",
+                {
+                    center: [19.0657, 72.8687],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d6da90d358074e38ad6272d186800f2d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d6da90d358074e38ad6272d186800f2d.addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+            var marker_fe59290e984b39918ea23c89e287e406 = L.marker(
+                [19.0657, 72.8687],
+                {
+}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+            var icon_fc09554d2925a7ba055fd04981d0759e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b8a93979fba79138a9f4bc0e090cde5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d026d749c5c5e816f68c80bbaac7ca1a = $(`<div id="html_d026d749c5c5e816f68c80bbaac7ca1a" style="width: 100.0%; height: 100.0%;"><b>MAIN CENTRAL DEPOT</b><br>Main Mumbai Central Logistics Hub (BKC)<br>BKC Hub</div>`)[0];
+                popup_b8a93979fba79138a9f4bc0e090cde5f.setContent(html_d026d749c5c5e816f68c80bbaac7ca1a);
+            
+        
+
+        marker_fe59290e984b39918ea23c89e287e406.bindPopup(popup_b8a93979fba79138a9f4bc0e090cde5f)
+        ;
+
+        
+    
+    
+            marker_fe59290e984b39918ea23c89e287e406.bindTooltip(
+                `<div>
+                     Central Depot (BKC)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fe59290e984b39918ea23c89e287e406.setIcon(icon_fc09554d2925a7ba055fd04981d0759e);
+            
+    
+            var poly_line_4b3d9ed4b05b439c677bc19e8faaf5bd = L.polyline(
+                [[19.0657, 72.8687], [18.933041, 72.865871], [18.928853, 72.851138], [18.926302, 72.852376], [18.921618, 72.851802], [18.919242, 72.851646], [18.912331, 72.85259], [18.915709, 72.848209], [18.917968, 72.846375], [18.916338, 72.844136], [18.917629, 72.840521], [18.91757, 72.838143], [18.914081, 72.837459], [18.913904, 72.833645], [18.90627, 72.833476], [18.912717, 72.828598], [18.9204, 72.826646], [18.921123, 72.830243], [18.921074, 72.83788], [18.923017, 72.842156], [18.922751, 72.846664], [18.928884, 72.843063], [18.928903, 72.842132], [18.927971, 72.841449], [18.931403, 72.837968], [18.932451, 72.837827], [18.929729, 72.835315], [18.929312, 72.83536], [18.926436, 72.836002], [18.92411, 72.833084], [18.929475, 72.830785], [19.0657, 72.8687]],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#E63946", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 3.5}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+            poly_line_4b3d9ed4b05b439c677bc19e8faaf5bd.bindTooltip(
+                `<div>
+                     Zone 0 Route (44.82 km)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3dd945312c466f643ee92aa03797c48a = L.circleMarker(
+                [18.933041, 72.865871],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_4c409e6f442df9d1eb0a952741ce060c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_869573e4f0fcae02809e7985ec5de8f3 = $(`<div id="html_869573e4f0fcae02809e7985ec5de8f3" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0087<br>             <b>Zone:</b> Cluster 0<br>             <b>Customer:</b> Gaurav Shetty<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 9.52 kg<br>             <b>Stop #:</b> 1             </div>`)[0];
+                popup_4c409e6f442df9d1eb0a952741ce060c.setContent(html_869573e4f0fcae02809e7985ec5de8f3);
+            
+        
+
+        circle_marker_3dd945312c466f643ee92aa03797c48a.bindPopup(popup_4c409e6f442df9d1eb0a952741ce060c)
+        ;
+
+        
+    
+    
+            circle_marker_3dd945312c466f643ee92aa03797c48a.bindTooltip(
+                `<div>
+                     Zone 0 - Stop #1: Gaurav Shetty (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_87c51288fff391115f36a2ca4a1cec54 = L.circleMarker(
+                [18.928853, 72.851138],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_2c8824942fa24496f548e78c759f25c4 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_896887bcba1ee3efc7836cb285173f98 = $(`<div id="html_896887bcba1ee3efc7836cb285173f98" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0052<br>             <b>Zone:</b> Cluster 0<br>             <b>Customer:</b> Vikram Pandey<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 8.9 kg<br>             <b>Stop #:</b> 2             </div>`)[0];
+                popup_2c8824942fa24496f548e78c759f25c4.setContent(html_896887bcba1ee3efc7836cb285173f98);
+            
+        
+
+        circle_marker_87c51288fff391115f36a2ca4a1cec54.bindPopup(popup_2c8824942fa24496f548e78c759f25c4)
+        ;
+
+        
+    
+    
+            circle_marker_87c51288fff391115f36a2ca4a1cec54.bindTooltip(
+                `<div>
+                     Zone 0 - Stop #2: Vikram Pandey (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_12f4d0eab7654658f35919c4f5546ebe = L.circleMarker(
+                [18.926302, 72.852376],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_d6045da458cac87d41e57443e2da3f74 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_249a935416a25655da49d5477aa01ff9 = $(`<div id="html_249a935416a25655da49d5477aa01ff9" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0056<br>             <b>Zone:</b> Cluster 0<br>             <b>Customer:</b> Aarav Patil<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 8.07 kg<br>             <b>Stop #:</b> 3             </div>`)[0];
+                popup_d6045da458cac87d41e57443e2da3f74.setContent(html_249a935416a25655da49d5477aa01ff9);
+            
+        
+
+        circle_marker_12f4d0eab7654658f35919c4f5546ebe.bindPopup(popup_d6045da458cac87d41e57443e2da3f74)
+        ;
+
+        
+    
+    
+            circle_marker_12f4d0eab7654658f35919c4f5546ebe.bindTooltip(
+                `<div>
+                     Zone 0 - Stop #3: Aarav Patil (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2c4309ffe63a1df3af1b92a0d65aa32a = L.circleMarker(
+                [18.921618, 72.851802],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_45354516493e2b1bed2f29ada8af5ce5 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_14bcc133a3e1616c7eab36cc0fef014b = $(`<div id="html_14bcc133a3e1616c7eab36cc0fef014b" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0098<br>             <b>Zone:</b> Cluster 0<br>             <b>Customer:</b> Simran Patel<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 9.1 kg<br>             <b>Stop #:</b> 4             </div>`)[0];
+                popup_45354516493e2b1bed2f29ada8af5ce5.setContent(html_14bcc133a3e1616c7eab36cc0fef014b);
+            
+        
+
+        circle_marker_2c4309ffe63a1df3af1b92a0d65aa32a.bindPopup(popup_45354516493e2b1bed2f29ada8af5ce5)
+        ;
+
+        
+    
+    
+            circle_marker_2c4309ffe63a1df3af1b92a0d65aa32a.bindTooltip(
+                `<div>
+                     Zone 0 - Stop #4: Simran Patel (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_05d5f7401d1e319d98465b9419f37486 = L.circleMarker(
+                [18.919242, 72.851646],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_e00d1c28974d9463cc907aaf9153239e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_59c7af652974f558e3c3352994af442e = $(`<div id="html_59c7af652974f558e3c3352994af442e" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0082<br>             <b>Zone:</b> Cluster 0<br>             <b>Customer:</b> Anjali Bhat<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 10.14 kg<br>             <b>Stop #:</b> 5             </div>`)[0];
+                popup_e00d1c28974d9463cc907aaf9153239e.setContent(html_59c7af652974f558e3c3352994af442e);
+            
+        
+
+        circle_marker_05d5f7401d1e319d98465b9419f37486.bindPopup(popup_e00d1c28974d9463cc907aaf9153239e)
+        ;
+
+        
+    
+    
+            circle_marker_05d5f7401d1e319d98465b9419f37486.bindTooltip(
+                `<div>
+                     Zone 0 - Stop #5: Anjali Bhat (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c05c431b48b679e211f473f86dbca6e4 = L.circleMarker(
+                [18.912331, 72.85259],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_f6eca859711b47ef49d6cc2fa6597cac = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_54599bd34aa37877bf78ee54c2b65807 = $(`<div id="html_54599bd34aa37877bf78ee54c2b65807" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0116<br>             <b>Zone:</b> Cluster 0<br>             <b>Customer:</b> Rohan Verma<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 8.9 kg<br>             <b>Stop #:</b> 6             </div>`)[0];
+                popup_f6eca859711b47ef49d6cc2fa6597cac.setContent(html_54599bd34aa37877bf78ee54c2b65807);
+            
+        
+
+        circle_marker_c05c431b48b679e211f473f86dbca6e4.bindPopup(popup_f6eca859711b47ef49d6cc2fa6597cac)
+        ;
+
+        
+    
+    
+            circle_marker_c05c431b48b679e211f473f86dbca6e4.bindTooltip(
+                `<div>
+                     Zone 0 - Stop #6: Rohan Verma (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fca16689699f2421926c28a5c284a92b = L.circleMarker(
+                [18.915709, 72.848209],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_5089ab07787cc11015c1261fc6dcb356 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1576a802ed1658ee8a44efa181c5a508 = $(`<div id="html_1576a802ed1658ee8a44efa181c5a508" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0103<br>             <b>Zone:</b> Cluster 0<br>             <b>Customer:</b> Vikram Kulkarni<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 10.85 kg<br>             <b>Stop #:</b> 7             </div>`)[0];
+                popup_5089ab07787cc11015c1261fc6dcb356.setContent(html_1576a802ed1658ee8a44efa181c5a508);
+            
+        
+
+        circle_marker_fca16689699f2421926c28a5c284a92b.bindPopup(popup_5089ab07787cc11015c1261fc6dcb356)
+        ;
+
+        
+    
+    
+            circle_marker_fca16689699f2421926c28a5c284a92b.bindTooltip(
+                `<div>
+                     Zone 0 - Stop #7: Vikram Kulkarni (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e7b0f13010f5a33d8ea57cd2fdad1168 = L.circleMarker(
+                [18.917968, 72.846375],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_010bc492fc7794b70fe134613a036f27 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9266a0ae898d914c8d86f4970aa66cba = $(`<div id="html_9266a0ae898d914c8d86f4970aa66cba" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0092<br>             <b>Zone:</b> Cluster 0<br>             <b>Customer:</b> Arjun Mishra<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 1.97 kg<br>             <b>Stop #:</b> 8             </div>`)[0];
+                popup_010bc492fc7794b70fe134613a036f27.setContent(html_9266a0ae898d914c8d86f4970aa66cba);
+            
+        
+
+        circle_marker_e7b0f13010f5a33d8ea57cd2fdad1168.bindPopup(popup_010bc492fc7794b70fe134613a036f27)
+        ;
+
+        
+    
+    
+            circle_marker_e7b0f13010f5a33d8ea57cd2fdad1168.bindTooltip(
+                `<div>
+                     Zone 0 - Stop #8: Arjun Mishra (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a1419278a00df3246d95766769c228f5 = L.circleMarker(
+                [18.916338, 72.844136],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_01d7745cac3178fda1257f0205bfddfd = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_90a814724af09acf12c0b884659574cd = $(`<div id="html_90a814724af09acf12c0b884659574cd" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0051<br>             <b>Zone:</b> Cluster 0<br>             <b>Customer:</b> Aarav Shetty<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 3.38 kg<br>             <b>Stop #:</b> 9             </div>`)[0];
+                popup_01d7745cac3178fda1257f0205bfddfd.setContent(html_90a814724af09acf12c0b884659574cd);
+            
+        
+
+        circle_marker_a1419278a00df3246d95766769c228f5.bindPopup(popup_01d7745cac3178fda1257f0205bfddfd)
+        ;
+
+        
+    
+    
+            circle_marker_a1419278a00df3246d95766769c228f5.bindTooltip(
+                `<div>
+                     Zone 0 - Stop #9: Aarav Shetty (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_41745bea5ccbcc69cd71a89deb3f1be0 = L.circleMarker(
+                [18.917629, 72.840521],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_bafc4d5356f7461302d9949dfde1817a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_6e722057cec78d92962ee68fc7570546 = $(`<div id="html_6e722057cec78d92962ee68fc7570546" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0071<br>             <b>Zone:</b> Cluster 0<br>             <b>Customer:</b> Sameer Gupta<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 6.92 kg<br>             <b>Stop #:</b> 10             </div>`)[0];
+                popup_bafc4d5356f7461302d9949dfde1817a.setContent(html_6e722057cec78d92962ee68fc7570546);
+            
+        
+
+        circle_marker_41745bea5ccbcc69cd71a89deb3f1be0.bindPopup(popup_bafc4d5356f7461302d9949dfde1817a)
+        ;
+
+        
+    
+    
+            circle_marker_41745bea5ccbcc69cd71a89deb3f1be0.bindTooltip(
+                `<div>
+                     Zone 0 - Stop #10: Sameer Gupta (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7654d76fbe14dee9fc0c46ca1468a7f4 = L.circleMarker(
+                [18.91757, 72.838143],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_3bc7f979ec1939ebf6460fba9945e3ed = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b8781cdb46b7c8cb61119b78903c6487 = $(`<div id="html_b8781cdb46b7c8cb61119b78903c6487" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0063<br>             <b>Zone:</b> Cluster 0<br>             <b>Customer:</b> Vikram Gupta<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 5.43 kg<br>             <b>Stop #:</b> 11             </div>`)[0];
+                popup_3bc7f979ec1939ebf6460fba9945e3ed.setContent(html_b8781cdb46b7c8cb61119b78903c6487);
+            
+        
+
+        circle_marker_7654d76fbe14dee9fc0c46ca1468a7f4.bindPopup(popup_3bc7f979ec1939ebf6460fba9945e3ed)
+        ;
+
+        
+    
+    
+            circle_marker_7654d76fbe14dee9fc0c46ca1468a7f4.bindTooltip(
+                `<div>
+                     Zone 0 - Stop #11: Vikram Gupta (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_880202a49187f42d98791584cfa85a54 = L.circleMarker(
+                [18.914081, 72.837459],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_5b4bd10750874336248286fd65241d3d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_60e58661c2f481a4bee7216041ebb6fc = $(`<div id="html_60e58661c2f481a4bee7216041ebb6fc" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0037<br>             <b>Zone:</b> Cluster 0<br>             <b>Customer:</b> Kavya Gupta<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 6.35 kg<br>             <b>Stop #:</b> 12             </div>`)[0];
+                popup_5b4bd10750874336248286fd65241d3d.setContent(html_60e58661c2f481a4bee7216041ebb6fc);
+            
+        
+
+        circle_marker_880202a49187f42d98791584cfa85a54.bindPopup(popup_5b4bd10750874336248286fd65241d3d)
+        ;
+
+        
+    
+    
+            circle_marker_880202a49187f42d98791584cfa85a54.bindTooltip(
+                `<div>
+                     Zone 0 - Stop #12: Kavya Gupta (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2d29f10ea7d9f4d1d455a63589bbaf26 = L.circleMarker(
+                [18.913904, 72.833645],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_332838066b552fe35c92267ab3434838 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a11b02428a27c127e1e5f6eaf388791d = $(`<div id="html_a11b02428a27c127e1e5f6eaf388791d" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0036<br>             <b>Zone:</b> Cluster 0<br>             <b>Customer:</b> Varun Merchant<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 9.08 kg<br>             <b>Stop #:</b> 13             </div>`)[0];
+                popup_332838066b552fe35c92267ab3434838.setContent(html_a11b02428a27c127e1e5f6eaf388791d);
+            
+        
+
+        circle_marker_2d29f10ea7d9f4d1d455a63589bbaf26.bindPopup(popup_332838066b552fe35c92267ab3434838)
+        ;
+
+        
+    
+    
+            circle_marker_2d29f10ea7d9f4d1d455a63589bbaf26.bindTooltip(
+                `<div>
+                     Zone 0 - Stop #13: Varun Merchant (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4845b57c05e8b4ec93e656d279a74d92 = L.circleMarker(
+                [18.90627, 72.833476],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_efecb0b3876712c3fe1e8da8e1566a8c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_883d14272c19fa6ce533b5a1218c50c5 = $(`<div id="html_883d14272c19fa6ce533b5a1218c50c5" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0016<br>             <b>Zone:</b> Cluster 0<br>             <b>Customer:</b> Rahul Shetty<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 5.42 kg<br>             <b>Stop #:</b> 14             </div>`)[0];
+                popup_efecb0b3876712c3fe1e8da8e1566a8c.setContent(html_883d14272c19fa6ce533b5a1218c50c5);
+            
+        
+
+        circle_marker_4845b57c05e8b4ec93e656d279a74d92.bindPopup(popup_efecb0b3876712c3fe1e8da8e1566a8c)
+        ;
+
+        
+    
+    
+            circle_marker_4845b57c05e8b4ec93e656d279a74d92.bindTooltip(
+                `<div>
+                     Zone 0 - Stop #14: Rahul Shetty (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5d39fbc1298373ce6206629cd94b2b20 = L.circleMarker(
+                [18.912717, 72.828598],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_d2f6ca78e69cadf94b3600c99f2c8ae4 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_28a8d643beee8d31e884158b53884b0c = $(`<div id="html_28a8d643beee8d31e884158b53884b0c" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0019<br>             <b>Zone:</b> Cluster 0<br>             <b>Customer:</b> Sneha Gupta<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 2.65 kg<br>             <b>Stop #:</b> 15             </div>`)[0];
+                popup_d2f6ca78e69cadf94b3600c99f2c8ae4.setContent(html_28a8d643beee8d31e884158b53884b0c);
+            
+        
+
+        circle_marker_5d39fbc1298373ce6206629cd94b2b20.bindPopup(popup_d2f6ca78e69cadf94b3600c99f2c8ae4)
+        ;
+
+        
+    
+    
+            circle_marker_5d39fbc1298373ce6206629cd94b2b20.bindTooltip(
+                `<div>
+                     Zone 0 - Stop #15: Sneha Gupta (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6167af9f19229b76668693cb9257414e = L.circleMarker(
+                [18.9204, 72.826646],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_6dadfbe2ac0025e34d351626ee9dcab1 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_5ae2fe8cf0811333391342c399155856 = $(`<div id="html_5ae2fe8cf0811333391342c399155856" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0069<br>             <b>Zone:</b> Cluster 0<br>             <b>Customer:</b> Divya Patel<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 1.44 kg<br>             <b>Stop #:</b> 16             </div>`)[0];
+                popup_6dadfbe2ac0025e34d351626ee9dcab1.setContent(html_5ae2fe8cf0811333391342c399155856);
+            
+        
+
+        circle_marker_6167af9f19229b76668693cb9257414e.bindPopup(popup_6dadfbe2ac0025e34d351626ee9dcab1)
+        ;
+
+        
+    
+    
+            circle_marker_6167af9f19229b76668693cb9257414e.bindTooltip(
+                `<div>
+                     Zone 0 - Stop #16: Divya Patel (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5786689a3db7566cdcfaef71eb6a9fbe = L.circleMarker(
+                [18.921123, 72.830243],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_6a5672fddcbbd6cf528d796bdc4435d4 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_523bc660c0ea306ea5fc552b64541736 = $(`<div id="html_523bc660c0ea306ea5fc552b64541736" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0039<br>             <b>Zone:</b> Cluster 0<br>             <b>Customer:</b> Kavya Gokhale<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 7.08 kg<br>             <b>Stop #:</b> 17             </div>`)[0];
+                popup_6a5672fddcbbd6cf528d796bdc4435d4.setContent(html_523bc660c0ea306ea5fc552b64541736);
+            
+        
+
+        circle_marker_5786689a3db7566cdcfaef71eb6a9fbe.bindPopup(popup_6a5672fddcbbd6cf528d796bdc4435d4)
+        ;
+
+        
+    
+    
+            circle_marker_5786689a3db7566cdcfaef71eb6a9fbe.bindTooltip(
+                `<div>
+                     Zone 0 - Stop #17: Kavya Gokhale (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_744fbc65d4cb9c6eee1569c4dffc4670 = L.circleMarker(
+                [18.921074, 72.83788],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_8a407cb5191bbddc33d133d431cad8c8 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_3198168d5505a42a0dcf264b66c514ed = $(`<div id="html_3198168d5505a42a0dcf264b66c514ed" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0101<br>             <b>Zone:</b> Cluster 0<br>             <b>Customer:</b> Siddharth Kadam<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 5.95 kg<br>             <b>Stop #:</b> 18             </div>`)[0];
+                popup_8a407cb5191bbddc33d133d431cad8c8.setContent(html_3198168d5505a42a0dcf264b66c514ed);
+            
+        
+
+        circle_marker_744fbc65d4cb9c6eee1569c4dffc4670.bindPopup(popup_8a407cb5191bbddc33d133d431cad8c8)
+        ;
+
+        
+    
+    
+            circle_marker_744fbc65d4cb9c6eee1569c4dffc4670.bindTooltip(
+                `<div>
+                     Zone 0 - Stop #18: Siddharth Kadam (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_804f61dfc12df63076bb593a44bb35bc = L.circleMarker(
+                [18.923017, 72.842156],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_013dbf978a3e60a0adb9e5364ecd93f2 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_3cf2556133478a5a2beecac544de2819 = $(`<div id="html_3cf2556133478a5a2beecac544de2819" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0104<br>             <b>Zone:</b> Cluster 0<br>             <b>Customer:</b> Anjali Tiwari<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 2.26 kg<br>             <b>Stop #:</b> 19             </div>`)[0];
+                popup_013dbf978a3e60a0adb9e5364ecd93f2.setContent(html_3cf2556133478a5a2beecac544de2819);
+            
+        
+
+        circle_marker_804f61dfc12df63076bb593a44bb35bc.bindPopup(popup_013dbf978a3e60a0adb9e5364ecd93f2)
+        ;
+
+        
+    
+    
+            circle_marker_804f61dfc12df63076bb593a44bb35bc.bindTooltip(
+                `<div>
+                     Zone 0 - Stop #19: Anjali Tiwari (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_71f5e179df4b8cfc5ef2936619249799 = L.circleMarker(
+                [18.922751, 72.846664],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_f5d06afc224b921684cf9d77c2eff833 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4b0ee88f4e955504df7d5b41c3a83118 = $(`<div id="html_4b0ee88f4e955504df7d5b41c3a83118" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0054<br>             <b>Zone:</b> Cluster 0<br>             <b>Customer:</b> Kavya Tiwari<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 5.94 kg<br>             <b>Stop #:</b> 20             </div>`)[0];
+                popup_f5d06afc224b921684cf9d77c2eff833.setContent(html_4b0ee88f4e955504df7d5b41c3a83118);
+            
+        
+
+        circle_marker_71f5e179df4b8cfc5ef2936619249799.bindPopup(popup_f5d06afc224b921684cf9d77c2eff833)
+        ;
+
+        
+    
+    
+            circle_marker_71f5e179df4b8cfc5ef2936619249799.bindTooltip(
+                `<div>
+                     Zone 0 - Stop #20: Kavya Tiwari (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d49c1059d613ea9542c4b27e34f77270 = L.circleMarker(
+                [18.928884, 72.843063],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_9c093709a977835b77863a4550f86ec0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_eb440aed7f03de374e0e3e196d55788e = $(`<div id="html_eb440aed7f03de374e0e3e196d55788e" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0107<br>             <b>Zone:</b> Cluster 0<br>             <b>Customer:</b> Rhea Bhat<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 6.59 kg<br>             <b>Stop #:</b> 21             </div>`)[0];
+                popup_9c093709a977835b77863a4550f86ec0.setContent(html_eb440aed7f03de374e0e3e196d55788e);
+            
+        
+
+        circle_marker_d49c1059d613ea9542c4b27e34f77270.bindPopup(popup_9c093709a977835b77863a4550f86ec0)
+        ;
+
+        
+    
+    
+            circle_marker_d49c1059d613ea9542c4b27e34f77270.bindTooltip(
+                `<div>
+                     Zone 0 - Stop #21: Rhea Bhat (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cb608b23bb41ee831720d194805eef97 = L.circleMarker(
+                [18.928903, 72.842132],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_1537af3084299ac9cc88e309f45f72bc = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_64c1db9a09de8dcc86fed4c54b436031 = $(`<div id="html_64c1db9a09de8dcc86fed4c54b436031" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0093<br>             <b>Zone:</b> Cluster 0<br>             <b>Customer:</b> Pooja Patil<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 5.23 kg<br>             <b>Stop #:</b> 22             </div>`)[0];
+                popup_1537af3084299ac9cc88e309f45f72bc.setContent(html_64c1db9a09de8dcc86fed4c54b436031);
+            
+        
+
+        circle_marker_cb608b23bb41ee831720d194805eef97.bindPopup(popup_1537af3084299ac9cc88e309f45f72bc)
+        ;
+
+        
+    
+    
+            circle_marker_cb608b23bb41ee831720d194805eef97.bindTooltip(
+                `<div>
+                     Zone 0 - Stop #22: Pooja Patil (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7ecb8419e1c3776a009741d3b751c142 = L.circleMarker(
+                [18.927971, 72.841449],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_102d9a035f1c69d9ea385ff82b913c10 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c6fa93482939f1ba60a9c3293a430589 = $(`<div id="html_c6fa93482939f1ba60a9c3293a430589" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0094<br>             <b>Zone:</b> Cluster 0<br>             <b>Customer:</b> Sameer Gokhale<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 9.95 kg<br>             <b>Stop #:</b> 23             </div>`)[0];
+                popup_102d9a035f1c69d9ea385ff82b913c10.setContent(html_c6fa93482939f1ba60a9c3293a430589);
+            
+        
+
+        circle_marker_7ecb8419e1c3776a009741d3b751c142.bindPopup(popup_102d9a035f1c69d9ea385ff82b913c10)
+        ;
+
+        
+    
+    
+            circle_marker_7ecb8419e1c3776a009741d3b751c142.bindTooltip(
+                `<div>
+                     Zone 0 - Stop #23: Sameer Gokhale (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_61dc1ffc609bbdc02f8414467dbe8092 = L.circleMarker(
+                [18.931403, 72.837968],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_0f7d593a30edb35daf2f5b1294eb6478 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_776e3806c9e65e5ab07e097f29a4ad1d = $(`<div id="html_776e3806c9e65e5ab07e097f29a4ad1d" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0096<br>             <b>Zone:</b> Cluster 0<br>             <b>Customer:</b> Karan Merchant<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 1.2 kg<br>             <b>Stop #:</b> 24             </div>`)[0];
+                popup_0f7d593a30edb35daf2f5b1294eb6478.setContent(html_776e3806c9e65e5ab07e097f29a4ad1d);
+            
+        
+
+        circle_marker_61dc1ffc609bbdc02f8414467dbe8092.bindPopup(popup_0f7d593a30edb35daf2f5b1294eb6478)
+        ;
+
+        
+    
+    
+            circle_marker_61dc1ffc609bbdc02f8414467dbe8092.bindTooltip(
+                `<div>
+                     Zone 0 - Stop #24: Karan Merchant (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_312157c72df3139547dd208dd6185c5b = L.circleMarker(
+                [18.932451, 72.837827],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_d2402163a7999c09b3fa9d44d9bf17d9 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_5a664a86acdf59b371e47fef1f5b6520 = $(`<div id="html_5a664a86acdf59b371e47fef1f5b6520" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0045<br>             <b>Zone:</b> Cluster 0<br>             <b>Customer:</b> Ishita Merchant<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 1.08 kg<br>             <b>Stop #:</b> 25             </div>`)[0];
+                popup_d2402163a7999c09b3fa9d44d9bf17d9.setContent(html_5a664a86acdf59b371e47fef1f5b6520);
+            
+        
+
+        circle_marker_312157c72df3139547dd208dd6185c5b.bindPopup(popup_d2402163a7999c09b3fa9d44d9bf17d9)
+        ;
+
+        
+    
+    
+            circle_marker_312157c72df3139547dd208dd6185c5b.bindTooltip(
+                `<div>
+                     Zone 0 - Stop #25: Ishita Merchant (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1bd5c7e57a850b155fbef968ed6a9d91 = L.circleMarker(
+                [18.929729, 72.835315],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_43f66a1873c7fa073fda1f69a1cfd58f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_efb3467fc325cfdcedb70424205643cc = $(`<div id="html_efb3467fc325cfdcedb70424205643cc" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0057<br>             <b>Zone:</b> Cluster 0<br>             <b>Customer:</b> Rhea Patil<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 8.29 kg<br>             <b>Stop #:</b> 26             </div>`)[0];
+                popup_43f66a1873c7fa073fda1f69a1cfd58f.setContent(html_efb3467fc325cfdcedb70424205643cc);
+            
+        
+
+        circle_marker_1bd5c7e57a850b155fbef968ed6a9d91.bindPopup(popup_43f66a1873c7fa073fda1f69a1cfd58f)
+        ;
+
+        
+    
+    
+            circle_marker_1bd5c7e57a850b155fbef968ed6a9d91.bindTooltip(
+                `<div>
+                     Zone 0 - Stop #26: Rhea Patil (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e0537c67e28ac5e6dfcbcd09fa086515 = L.circleMarker(
+                [18.929312, 72.83536],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_c9c2e5b0fda2b70d7d26ef06fa5495f8 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c2d5ae1eba6167757f09b72acdb39dff = $(`<div id="html_c2d5ae1eba6167757f09b72acdb39dff" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0102<br>             <b>Zone:</b> Cluster 0<br>             <b>Customer:</b> Arjun Pandey<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 7.25 kg<br>             <b>Stop #:</b> 27             </div>`)[0];
+                popup_c9c2e5b0fda2b70d7d26ef06fa5495f8.setContent(html_c2d5ae1eba6167757f09b72acdb39dff);
+            
+        
+
+        circle_marker_e0537c67e28ac5e6dfcbcd09fa086515.bindPopup(popup_c9c2e5b0fda2b70d7d26ef06fa5495f8)
+        ;
+
+        
+    
+    
+            circle_marker_e0537c67e28ac5e6dfcbcd09fa086515.bindTooltip(
+                `<div>
+                     Zone 0 - Stop #27: Arjun Pandey (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_83cae7d8598beca194658c238b260286 = L.circleMarker(
+                [18.926436, 72.836002],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_a28ac55c0825e84559b190073df92f83 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_76cf6f50046c9a5b84c78b1c00b52077 = $(`<div id="html_76cf6f50046c9a5b84c78b1c00b52077" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0074<br>             <b>Zone:</b> Cluster 0<br>             <b>Customer:</b> Karan Shah<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 3.41 kg<br>             <b>Stop #:</b> 28             </div>`)[0];
+                popup_a28ac55c0825e84559b190073df92f83.setContent(html_76cf6f50046c9a5b84c78b1c00b52077);
+            
+        
+
+        circle_marker_83cae7d8598beca194658c238b260286.bindPopup(popup_a28ac55c0825e84559b190073df92f83)
+        ;
+
+        
+    
+    
+            circle_marker_83cae7d8598beca194658c238b260286.bindTooltip(
+                `<div>
+                     Zone 0 - Stop #28: Karan Shah (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fc944efde2cecfc24a82389fba31b3a0 = L.circleMarker(
+                [18.92411, 72.833084],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_1919dab0182d2b9bbd4cef907f26a30e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0fb23a55aafef305a3d62478759af0f2 = $(`<div id="html_0fb23a55aafef305a3d62478759af0f2" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0040<br>             <b>Zone:</b> Cluster 0<br>             <b>Customer:</b> Varun Mehta<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 11.77 kg<br>             <b>Stop #:</b> 29             </div>`)[0];
+                popup_1919dab0182d2b9bbd4cef907f26a30e.setContent(html_0fb23a55aafef305a3d62478759af0f2);
+            
+        
+
+        circle_marker_fc944efde2cecfc24a82389fba31b3a0.bindPopup(popup_1919dab0182d2b9bbd4cef907f26a30e)
+        ;
+
+        
+    
+    
+            circle_marker_fc944efde2cecfc24a82389fba31b3a0.bindTooltip(
+                `<div>
+                     Zone 0 - Stop #29: Varun Mehta (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_883a1ea8dd782acdbe81183361c8a73e = L.circleMarker(
+                [18.929475, 72.830785],
+                {"bubblingMouseEvents": true, "color": "#E63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#E63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_2a487bdb08b819b87029d3550d57f19e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4250f8f79f06d83c2f23b59d4fe81932 = $(`<div id="html_4250f8f79f06d83c2f23b59d4fe81932" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0109<br>             <b>Zone:</b> Cluster 0<br>             <b>Customer:</b> Gaurav Nair<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 11.88 kg<br>             <b>Stop #:</b> 30             </div>`)[0];
+                popup_2a487bdb08b819b87029d3550d57f19e.setContent(html_4250f8f79f06d83c2f23b59d4fe81932);
+            
+        
+
+        circle_marker_883a1ea8dd782acdbe81183361c8a73e.bindPopup(popup_2a487bdb08b819b87029d3550d57f19e)
+        ;
+
+        
+    
+    
+            circle_marker_883a1ea8dd782acdbe81183361c8a73e.bindTooltip(
+                `<div>
+                     Zone 0 - Stop #30: Gaurav Nair (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_5e26f6c7b2916e0a01009971c797d167 = L.polyline(
+                [[19.0657, 72.8687], [18.968479, 72.828147], [18.959505, 72.834934], [18.952909, 72.829075], [18.950433, 72.833755], [18.94937, 72.837142], [18.951579, 72.839368], [18.946752, 72.841368], [18.94614, 72.83789], [18.947364, 72.829055], [18.944254, 72.828152], [18.942424, 72.829587], [18.943723, 72.832771], [18.940854, 72.83345], [18.934596, 72.831292], [18.936069, 72.836994], [18.937024, 72.841631], [18.941244, 72.841573], [18.946656, 72.847046], [18.946322, 72.847819], [18.945913, 72.850368], [18.948704, 72.85312], [18.95089, 72.845154], [18.954268, 72.846321], [19.0657, 72.8687]],
+                {"bubblingMouseEvents": true, "color": "#1D3557", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1D3557", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 3.5}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+            poly_line_5e26f6c7b2916e0a01009971c797d167.bindTooltip(
+                `<div>
+                     Zone 1 Route (36.1 km)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ed091095e5db0ffea5eeca5730e08264 = L.circleMarker(
+                [18.968479, 72.828147],
+                {"bubblingMouseEvents": true, "color": "#1D3557", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D3557", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_0d0f93c3efa706beb9f936aa57c13858 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_5c7d3bfa231f71a034d1fce3c85f5782 = $(`<div id="html_5c7d3bfa231f71a034d1fce3c85f5782" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0110<br>             <b>Zone:</b> Cluster 1<br>             <b>Customer:</b> Rohan Bhat<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 10.28 kg<br>             <b>Stop #:</b> 1             </div>`)[0];
+                popup_0d0f93c3efa706beb9f936aa57c13858.setContent(html_5c7d3bfa231f71a034d1fce3c85f5782);
+            
+        
+
+        circle_marker_ed091095e5db0ffea5eeca5730e08264.bindPopup(popup_0d0f93c3efa706beb9f936aa57c13858)
+        ;
+
+        
+    
+    
+            circle_marker_ed091095e5db0ffea5eeca5730e08264.bindTooltip(
+                `<div>
+                     Zone 1 - Stop #1: Rohan Bhat (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e97a24ab0320ccc4aeb88c2e5ba3f990 = L.circleMarker(
+                [18.959505, 72.834934],
+                {"bubblingMouseEvents": true, "color": "#1D3557", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D3557", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_7b9dc249ef5168e9cc44526fa8237eee = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f2f2458f9d6f29eac3a5a95ca40af5c1 = $(`<div id="html_f2f2458f9d6f29eac3a5a95ca40af5c1" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0119<br>             <b>Zone:</b> Cluster 1<br>             <b>Customer:</b> Anjali Kulkarni<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 6.67 kg<br>             <b>Stop #:</b> 2             </div>`)[0];
+                popup_7b9dc249ef5168e9cc44526fa8237eee.setContent(html_f2f2458f9d6f29eac3a5a95ca40af5c1);
+            
+        
+
+        circle_marker_e97a24ab0320ccc4aeb88c2e5ba3f990.bindPopup(popup_7b9dc249ef5168e9cc44526fa8237eee)
+        ;
+
+        
+    
+    
+            circle_marker_e97a24ab0320ccc4aeb88c2e5ba3f990.bindTooltip(
+                `<div>
+                     Zone 1 - Stop #2: Anjali Kulkarni (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d7cb0f4aebfa4404dc4acf731bb4b0dd = L.circleMarker(
+                [18.952909, 72.829075],
+                {"bubblingMouseEvents": true, "color": "#1D3557", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D3557", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_3f2fc4a7cdde178db30fd6743f0064f2 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_feb1ace61fb637362dbdaf9473dc14f4 = $(`<div id="html_feb1ace61fb637362dbdaf9473dc14f4" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0075<br>             <b>Zone:</b> Cluster 1<br>             <b>Customer:</b> Ishita Shetty<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 5.73 kg<br>             <b>Stop #:</b> 3             </div>`)[0];
+                popup_3f2fc4a7cdde178db30fd6743f0064f2.setContent(html_feb1ace61fb637362dbdaf9473dc14f4);
+            
+        
+
+        circle_marker_d7cb0f4aebfa4404dc4acf731bb4b0dd.bindPopup(popup_3f2fc4a7cdde178db30fd6743f0064f2)
+        ;
+
+        
+    
+    
+            circle_marker_d7cb0f4aebfa4404dc4acf731bb4b0dd.bindTooltip(
+                `<div>
+                     Zone 1 - Stop #3: Ishita Shetty (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b68f1d2feb9c997b8239d69b49c52901 = L.circleMarker(
+                [18.950433, 72.833755],
+                {"bubblingMouseEvents": true, "color": "#1D3557", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D3557", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_8d7634c498cea2a6b0456152e66672e4 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_6253d724f4c8068d4c75761a032a5b5e = $(`<div id="html_6253d724f4c8068d4c75761a032a5b5e" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0089<br>             <b>Zone:</b> Cluster 1<br>             <b>Customer:</b> Rhea Kulkarni<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 5.69 kg<br>             <b>Stop #:</b> 4             </div>`)[0];
+                popup_8d7634c498cea2a6b0456152e66672e4.setContent(html_6253d724f4c8068d4c75761a032a5b5e);
+            
+        
+
+        circle_marker_b68f1d2feb9c997b8239d69b49c52901.bindPopup(popup_8d7634c498cea2a6b0456152e66672e4)
+        ;
+
+        
+    
+    
+            circle_marker_b68f1d2feb9c997b8239d69b49c52901.bindTooltip(
+                `<div>
+                     Zone 1 - Stop #4: Rhea Kulkarni (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_59c107e2c0cc879ac2deb683aa15ec0e = L.circleMarker(
+                [18.94937, 72.837142],
+                {"bubblingMouseEvents": true, "color": "#1D3557", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D3557", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_7735b754ef1faa9752fbeb303ea6fa60 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c66c94427a89184259e4bd29f35d3766 = $(`<div id="html_c66c94427a89184259e4bd29f35d3766" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0105<br>             <b>Zone:</b> Cluster 1<br>             <b>Customer:</b> Arjun Kulkarni<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 11.71 kg<br>             <b>Stop #:</b> 5             </div>`)[0];
+                popup_7735b754ef1faa9752fbeb303ea6fa60.setContent(html_c66c94427a89184259e4bd29f35d3766);
+            
+        
+
+        circle_marker_59c107e2c0cc879ac2deb683aa15ec0e.bindPopup(popup_7735b754ef1faa9752fbeb303ea6fa60)
+        ;
+
+        
+    
+    
+            circle_marker_59c107e2c0cc879ac2deb683aa15ec0e.bindTooltip(
+                `<div>
+                     Zone 1 - Stop #5: Arjun Kulkarni (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d083abbbdf2c5c4fb4c5be1cd603e125 = L.circleMarker(
+                [18.951579, 72.839368],
+                {"bubblingMouseEvents": true, "color": "#1D3557", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D3557", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_bb67f28207bdd8a9236948732a4c6ee7 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8ccbcbaf8018e601ad2e3283e73b111c = $(`<div id="html_8ccbcbaf8018e601ad2e3283e73b111c" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0090<br>             <b>Zone:</b> Cluster 1<br>             <b>Customer:</b> Vikram Deshmukh<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 5.78 kg<br>             <b>Stop #:</b> 6             </div>`)[0];
+                popup_bb67f28207bdd8a9236948732a4c6ee7.setContent(html_8ccbcbaf8018e601ad2e3283e73b111c);
+            
+        
+
+        circle_marker_d083abbbdf2c5c4fb4c5be1cd603e125.bindPopup(popup_bb67f28207bdd8a9236948732a4c6ee7)
+        ;
+
+        
+    
+    
+            circle_marker_d083abbbdf2c5c4fb4c5be1cd603e125.bindTooltip(
+                `<div>
+                     Zone 1 - Stop #6: Vikram Deshmukh (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_574eb202b3a6fe8dddd767b7d1323db0 = L.circleMarker(
+                [18.946752, 72.841368],
+                {"bubblingMouseEvents": true, "color": "#1D3557", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D3557", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_d31c80d463d41f7a82b9cccb0b6b37b5 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_68f3514870bdc23d7e19ab7bc5edd6fa = $(`<div id="html_68f3514870bdc23d7e19ab7bc5edd6fa" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0112<br>             <b>Zone:</b> Cluster 1<br>             <b>Customer:</b> Vikram Pawar<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 9.69 kg<br>             <b>Stop #:</b> 7             </div>`)[0];
+                popup_d31c80d463d41f7a82b9cccb0b6b37b5.setContent(html_68f3514870bdc23d7e19ab7bc5edd6fa);
+            
+        
+
+        circle_marker_574eb202b3a6fe8dddd767b7d1323db0.bindPopup(popup_d31c80d463d41f7a82b9cccb0b6b37b5)
+        ;
+
+        
+    
+    
+            circle_marker_574eb202b3a6fe8dddd767b7d1323db0.bindTooltip(
+                `<div>
+                     Zone 1 - Stop #7: Vikram Pawar (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b576a2c636b2786a7efce3ead5dbbf1e = L.circleMarker(
+                [18.94614, 72.83789],
+                {"bubblingMouseEvents": true, "color": "#1D3557", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D3557", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_b103fb584133c4b52d58b2f03f71b812 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0ff4da2c9b65e0ef91aba329b157f478 = $(`<div id="html_0ff4da2c9b65e0ef91aba329b157f478" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0106<br>             <b>Zone:</b> Cluster 1<br>             <b>Customer:</b> Arjun Sawant<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 7.07 kg<br>             <b>Stop #:</b> 8             </div>`)[0];
+                popup_b103fb584133c4b52d58b2f03f71b812.setContent(html_0ff4da2c9b65e0ef91aba329b157f478);
+            
+        
+
+        circle_marker_b576a2c636b2786a7efce3ead5dbbf1e.bindPopup(popup_b103fb584133c4b52d58b2f03f71b812)
+        ;
+
+        
+    
+    
+            circle_marker_b576a2c636b2786a7efce3ead5dbbf1e.bindTooltip(
+                `<div>
+                     Zone 1 - Stop #8: Arjun Sawant (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_81ae879902229b404c2b859a0662a35b = L.circleMarker(
+                [18.947364, 72.829055],
+                {"bubblingMouseEvents": true, "color": "#1D3557", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D3557", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_85b867b037c7b699ecc79e0079c29a7a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_5e5c9ea1dfa8961145a0a390ac1ee069 = $(`<div id="html_5e5c9ea1dfa8961145a0a390ac1ee069" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0068<br>             <b>Zone:</b> Cluster 1<br>             <b>Customer:</b> Arjun Gupta<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 8.41 kg<br>             <b>Stop #:</b> 9             </div>`)[0];
+                popup_85b867b037c7b699ecc79e0079c29a7a.setContent(html_5e5c9ea1dfa8961145a0a390ac1ee069);
+            
+        
+
+        circle_marker_81ae879902229b404c2b859a0662a35b.bindPopup(popup_85b867b037c7b699ecc79e0079c29a7a)
+        ;
+
+        
+    
+    
+            circle_marker_81ae879902229b404c2b859a0662a35b.bindTooltip(
+                `<div>
+                     Zone 1 - Stop #9: Arjun Gupta (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7657ad470c9da0a7587c7546e930bf3e = L.circleMarker(
+                [18.944254, 72.828152],
+                {"bubblingMouseEvents": true, "color": "#1D3557", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D3557", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_f2340f2195820ee05cc54fecb09fc201 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ea0cdf889460b9b789cd3bc172db8780 = $(`<div id="html_ea0cdf889460b9b789cd3bc172db8780" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0111<br>             <b>Zone:</b> Cluster 1<br>             <b>Customer:</b> Rahul Patel<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 2.58 kg<br>             <b>Stop #:</b> 10             </div>`)[0];
+                popup_f2340f2195820ee05cc54fecb09fc201.setContent(html_ea0cdf889460b9b789cd3bc172db8780);
+            
+        
+
+        circle_marker_7657ad470c9da0a7587c7546e930bf3e.bindPopup(popup_f2340f2195820ee05cc54fecb09fc201)
+        ;
+
+        
+    
+    
+            circle_marker_7657ad470c9da0a7587c7546e930bf3e.bindTooltip(
+                `<div>
+                     Zone 1 - Stop #10: Rahul Patel (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_69fd55dac9cae451c59f47d43629e065 = L.circleMarker(
+                [18.942424, 72.829587],
+                {"bubblingMouseEvents": true, "color": "#1D3557", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D3557", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_dc95fdf407943053b8846ba0cc63ed86 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_71ac20d2a6ced71be90b6ec094cf139b = $(`<div id="html_71ac20d2a6ced71be90b6ec094cf139b" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0083<br>             <b>Zone:</b> Cluster 1<br>             <b>Customer:</b> Vikram Shah<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 11.96 kg<br>             <b>Stop #:</b> 11             </div>`)[0];
+                popup_dc95fdf407943053b8846ba0cc63ed86.setContent(html_71ac20d2a6ced71be90b6ec094cf139b);
+            
+        
+
+        circle_marker_69fd55dac9cae451c59f47d43629e065.bindPopup(popup_dc95fdf407943053b8846ba0cc63ed86)
+        ;
+
+        
+    
+    
+            circle_marker_69fd55dac9cae451c59f47d43629e065.bindTooltip(
+                `<div>
+                     Zone 1 - Stop #11: Vikram Shah (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4316a39fd8f7d7e47194138f7befec84 = L.circleMarker(
+                [18.943723, 72.832771],
+                {"bubblingMouseEvents": true, "color": "#1D3557", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D3557", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_ed8508e46d74067706a601e87cfdc0b5 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_681f1b34f52b86bfad73c6baca7e4ca6 = $(`<div id="html_681f1b34f52b86bfad73c6baca7e4ca6" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0115<br>             <b>Zone:</b> Cluster 1<br>             <b>Customer:</b> Gaurav Patel<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 6.75 kg<br>             <b>Stop #:</b> 12             </div>`)[0];
+                popup_ed8508e46d74067706a601e87cfdc0b5.setContent(html_681f1b34f52b86bfad73c6baca7e4ca6);
+            
+        
+
+        circle_marker_4316a39fd8f7d7e47194138f7befec84.bindPopup(popup_ed8508e46d74067706a601e87cfdc0b5)
+        ;
+
+        
+    
+    
+            circle_marker_4316a39fd8f7d7e47194138f7befec84.bindTooltip(
+                `<div>
+                     Zone 1 - Stop #12: Gaurav Patel (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4b2c938f1df4a716b2cbd84084f4d098 = L.circleMarker(
+                [18.940854, 72.83345],
+                {"bubblingMouseEvents": true, "color": "#1D3557", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D3557", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_c503b797bf0b994e5a6bc565fa440782 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ed53f6b41f9bf116719ea05e351b0195 = $(`<div id="html_ed53f6b41f9bf116719ea05e351b0195" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0073<br>             <b>Zone:</b> Cluster 1<br>             <b>Customer:</b> Siddharth Bhat<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 1.45 kg<br>             <b>Stop #:</b> 13             </div>`)[0];
+                popup_c503b797bf0b994e5a6bc565fa440782.setContent(html_ed53f6b41f9bf116719ea05e351b0195);
+            
+        
+
+        circle_marker_4b2c938f1df4a716b2cbd84084f4d098.bindPopup(popup_c503b797bf0b994e5a6bc565fa440782)
+        ;
+
+        
+    
+    
+            circle_marker_4b2c938f1df4a716b2cbd84084f4d098.bindTooltip(
+                `<div>
+                     Zone 1 - Stop #13: Siddharth Bhat (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e53f0b35f0c301c350fe36f537422cc0 = L.circleMarker(
+                [18.934596, 72.831292],
+                {"bubblingMouseEvents": true, "color": "#1D3557", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D3557", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_8cebf20f693604133bc3642982997b51 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c0cabdf3ab7c9d3165051dfad059dc19 = $(`<div id="html_c0cabdf3ab7c9d3165051dfad059dc19" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0088<br>             <b>Zone:</b> Cluster 1<br>             <b>Customer:</b> Ananya Kulkarni<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 7.49 kg<br>             <b>Stop #:</b> 14             </div>`)[0];
+                popup_8cebf20f693604133bc3642982997b51.setContent(html_c0cabdf3ab7c9d3165051dfad059dc19);
+            
+        
+
+        circle_marker_e53f0b35f0c301c350fe36f537422cc0.bindPopup(popup_8cebf20f693604133bc3642982997b51)
+        ;
+
+        
+    
+    
+            circle_marker_e53f0b35f0c301c350fe36f537422cc0.bindTooltip(
+                `<div>
+                     Zone 1 - Stop #14: Ananya Kulkarni (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_49bf0c96b364745f7b80255f2bd34623 = L.circleMarker(
+                [18.936069, 72.836994],
+                {"bubblingMouseEvents": true, "color": "#1D3557", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D3557", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_436be0def899cfec8b551601dfc464b1 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_6bf14a786871b15e36394e7269a2ec6c = $(`<div id="html_6bf14a786871b15e36394e7269a2ec6c" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0043<br>             <b>Zone:</b> Cluster 1<br>             <b>Customer:</b> Karan Pandey<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 4.63 kg<br>             <b>Stop #:</b> 15             </div>`)[0];
+                popup_436be0def899cfec8b551601dfc464b1.setContent(html_6bf14a786871b15e36394e7269a2ec6c);
+            
+        
+
+        circle_marker_49bf0c96b364745f7b80255f2bd34623.bindPopup(popup_436be0def899cfec8b551601dfc464b1)
+        ;
+
+        
+    
+    
+            circle_marker_49bf0c96b364745f7b80255f2bd34623.bindTooltip(
+                `<div>
+                     Zone 1 - Stop #15: Karan Pandey (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a2415fabcc8a95f0b78f20140c29bdd7 = L.circleMarker(
+                [18.937024, 72.841631],
+                {"bubblingMouseEvents": true, "color": "#1D3557", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D3557", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_70c759f69601680abc20c6c3ef52adfb = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_3740fd08322b24a361d82b2ecab73526 = $(`<div id="html_3740fd08322b24a361d82b2ecab73526" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0061<br>             <b>Zone:</b> Cluster 1<br>             <b>Customer:</b> Simran Deshmukh<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 5.31 kg<br>             <b>Stop #:</b> 16             </div>`)[0];
+                popup_70c759f69601680abc20c6c3ef52adfb.setContent(html_3740fd08322b24a361d82b2ecab73526);
+            
+        
+
+        circle_marker_a2415fabcc8a95f0b78f20140c29bdd7.bindPopup(popup_70c759f69601680abc20c6c3ef52adfb)
+        ;
+
+        
+    
+    
+            circle_marker_a2415fabcc8a95f0b78f20140c29bdd7.bindTooltip(
+                `<div>
+                     Zone 1 - Stop #16: Simran Deshmukh (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c3f093d57c35567050e3649b831a5374 = L.circleMarker(
+                [18.941244, 72.841573],
+                {"bubblingMouseEvents": true, "color": "#1D3557", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D3557", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_4430d1909cdcc08b48f2527892b74cbd = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_102da4920f48bea7afbb023334e31003 = $(`<div id="html_102da4920f48bea7afbb023334e31003" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0085<br>             <b>Zone:</b> Cluster 1<br>             <b>Customer:</b> Aarav Bhat<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 9.21 kg<br>             <b>Stop #:</b> 17             </div>`)[0];
+                popup_4430d1909cdcc08b48f2527892b74cbd.setContent(html_102da4920f48bea7afbb023334e31003);
+            
+        
+
+        circle_marker_c3f093d57c35567050e3649b831a5374.bindPopup(popup_4430d1909cdcc08b48f2527892b74cbd)
+        ;
+
+        
+    
+    
+            circle_marker_c3f093d57c35567050e3649b831a5374.bindTooltip(
+                `<div>
+                     Zone 1 - Stop #17: Aarav Bhat (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cc87121747e64262f4b5aefd0b99c51d = L.circleMarker(
+                [18.946656, 72.847046],
+                {"bubblingMouseEvents": true, "color": "#1D3557", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D3557", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_641cb0615ca2af1b9c9f8f538598bfcb = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_53d91799c40afa8d4cbb4521f041224b = $(`<div id="html_53d91799c40afa8d4cbb4521f041224b" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0079<br>             <b>Zone:</b> Cluster 1<br>             <b>Customer:</b> Siddharth Pawar<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 1.38 kg<br>             <b>Stop #:</b> 18             </div>`)[0];
+                popup_641cb0615ca2af1b9c9f8f538598bfcb.setContent(html_53d91799c40afa8d4cbb4521f041224b);
+            
+        
+
+        circle_marker_cc87121747e64262f4b5aefd0b99c51d.bindPopup(popup_641cb0615ca2af1b9c9f8f538598bfcb)
+        ;
+
+        
+    
+    
+            circle_marker_cc87121747e64262f4b5aefd0b99c51d.bindTooltip(
+                `<div>
+                     Zone 1 - Stop #18: Siddharth Pawar (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_41413bddd65e40383341c4fb95094fc1 = L.circleMarker(
+                [18.946322, 72.847819],
+                {"bubblingMouseEvents": true, "color": "#1D3557", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D3557", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_d00ad9a96117ae840e879eecd1414c09 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_48953b51a83f8264cd629a30078fb894 = $(`<div id="html_48953b51a83f8264cd629a30078fb894" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0113<br>             <b>Zone:</b> Cluster 1<br>             <b>Customer:</b> Pooja Chavan<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 7.27 kg<br>             <b>Stop #:</b> 19             </div>`)[0];
+                popup_d00ad9a96117ae840e879eecd1414c09.setContent(html_48953b51a83f8264cd629a30078fb894);
+            
+        
+
+        circle_marker_41413bddd65e40383341c4fb95094fc1.bindPopup(popup_d00ad9a96117ae840e879eecd1414c09)
+        ;
+
+        
+    
+    
+            circle_marker_41413bddd65e40383341c4fb95094fc1.bindTooltip(
+                `<div>
+                     Zone 1 - Stop #19: Pooja Chavan (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_299480a3f79300d4751e7f39bef412de = L.circleMarker(
+                [18.945913, 72.850368],
+                {"bubblingMouseEvents": true, "color": "#1D3557", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D3557", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_2983d86e2db09d997caeae7372f3c15d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4bd4aad216ccbf49f060dafea36b0bae = $(`<div id="html_4bd4aad216ccbf49f060dafea36b0bae" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0117<br>             <b>Zone:</b> Cluster 1<br>             <b>Customer:</b> Rhea Verma<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 7.09 kg<br>             <b>Stop #:</b> 20             </div>`)[0];
+                popup_2983d86e2db09d997caeae7372f3c15d.setContent(html_4bd4aad216ccbf49f060dafea36b0bae);
+            
+        
+
+        circle_marker_299480a3f79300d4751e7f39bef412de.bindPopup(popup_2983d86e2db09d997caeae7372f3c15d)
+        ;
+
+        
+    
+    
+            circle_marker_299480a3f79300d4751e7f39bef412de.bindTooltip(
+                `<div>
+                     Zone 1 - Stop #20: Rhea Verma (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ef2bea3c69ca192adf80197b55529467 = L.circleMarker(
+                [18.948704, 72.85312],
+                {"bubblingMouseEvents": true, "color": "#1D3557", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D3557", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_a0d892cb359f6ff85ebafc7de76f7f70 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_31b82e5769e8524ea4f4d2200b1c892b = $(`<div id="html_31b82e5769e8524ea4f4d2200b1c892b" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0080<br>             <b>Zone:</b> Cluster 1<br>             <b>Customer:</b> Ananya Nair<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 11.23 kg<br>             <b>Stop #:</b> 21             </div>`)[0];
+                popup_a0d892cb359f6ff85ebafc7de76f7f70.setContent(html_31b82e5769e8524ea4f4d2200b1c892b);
+            
+        
+
+        circle_marker_ef2bea3c69ca192adf80197b55529467.bindPopup(popup_a0d892cb359f6ff85ebafc7de76f7f70)
+        ;
+
+        
+    
+    
+            circle_marker_ef2bea3c69ca192adf80197b55529467.bindTooltip(
+                `<div>
+                     Zone 1 - Stop #21: Ananya Nair (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8c79d9e4777ee2d65cfe35d4405c249c = L.circleMarker(
+                [18.95089, 72.845154],
+                {"bubblingMouseEvents": true, "color": "#1D3557", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D3557", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_3ba610bf415c60e96271fc15e2f13c89 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f72d9dfdc7fa3d9367fd5eacb7017fd6 = $(`<div id="html_f72d9dfdc7fa3d9367fd5eacb7017fd6" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0084<br>             <b>Zone:</b> Cluster 1<br>             <b>Customer:</b> Sameer Bhat<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 3.27 kg<br>             <b>Stop #:</b> 22             </div>`)[0];
+                popup_3ba610bf415c60e96271fc15e2f13c89.setContent(html_f72d9dfdc7fa3d9367fd5eacb7017fd6);
+            
+        
+
+        circle_marker_8c79d9e4777ee2d65cfe35d4405c249c.bindPopup(popup_3ba610bf415c60e96271fc15e2f13c89)
+        ;
+
+        
+    
+    
+            circle_marker_8c79d9e4777ee2d65cfe35d4405c249c.bindTooltip(
+                `<div>
+                     Zone 1 - Stop #22: Sameer Bhat (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4f0f4eb75ab05628571056d5c199b5f4 = L.circleMarker(
+                [18.954268, 72.846321],
+                {"bubblingMouseEvents": true, "color": "#1D3557", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1D3557", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_71453cdf51ae13e0a17a50fd613675ce = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c2dc1d02f133211e7006d0041f32b818 = $(`<div id="html_c2dc1d02f133211e7006d0041f32b818" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0049<br>             <b>Zone:</b> Cluster 1<br>             <b>Customer:</b> Gaurav Joshi<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 8.85 kg<br>             <b>Stop #:</b> 23             </div>`)[0];
+                popup_71453cdf51ae13e0a17a50fd613675ce.setContent(html_c2dc1d02f133211e7006d0041f32b818);
+            
+        
+
+        circle_marker_4f0f4eb75ab05628571056d5c199b5f4.bindPopup(popup_71453cdf51ae13e0a17a50fd613675ce)
+        ;
+
+        
+    
+    
+            circle_marker_4f0f4eb75ab05628571056d5c199b5f4.bindTooltip(
+                `<div>
+                     Zone 1 - Stop #23: Gaurav Joshi (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_43edbfdd08e5425c7bab9c8e86a18c6d = L.polyline(
+                [[19.0657, 72.8687], [18.895383, 72.831548], [18.882379, 72.828133], [18.882167, 72.827534], [18.88056, 72.802173], [18.887943, 72.805152], [18.89383, 72.802789], [18.894875, 72.801573], [18.894591, 72.7957], [18.900287, 72.796759], [18.899729, 72.808398], [18.897411, 72.810383], [18.897301, 72.810835], [18.894814, 72.807904], [18.888092, 72.815523], [18.888581, 72.823358], [18.893545, 72.825679], [19.0657, 72.8687]],
+                {"bubblingMouseEvents": true, "color": "#2A9D8F", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2A9D8F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 3.5}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+            poly_line_43edbfdd08e5425c7bab9c8e86a18c6d.bindTooltip(
+                `<div>
+                     Zone 2 Route (50.8 km)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b09312b47cd2e768e7c35d2167351605 = L.circleMarker(
+                [18.895383, 72.831548],
+                {"bubblingMouseEvents": true, "color": "#2A9D8F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2A9D8F", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_6ebcbe435c060b7684d7b6b75b747a9c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f8c12de6cc04e2272fbbe532cab733cf = $(`<div id="html_f8c12de6cc04e2272fbbe532cab733cf" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0023<br>             <b>Zone:</b> Cluster 2<br>             <b>Customer:</b> Manish Kadam<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 3.34 kg<br>             <b>Stop #:</b> 1             </div>`)[0];
+                popup_6ebcbe435c060b7684d7b6b75b747a9c.setContent(html_f8c12de6cc04e2272fbbe532cab733cf);
+            
+        
+
+        circle_marker_b09312b47cd2e768e7c35d2167351605.bindPopup(popup_6ebcbe435c060b7684d7b6b75b747a9c)
+        ;
+
+        
+    
+    
+            circle_marker_b09312b47cd2e768e7c35d2167351605.bindTooltip(
+                `<div>
+                     Zone 2 - Stop #1: Manish Kadam (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c4cb3d6fc4459dfca08b5d465d20a9d8 = L.circleMarker(
+                [18.882379, 72.828133],
+                {"bubblingMouseEvents": true, "color": "#2A9D8F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2A9D8F", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_58d13c3e0eaff5b6fbb6f14630816978 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8e40c69e9cd852494ae8d8a899dcc982 = $(`<div id="html_8e40c69e9cd852494ae8d8a899dcc982" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0006<br>             <b>Zone:</b> Cluster 2<br>             <b>Customer:</b> Varun Patel<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 8.37 kg<br>             <b>Stop #:</b> 2             </div>`)[0];
+                popup_58d13c3e0eaff5b6fbb6f14630816978.setContent(html_8e40c69e9cd852494ae8d8a899dcc982);
+            
+        
+
+        circle_marker_c4cb3d6fc4459dfca08b5d465d20a9d8.bindPopup(popup_58d13c3e0eaff5b6fbb6f14630816978)
+        ;
+
+        
+    
+    
+            circle_marker_c4cb3d6fc4459dfca08b5d465d20a9d8.bindTooltip(
+                `<div>
+                     Zone 2 - Stop #2: Varun Patel (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6485140c8b453a9b3fbd6f9648f56015 = L.circleMarker(
+                [18.882167, 72.827534],
+                {"bubblingMouseEvents": true, "color": "#2A9D8F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2A9D8F", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_6a61403e03805c0a2017a0cf24e08440 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_3f2eba2efe3c26d35479c5265e0c62a5 = $(`<div id="html_3f2eba2efe3c26d35479c5265e0c62a5" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0015<br>             <b>Zone:</b> Cluster 2<br>             <b>Customer:</b> Arjun Pawar<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 10.26 kg<br>             <b>Stop #:</b> 3             </div>`)[0];
+                popup_6a61403e03805c0a2017a0cf24e08440.setContent(html_3f2eba2efe3c26d35479c5265e0c62a5);
+            
+        
+
+        circle_marker_6485140c8b453a9b3fbd6f9648f56015.bindPopup(popup_6a61403e03805c0a2017a0cf24e08440)
+        ;
+
+        
+    
+    
+            circle_marker_6485140c8b453a9b3fbd6f9648f56015.bindTooltip(
+                `<div>
+                     Zone 2 - Stop #3: Arjun Pawar (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d4d0ee36c21e51e66c8133d788fc4535 = L.circleMarker(
+                [18.88056, 72.802173],
+                {"bubblingMouseEvents": true, "color": "#2A9D8F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2A9D8F", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_235b0b8369a0c572184afac342a84b21 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_16ac041eed18160938a58de11048aab2 = $(`<div id="html_16ac041eed18160938a58de11048aab2" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0009<br>             <b>Zone:</b> Cluster 2<br>             <b>Customer:</b> Pooja Pawar<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 8.86 kg<br>             <b>Stop #:</b> 4             </div>`)[0];
+                popup_235b0b8369a0c572184afac342a84b21.setContent(html_16ac041eed18160938a58de11048aab2);
+            
+        
+
+        circle_marker_d4d0ee36c21e51e66c8133d788fc4535.bindPopup(popup_235b0b8369a0c572184afac342a84b21)
+        ;
+
+        
+    
+    
+            circle_marker_d4d0ee36c21e51e66c8133d788fc4535.bindTooltip(
+                `<div>
+                     Zone 2 - Stop #4: Pooja Pawar (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_271d14cbd7c774cecc4a5cab29c7a33c = L.circleMarker(
+                [18.887943, 72.805152],
+                {"bubblingMouseEvents": true, "color": "#2A9D8F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2A9D8F", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_43edff1e064db10ff899ac4b2d6ca3d8 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_855736086410d763003c771f59cabf00 = $(`<div id="html_855736086410d763003c771f59cabf00" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0012<br>             <b>Zone:</b> Cluster 2<br>             <b>Customer:</b> Karan Gokhale<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 8.63 kg<br>             <b>Stop #:</b> 5             </div>`)[0];
+                popup_43edff1e064db10ff899ac4b2d6ca3d8.setContent(html_855736086410d763003c771f59cabf00);
+            
+        
+
+        circle_marker_271d14cbd7c774cecc4a5cab29c7a33c.bindPopup(popup_43edff1e064db10ff899ac4b2d6ca3d8)
+        ;
+
+        
+    
+    
+            circle_marker_271d14cbd7c774cecc4a5cab29c7a33c.bindTooltip(
+                `<div>
+                     Zone 2 - Stop #5: Karan Gokhale (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_95ade4a1d4c5a2e615edb16224fa80dc = L.circleMarker(
+                [18.89383, 72.802789],
+                {"bubblingMouseEvents": true, "color": "#2A9D8F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2A9D8F", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_9fd36cd36ced82c40f2a6e592b59ca72 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e050d538aad97b6abda7e3eda2cebe9d = $(`<div id="html_e050d538aad97b6abda7e3eda2cebe9d" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0024<br>             <b>Zone:</b> Cluster 2<br>             <b>Customer:</b> Manish Bhat<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 11.73 kg<br>             <b>Stop #:</b> 6             </div>`)[0];
+                popup_9fd36cd36ced82c40f2a6e592b59ca72.setContent(html_e050d538aad97b6abda7e3eda2cebe9d);
+            
+        
+
+        circle_marker_95ade4a1d4c5a2e615edb16224fa80dc.bindPopup(popup_9fd36cd36ced82c40f2a6e592b59ca72)
+        ;
+
+        
+    
+    
+            circle_marker_95ade4a1d4c5a2e615edb16224fa80dc.bindTooltip(
+                `<div>
+                     Zone 2 - Stop #6: Manish Bhat (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c6c47c482566a86511fd1fb5b69c864d = L.circleMarker(
+                [18.894875, 72.801573],
+                {"bubblingMouseEvents": true, "color": "#2A9D8F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2A9D8F", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_53792e6417929c3eaee8cdef5ec7463c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_fe6802fdd8a9422c86f547940813d671 = $(`<div id="html_fe6802fdd8a9422c86f547940813d671" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0035<br>             <b>Zone:</b> Cluster 2<br>             <b>Customer:</b> Ananya Pandey<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 5.66 kg<br>             <b>Stop #:</b> 7             </div>`)[0];
+                popup_53792e6417929c3eaee8cdef5ec7463c.setContent(html_fe6802fdd8a9422c86f547940813d671);
+            
+        
+
+        circle_marker_c6c47c482566a86511fd1fb5b69c864d.bindPopup(popup_53792e6417929c3eaee8cdef5ec7463c)
+        ;
+
+        
+    
+    
+            circle_marker_c6c47c482566a86511fd1fb5b69c864d.bindTooltip(
+                `<div>
+                     Zone 2 - Stop #7: Ananya Pandey (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9b4b8d4d7d2e3f772e8133e0ebdb6225 = L.circleMarker(
+                [18.894591, 72.7957],
+                {"bubblingMouseEvents": true, "color": "#2A9D8F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2A9D8F", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_8f8f4e18fe5f9ef192ef24abf705888a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b1b2b189e90268e092545b422a3ff52e = $(`<div id="html_b1b2b189e90268e092545b422a3ff52e" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0010<br>             <b>Zone:</b> Cluster 2<br>             <b>Customer:</b> Divya Shetty<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 10.03 kg<br>             <b>Stop #:</b> 8             </div>`)[0];
+                popup_8f8f4e18fe5f9ef192ef24abf705888a.setContent(html_b1b2b189e90268e092545b422a3ff52e);
+            
+        
+
+        circle_marker_9b4b8d4d7d2e3f772e8133e0ebdb6225.bindPopup(popup_8f8f4e18fe5f9ef192ef24abf705888a)
+        ;
+
+        
+    
+    
+            circle_marker_9b4b8d4d7d2e3f772e8133e0ebdb6225.bindTooltip(
+                `<div>
+                     Zone 2 - Stop #8: Divya Shetty (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9cb1ea4c7051ce1b2ac5ae580f0f517a = L.circleMarker(
+                [18.900287, 72.796759],
+                {"bubblingMouseEvents": true, "color": "#2A9D8F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2A9D8F", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_e87252a013057d4d8da5e8422f1af383 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9cac7dfccc34b7f1640d8506c1392f10 = $(`<div id="html_9cac7dfccc34b7f1640d8506c1392f10" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0018<br>             <b>Zone:</b> Cluster 2<br>             <b>Customer:</b> Karan Deshmukh<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 11.34 kg<br>             <b>Stop #:</b> 9             </div>`)[0];
+                popup_e87252a013057d4d8da5e8422f1af383.setContent(html_9cac7dfccc34b7f1640d8506c1392f10);
+            
+        
+
+        circle_marker_9cb1ea4c7051ce1b2ac5ae580f0f517a.bindPopup(popup_e87252a013057d4d8da5e8422f1af383)
+        ;
+
+        
+    
+    
+            circle_marker_9cb1ea4c7051ce1b2ac5ae580f0f517a.bindTooltip(
+                `<div>
+                     Zone 2 - Stop #9: Karan Deshmukh (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a3ed25919d24e2773b6b87cc0696ca8a = L.circleMarker(
+                [18.899729, 72.808398],
+                {"bubblingMouseEvents": true, "color": "#2A9D8F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2A9D8F", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_24fd8089f941a998f7c5801c56259548 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_84b0a10a2f7f358dc1090be9e0b14884 = $(`<div id="html_84b0a10a2f7f358dc1090be9e0b14884" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0003<br>             <b>Zone:</b> Cluster 2<br>             <b>Customer:</b> Varun Sharma<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 4.0 kg<br>             <b>Stop #:</b> 10             </div>`)[0];
+                popup_24fd8089f941a998f7c5801c56259548.setContent(html_84b0a10a2f7f358dc1090be9e0b14884);
+            
+        
+
+        circle_marker_a3ed25919d24e2773b6b87cc0696ca8a.bindPopup(popup_24fd8089f941a998f7c5801c56259548)
+        ;
+
+        
+    
+    
+            circle_marker_a3ed25919d24e2773b6b87cc0696ca8a.bindTooltip(
+                `<div>
+                     Zone 2 - Stop #10: Varun Sharma (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_aaafa2aeb921d84c6c7d1758d8163fe0 = L.circleMarker(
+                [18.897411, 72.810383],
+                {"bubblingMouseEvents": true, "color": "#2A9D8F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2A9D8F", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_43e5131bbfa08b61dc372fc6eadc5fdd = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8aba70349358dd5b6940dcb28221561d = $(`<div id="html_8aba70349358dd5b6940dcb28221561d" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0020<br>             <b>Zone:</b> Cluster 2<br>             <b>Customer:</b> Aditya Sharma<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 3.63 kg<br>             <b>Stop #:</b> 11             </div>`)[0];
+                popup_43e5131bbfa08b61dc372fc6eadc5fdd.setContent(html_8aba70349358dd5b6940dcb28221561d);
+            
+        
+
+        circle_marker_aaafa2aeb921d84c6c7d1758d8163fe0.bindPopup(popup_43e5131bbfa08b61dc372fc6eadc5fdd)
+        ;
+
+        
+    
+    
+            circle_marker_aaafa2aeb921d84c6c7d1758d8163fe0.bindTooltip(
+                `<div>
+                     Zone 2 - Stop #11: Aditya Sharma (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_38c1299195897d0e829e23ccac44fa9f = L.circleMarker(
+                [18.897301, 72.810835],
+                {"bubblingMouseEvents": true, "color": "#2A9D8F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2A9D8F", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_25290f9ec503219303ce2a66f6906fe4 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d62f73a117d821c28a3fe6780fb21235 = $(`<div id="html_d62f73a117d821c28a3fe6780fb21235" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0030<br>             <b>Zone:</b> Cluster 2<br>             <b>Customer:</b> Gaurav Nair<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 3.47 kg<br>             <b>Stop #:</b> 12             </div>`)[0];
+                popup_25290f9ec503219303ce2a66f6906fe4.setContent(html_d62f73a117d821c28a3fe6780fb21235);
+            
+        
+
+        circle_marker_38c1299195897d0e829e23ccac44fa9f.bindPopup(popup_25290f9ec503219303ce2a66f6906fe4)
+        ;
+
+        
+    
+    
+            circle_marker_38c1299195897d0e829e23ccac44fa9f.bindTooltip(
+                `<div>
+                     Zone 2 - Stop #12: Gaurav Nair (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4e87bdb58b7fe67b4720886a85905e84 = L.circleMarker(
+                [18.894814, 72.807904],
+                {"bubblingMouseEvents": true, "color": "#2A9D8F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2A9D8F", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_e0738f6005df7ff47ac0cf9b1decc4c1 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_11aedee837664f09e15a081be5ba52b8 = $(`<div id="html_11aedee837664f09e15a081be5ba52b8" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0028<br>             <b>Zone:</b> Cluster 2<br>             <b>Customer:</b> Rohan Kadam<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 4.25 kg<br>             <b>Stop #:</b> 13             </div>`)[0];
+                popup_e0738f6005df7ff47ac0cf9b1decc4c1.setContent(html_11aedee837664f09e15a081be5ba52b8);
+            
+        
+
+        circle_marker_4e87bdb58b7fe67b4720886a85905e84.bindPopup(popup_e0738f6005df7ff47ac0cf9b1decc4c1)
+        ;
+
+        
+    
+    
+            circle_marker_4e87bdb58b7fe67b4720886a85905e84.bindTooltip(
+                `<div>
+                     Zone 2 - Stop #13: Rohan Kadam (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8750ad3af5eb8e568db865bfc7799a08 = L.circleMarker(
+                [18.888092, 72.815523],
+                {"bubblingMouseEvents": true, "color": "#2A9D8F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2A9D8F", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_6ef05687959341fb0a23adc35d3dc0d9 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e04b4dd7039885ecde33ca9730a70a46 = $(`<div id="html_e04b4dd7039885ecde33ca9730a70a46" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0029<br>             <b>Zone:</b> Cluster 2<br>             <b>Customer:</b> Aditya Kadam<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 11.32 kg<br>             <b>Stop #:</b> 14             </div>`)[0];
+                popup_6ef05687959341fb0a23adc35d3dc0d9.setContent(html_e04b4dd7039885ecde33ca9730a70a46);
+            
+        
+
+        circle_marker_8750ad3af5eb8e568db865bfc7799a08.bindPopup(popup_6ef05687959341fb0a23adc35d3dc0d9)
+        ;
+
+        
+    
+    
+            circle_marker_8750ad3af5eb8e568db865bfc7799a08.bindTooltip(
+                `<div>
+                     Zone 2 - Stop #14: Aditya Kadam (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_579bb51a41e04977fb3cec4944ea8c87 = L.circleMarker(
+                [18.888581, 72.823358],
+                {"bubblingMouseEvents": true, "color": "#2A9D8F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2A9D8F", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_8c2f03786f908c90ec2a783e36221e2d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_6dc3728b064feeb22897928353957ab4 = $(`<div id="html_6dc3728b064feeb22897928353957ab4" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0011<br>             <b>Zone:</b> Cluster 2<br>             <b>Customer:</b> Arjun Chavan<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 1.36 kg<br>             <b>Stop #:</b> 15             </div>`)[0];
+                popup_8c2f03786f908c90ec2a783e36221e2d.setContent(html_6dc3728b064feeb22897928353957ab4);
+            
+        
+
+        circle_marker_579bb51a41e04977fb3cec4944ea8c87.bindPopup(popup_8c2f03786f908c90ec2a783e36221e2d)
+        ;
+
+        
+    
+    
+            circle_marker_579bb51a41e04977fb3cec4944ea8c87.bindTooltip(
+                `<div>
+                     Zone 2 - Stop #15: Arjun Chavan (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2ec72adc14bbd7e557614c99b07d4aac = L.circleMarker(
+                [18.893545, 72.825679],
+                {"bubblingMouseEvents": true, "color": "#2A9D8F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2A9D8F", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_fa2a4c12ce2787876d72d120783d9e2a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d4393055e98807dc1bee68a19d01918b = $(`<div id="html_d4393055e98807dc1bee68a19d01918b" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0022<br>             <b>Zone:</b> Cluster 2<br>             <b>Customer:</b> Simran Shetty<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 2.44 kg<br>             <b>Stop #:</b> 16             </div>`)[0];
+                popup_fa2a4c12ce2787876d72d120783d9e2a.setContent(html_d4393055e98807dc1bee68a19d01918b);
+            
+        
+
+        circle_marker_2ec72adc14bbd7e557614c99b07d4aac.bindPopup(popup_fa2a4c12ce2787876d72d120783d9e2a)
+        ;
+
+        
+    
+    
+            circle_marker_2ec72adc14bbd7e557614c99b07d4aac.bindTooltip(
+                `<div>
+                     Zone 2 - Stop #16: Simran Shetty (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_92bf365b7090adac7b4d0b3d4b4d7e32 = L.polyline(
+                [[19.0657, 72.8687], [18.925453, 72.813433], [18.917572, 72.813783], [18.915081, 72.816783], [18.912661, 72.813041], [18.912433, 72.811592], [18.913528, 72.80963], [18.916021, 72.808146], [18.918078, 72.808096], [18.916908, 72.801691], [18.915908, 72.800902], [18.909206, 72.791184], [18.90751, 72.797603], [18.909905, 72.800313], [18.905565, 72.803554], [18.904567, 72.809775], [18.906967, 72.809566], [18.908506, 72.813339], [18.910974, 72.814437], [18.910253, 72.817833], [18.906983, 72.818074], [18.906856, 72.819233], [18.903274, 72.827484], [18.901702, 72.829312], [18.909415, 72.824869], [18.909819, 72.824082], [18.915343, 72.823303], [18.916326, 72.821358], [18.920263, 72.819177], [18.920559, 72.82587], [19.0657, 72.8687]],
+                {"bubblingMouseEvents": true, "color": "#F4A261", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#F4A261", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 3.5}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+            poly_line_92bf365b7090adac7b4d0b3d4b4d7e32.bindTooltip(
+                `<div>
+                     Zone 3 Route (46.74 km)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_24b80a21c9d5a26c49e66c618752525f = L.circleMarker(
+                [18.925453, 72.813433],
+                {"bubblingMouseEvents": true, "color": "#F4A261", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A261", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_4d182adc9c03a3b20d826045dc0a9b48 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c53a2eff3459d99b8b78f0bbc6ec0631 = $(`<div id="html_c53a2eff3459d99b8b78f0bbc6ec0631" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0067<br>             <b>Zone:</b> Cluster 3<br>             <b>Customer:</b> Aditya Pawar<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 6.82 kg<br>             <b>Stop #:</b> 1             </div>`)[0];
+                popup_4d182adc9c03a3b20d826045dc0a9b48.setContent(html_c53a2eff3459d99b8b78f0bbc6ec0631);
+            
+        
+
+        circle_marker_24b80a21c9d5a26c49e66c618752525f.bindPopup(popup_4d182adc9c03a3b20d826045dc0a9b48)
+        ;
+
+        
+    
+    
+            circle_marker_24b80a21c9d5a26c49e66c618752525f.bindTooltip(
+                `<div>
+                     Zone 3 - Stop #1: Aditya Pawar (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1bd718ce32043839787ca03883f5d25a = L.circleMarker(
+                [18.917572, 72.813783],
+                {"bubblingMouseEvents": true, "color": "#F4A261", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A261", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_679f05a67c5c06a60c281c1d4e287a52 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_40cce34acba71d7acee53dc057417e06 = $(`<div id="html_40cce34acba71d7acee53dc057417e06" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0059<br>             <b>Zone:</b> Cluster 3<br>             <b>Customer:</b> Tanvi Pawar<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 0.71 kg<br>             <b>Stop #:</b> 2             </div>`)[0];
+                popup_679f05a67c5c06a60c281c1d4e287a52.setContent(html_40cce34acba71d7acee53dc057417e06);
+            
+        
+
+        circle_marker_1bd718ce32043839787ca03883f5d25a.bindPopup(popup_679f05a67c5c06a60c281c1d4e287a52)
+        ;
+
+        
+    
+    
+            circle_marker_1bd718ce32043839787ca03883f5d25a.bindTooltip(
+                `<div>
+                     Zone 3 - Stop #2: Tanvi Pawar (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dd4a5fae5c239ac31e27cd1a2fd1ad36 = L.circleMarker(
+                [18.915081, 72.816783],
+                {"bubblingMouseEvents": true, "color": "#F4A261", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A261", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_f36fd12153ea66059983b2bb9d43f732 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a63f4266b5d8a54c30515c954c446e33 = $(`<div id="html_a63f4266b5d8a54c30515c954c446e33" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0013<br>             <b>Zone:</b> Cluster 3<br>             <b>Customer:</b> Rahul Verma<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 10.28 kg<br>             <b>Stop #:</b> 3             </div>`)[0];
+                popup_f36fd12153ea66059983b2bb9d43f732.setContent(html_a63f4266b5d8a54c30515c954c446e33);
+            
+        
+
+        circle_marker_dd4a5fae5c239ac31e27cd1a2fd1ad36.bindPopup(popup_f36fd12153ea66059983b2bb9d43f732)
+        ;
+
+        
+    
+    
+            circle_marker_dd4a5fae5c239ac31e27cd1a2fd1ad36.bindTooltip(
+                `<div>
+                     Zone 3 - Stop #3: Rahul Verma (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6695d1ffe34beb13c240cfa30e140af9 = L.circleMarker(
+                [18.912661, 72.813041],
+                {"bubblingMouseEvents": true, "color": "#F4A261", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A261", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_54e7ebbdbcf80947f603053dc4e112e0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9712ac4408dec85332e1b9db6e92f713 = $(`<div id="html_9712ac4408dec85332e1b9db6e92f713" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0001<br>             <b>Zone:</b> Cluster 3<br>             <b>Customer:</b> Karan Joshi<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 7.38 kg<br>             <b>Stop #:</b> 4             </div>`)[0];
+                popup_54e7ebbdbcf80947f603053dc4e112e0.setContent(html_9712ac4408dec85332e1b9db6e92f713);
+            
+        
+
+        circle_marker_6695d1ffe34beb13c240cfa30e140af9.bindPopup(popup_54e7ebbdbcf80947f603053dc4e112e0)
+        ;
+
+        
+    
+    
+            circle_marker_6695d1ffe34beb13c240cfa30e140af9.bindTooltip(
+                `<div>
+                     Zone 3 - Stop #4: Karan Joshi (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a3ec2d420054649b4936fc6c2da514a2 = L.circleMarker(
+                [18.912433, 72.811592],
+                {"bubblingMouseEvents": true, "color": "#F4A261", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A261", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_d2dfeb407baf55af4ae024e7a38de834 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e110b98d7d798b828036c518e38ae222 = $(`<div id="html_e110b98d7d798b828036c518e38ae222" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0025<br>             <b>Zone:</b> Cluster 3<br>             <b>Customer:</b> Sameer Patel<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 6.61 kg<br>             <b>Stop #:</b> 5             </div>`)[0];
+                popup_d2dfeb407baf55af4ae024e7a38de834.setContent(html_e110b98d7d798b828036c518e38ae222);
+            
+        
+
+        circle_marker_a3ec2d420054649b4936fc6c2da514a2.bindPopup(popup_d2dfeb407baf55af4ae024e7a38de834)
+        ;
+
+        
+    
+    
+            circle_marker_a3ec2d420054649b4936fc6c2da514a2.bindTooltip(
+                `<div>
+                     Zone 3 - Stop #5: Sameer Patel (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_16aae5500fae48050d6bc68223a15aa8 = L.circleMarker(
+                [18.913528, 72.80963],
+                {"bubblingMouseEvents": true, "color": "#F4A261", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A261", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_ed52c2b1dec9fe385bcd94f0a1b96086 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f6866c685d6e84b2156eb51d31328bb3 = $(`<div id="html_f6866c685d6e84b2156eb51d31328bb3" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0066<br>             <b>Zone:</b> Cluster 3<br>             <b>Customer:</b> Varun Deshmukh<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 11.38 kg<br>             <b>Stop #:</b> 6             </div>`)[0];
+                popup_ed52c2b1dec9fe385bcd94f0a1b96086.setContent(html_f6866c685d6e84b2156eb51d31328bb3);
+            
+        
+
+        circle_marker_16aae5500fae48050d6bc68223a15aa8.bindPopup(popup_ed52c2b1dec9fe385bcd94f0a1b96086)
+        ;
+
+        
+    
+    
+            circle_marker_16aae5500fae48050d6bc68223a15aa8.bindTooltip(
+                `<div>
+                     Zone 3 - Stop #6: Varun Deshmukh (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9272b7f74c81958d499584af68f0e0ac = L.circleMarker(
+                [18.916021, 72.808146],
+                {"bubblingMouseEvents": true, "color": "#F4A261", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A261", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_bfd14bd6ac20299541dfe018aa2db71d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c4fd60185b1792d300f00b082ab81114 = $(`<div id="html_c4fd60185b1792d300f00b082ab81114" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0078<br>             <b>Zone:</b> Cluster 3<br>             <b>Customer:</b> Pooja Pandey<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 0.87 kg<br>             <b>Stop #:</b> 7             </div>`)[0];
+                popup_bfd14bd6ac20299541dfe018aa2db71d.setContent(html_c4fd60185b1792d300f00b082ab81114);
+            
+        
+
+        circle_marker_9272b7f74c81958d499584af68f0e0ac.bindPopup(popup_bfd14bd6ac20299541dfe018aa2db71d)
+        ;
+
+        
+    
+    
+            circle_marker_9272b7f74c81958d499584af68f0e0ac.bindTooltip(
+                `<div>
+                     Zone 3 - Stop #7: Pooja Pandey (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_87763f157b497128c2f6e9bb49802b93 = L.circleMarker(
+                [18.918078, 72.808096],
+                {"bubblingMouseEvents": true, "color": "#F4A261", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A261", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_493a4da07edff9cd978101362ab9e2b3 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_6a5c23c1c7bc27de66c7ac8d6894c325 = $(`<div id="html_6a5c23c1c7bc27de66c7ac8d6894c325" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0064<br>             <b>Zone:</b> Cluster 3<br>             <b>Customer:</b> Manish Kadam<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 10.0 kg<br>             <b>Stop #:</b> 8             </div>`)[0];
+                popup_493a4da07edff9cd978101362ab9e2b3.setContent(html_6a5c23c1c7bc27de66c7ac8d6894c325);
+            
+        
+
+        circle_marker_87763f157b497128c2f6e9bb49802b93.bindPopup(popup_493a4da07edff9cd978101362ab9e2b3)
+        ;
+
+        
+    
+    
+            circle_marker_87763f157b497128c2f6e9bb49802b93.bindTooltip(
+                `<div>
+                     Zone 3 - Stop #8: Manish Kadam (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9be0c9b8b71db0648a58611d923eb9cd = L.circleMarker(
+                [18.916908, 72.801691],
+                {"bubblingMouseEvents": true, "color": "#F4A261", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A261", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_1fa2740dd2bf86bdf2c6b8607192abd7 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_032d7cc497a1d66502e61de3754dbe34 = $(`<div id="html_032d7cc497a1d66502e61de3754dbe34" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0072<br>             <b>Zone:</b> Cluster 3<br>             <b>Customer:</b> Siddharth Chavan<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 5.16 kg<br>             <b>Stop #:</b> 9             </div>`)[0];
+                popup_1fa2740dd2bf86bdf2c6b8607192abd7.setContent(html_032d7cc497a1d66502e61de3754dbe34);
+            
+        
+
+        circle_marker_9be0c9b8b71db0648a58611d923eb9cd.bindPopup(popup_1fa2740dd2bf86bdf2c6b8607192abd7)
+        ;
+
+        
+    
+    
+            circle_marker_9be0c9b8b71db0648a58611d923eb9cd.bindTooltip(
+                `<div>
+                     Zone 3 - Stop #9: Siddharth Chavan (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a2fd0b55aca56d10987a44984c61e5fa = L.circleMarker(
+                [18.915908, 72.800902],
+                {"bubblingMouseEvents": true, "color": "#F4A261", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A261", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_750f99fa3894f131df3f9c0855e49dfe = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a269904ce5bd605a1eba5d8c912792de = $(`<div id="html_a269904ce5bd605a1eba5d8c912792de" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0026<br>             <b>Zone:</b> Cluster 3<br>             <b>Customer:</b> Karan Patil<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 3.23 kg<br>             <b>Stop #:</b> 10             </div>`)[0];
+                popup_750f99fa3894f131df3f9c0855e49dfe.setContent(html_a269904ce5bd605a1eba5d8c912792de);
+            
+        
+
+        circle_marker_a2fd0b55aca56d10987a44984c61e5fa.bindPopup(popup_750f99fa3894f131df3f9c0855e49dfe)
+        ;
+
+        
+    
+    
+            circle_marker_a2fd0b55aca56d10987a44984c61e5fa.bindTooltip(
+                `<div>
+                     Zone 3 - Stop #10: Karan Patil (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c679a9b19f7d33e2789518f523b447e3 = L.circleMarker(
+                [18.909206, 72.791184],
+                {"bubblingMouseEvents": true, "color": "#F4A261", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A261", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_ffb7c61172aaad38ac93239f928b491e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a299f68cfbb852836a19b16c0e67ac7e = $(`<div id="html_a299f68cfbb852836a19b16c0e67ac7e" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0008<br>             <b>Zone:</b> Cluster 3<br>             <b>Customer:</b> Priya Deshmukh<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 2.63 kg<br>             <b>Stop #:</b> 11             </div>`)[0];
+                popup_ffb7c61172aaad38ac93239f928b491e.setContent(html_a299f68cfbb852836a19b16c0e67ac7e);
+            
+        
+
+        circle_marker_c679a9b19f7d33e2789518f523b447e3.bindPopup(popup_ffb7c61172aaad38ac93239f928b491e)
+        ;
+
+        
+    
+    
+            circle_marker_c679a9b19f7d33e2789518f523b447e3.bindTooltip(
+                `<div>
+                     Zone 3 - Stop #11: Priya Deshmukh (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_39c409942e74fb493ed32b3f13838386 = L.circleMarker(
+                [18.90751, 72.797603],
+                {"bubblingMouseEvents": true, "color": "#F4A261", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A261", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_0841e1c634d338a6fec6ab41e40d64f5 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_fd3529fbfd53b0139508915c415de958 = $(`<div id="html_fd3529fbfd53b0139508915c415de958" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0005<br>             <b>Zone:</b> Cluster 3<br>             <b>Customer:</b> Rohan Shah<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 7.49 kg<br>             <b>Stop #:</b> 12             </div>`)[0];
+                popup_0841e1c634d338a6fec6ab41e40d64f5.setContent(html_fd3529fbfd53b0139508915c415de958);
+            
+        
+
+        circle_marker_39c409942e74fb493ed32b3f13838386.bindPopup(popup_0841e1c634d338a6fec6ab41e40d64f5)
+        ;
+
+        
+    
+    
+            circle_marker_39c409942e74fb493ed32b3f13838386.bindTooltip(
+                `<div>
+                     Zone 3 - Stop #12: Rohan Shah (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dac338f3dc591e06d3cd0f69a9793d41 = L.circleMarker(
+                [18.909905, 72.800313],
+                {"bubblingMouseEvents": true, "color": "#F4A261", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A261", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_77591595fcfb48a0a81139e932e56c56 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9eca6ebef0d3da31d8b6cf98498ea8f0 = $(`<div id="html_9eca6ebef0d3da31d8b6cf98498ea8f0" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0050<br>             <b>Zone:</b> Cluster 3<br>             <b>Customer:</b> Gaurav Shah<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 2.62 kg<br>             <b>Stop #:</b> 13             </div>`)[0];
+                popup_77591595fcfb48a0a81139e932e56c56.setContent(html_9eca6ebef0d3da31d8b6cf98498ea8f0);
+            
+        
+
+        circle_marker_dac338f3dc591e06d3cd0f69a9793d41.bindPopup(popup_77591595fcfb48a0a81139e932e56c56)
+        ;
+
+        
+    
+    
+            circle_marker_dac338f3dc591e06d3cd0f69a9793d41.bindTooltip(
+                `<div>
+                     Zone 3 - Stop #13: Gaurav Shah (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b1cefb9cf4ab257bfb70724f989392eb = L.circleMarker(
+                [18.905565, 72.803554],
+                {"bubblingMouseEvents": true, "color": "#F4A261", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A261", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_c4e590ebdf3e34fe8880cb6c4b6ba6c1 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_6f189261988ee1f6fd97a365cfcbab33 = $(`<div id="html_6f189261988ee1f6fd97a365cfcbab33" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0002<br>             <b>Zone:</b> Cluster 3<br>             <b>Customer:</b> Varun Deshmukh<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 2.14 kg<br>             <b>Stop #:</b> 14             </div>`)[0];
+                popup_c4e590ebdf3e34fe8880cb6c4b6ba6c1.setContent(html_6f189261988ee1f6fd97a365cfcbab33);
+            
+        
+
+        circle_marker_b1cefb9cf4ab257bfb70724f989392eb.bindPopup(popup_c4e590ebdf3e34fe8880cb6c4b6ba6c1)
+        ;
+
+        
+    
+    
+            circle_marker_b1cefb9cf4ab257bfb70724f989392eb.bindTooltip(
+                `<div>
+                     Zone 3 - Stop #14: Varun Deshmukh (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b8e9f07109b271a124bb3370eb284498 = L.circleMarker(
+                [18.904567, 72.809775],
+                {"bubblingMouseEvents": true, "color": "#F4A261", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A261", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_fffaf3b6b2ea9ff489a4e56f6fd1eea2 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_cd523fe455bece3dc7c4b79a6c0dba20 = $(`<div id="html_cd523fe455bece3dc7c4b79a6c0dba20" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0014<br>             <b>Zone:</b> Cluster 3<br>             <b>Customer:</b> Simran Shah<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 8.89 kg<br>             <b>Stop #:</b> 15             </div>`)[0];
+                popup_fffaf3b6b2ea9ff489a4e56f6fd1eea2.setContent(html_cd523fe455bece3dc7c4b79a6c0dba20);
+            
+        
+
+        circle_marker_b8e9f07109b271a124bb3370eb284498.bindPopup(popup_fffaf3b6b2ea9ff489a4e56f6fd1eea2)
+        ;
+
+        
+    
+    
+            circle_marker_b8e9f07109b271a124bb3370eb284498.bindTooltip(
+                `<div>
+                     Zone 3 - Stop #15: Simran Shah (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4074bc0492a9a8e1f651710503d7f87f = L.circleMarker(
+                [18.906967, 72.809566],
+                {"bubblingMouseEvents": true, "color": "#F4A261", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A261", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_d986b70c180afecdc49f95d730e7f4e5 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ddc15bdbb42f5e6c4f404a5337c18c9e = $(`<div id="html_ddc15bdbb42f5e6c4f404a5337c18c9e" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0004<br>             <b>Zone:</b> Cluster 3<br>             <b>Customer:</b> Priya Merchant<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 3.18 kg<br>             <b>Stop #:</b> 16             </div>`)[0];
+                popup_d986b70c180afecdc49f95d730e7f4e5.setContent(html_ddc15bdbb42f5e6c4f404a5337c18c9e);
+            
+        
+
+        circle_marker_4074bc0492a9a8e1f651710503d7f87f.bindPopup(popup_d986b70c180afecdc49f95d730e7f4e5)
+        ;
+
+        
+    
+    
+            circle_marker_4074bc0492a9a8e1f651710503d7f87f.bindTooltip(
+                `<div>
+                     Zone 3 - Stop #16: Priya Merchant (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a08f974595d014e336f253836db16a43 = L.circleMarker(
+                [18.908506, 72.813339],
+                {"bubblingMouseEvents": true, "color": "#F4A261", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A261", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_7ca53b1c0874ae5ba7fbf688ec24e10b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8432d3a9ad4bc646bcc6252bed269889 = $(`<div id="html_8432d3a9ad4bc646bcc6252bed269889" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0017<br>             <b>Zone:</b> Cluster 3<br>             <b>Customer:</b> Manish Kadam<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 6.98 kg<br>             <b>Stop #:</b> 17             </div>`)[0];
+                popup_7ca53b1c0874ae5ba7fbf688ec24e10b.setContent(html_8432d3a9ad4bc646bcc6252bed269889);
+            
+        
+
+        circle_marker_a08f974595d014e336f253836db16a43.bindPopup(popup_7ca53b1c0874ae5ba7fbf688ec24e10b)
+        ;
+
+        
+    
+    
+            circle_marker_a08f974595d014e336f253836db16a43.bindTooltip(
+                `<div>
+                     Zone 3 - Stop #17: Manish Kadam (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9d3955838375a13c7dbb070b52fe8c04 = L.circleMarker(
+                [18.910974, 72.814437],
+                {"bubblingMouseEvents": true, "color": "#F4A261", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A261", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_20e1349ffb1f8eb7f7ac143d5ee4a55d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8742e68730751ac23ea92f4dd62b3545 = $(`<div id="html_8742e68730751ac23ea92f4dd62b3545" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0027<br>             <b>Zone:</b> Cluster 3<br>             <b>Customer:</b> Anjali Sawant<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 9.89 kg<br>             <b>Stop #:</b> 18             </div>`)[0];
+                popup_20e1349ffb1f8eb7f7ac143d5ee4a55d.setContent(html_8742e68730751ac23ea92f4dd62b3545);
+            
+        
+
+        circle_marker_9d3955838375a13c7dbb070b52fe8c04.bindPopup(popup_20e1349ffb1f8eb7f7ac143d5ee4a55d)
+        ;
+
+        
+    
+    
+            circle_marker_9d3955838375a13c7dbb070b52fe8c04.bindTooltip(
+                `<div>
+                     Zone 3 - Stop #18: Anjali Sawant (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_23e79b186dea8a9027f3c26fb2a412fe = L.circleMarker(
+                [18.910253, 72.817833],
+                {"bubblingMouseEvents": true, "color": "#F4A261", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A261", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_a250eb3c7e2d9884965833770f0294da = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_7c8f390254d21e5df8e97dbdead0de2d = $(`<div id="html_7c8f390254d21e5df8e97dbdead0de2d" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0021<br>             <b>Zone:</b> Cluster 3<br>             <b>Customer:</b> Aditya Kulkarni<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 6.37 kg<br>             <b>Stop #:</b> 19             </div>`)[0];
+                popup_a250eb3c7e2d9884965833770f0294da.setContent(html_7c8f390254d21e5df8e97dbdead0de2d);
+            
+        
+
+        circle_marker_23e79b186dea8a9027f3c26fb2a412fe.bindPopup(popup_a250eb3c7e2d9884965833770f0294da)
+        ;
+
+        
+    
+    
+            circle_marker_23e79b186dea8a9027f3c26fb2a412fe.bindTooltip(
+                `<div>
+                     Zone 3 - Stop #19: Aditya Kulkarni (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bd430b03efa2c6911f1efb443ab0505e = L.circleMarker(
+                [18.906983, 72.818074],
+                {"bubblingMouseEvents": true, "color": "#F4A261", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A261", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_07fc9acb7eca031708d80f772f52f54a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4bda69f5615edaeaf451d85f3ded5d48 = $(`<div id="html_4bda69f5615edaeaf451d85f3ded5d48" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0044<br>             <b>Zone:</b> Cluster 3<br>             <b>Customer:</b> Simran Chavan<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 1.44 kg<br>             <b>Stop #:</b> 20             </div>`)[0];
+                popup_07fc9acb7eca031708d80f772f52f54a.setContent(html_4bda69f5615edaeaf451d85f3ded5d48);
+            
+        
+
+        circle_marker_bd430b03efa2c6911f1efb443ab0505e.bindPopup(popup_07fc9acb7eca031708d80f772f52f54a)
+        ;
+
+        
+    
+    
+            circle_marker_bd430b03efa2c6911f1efb443ab0505e.bindTooltip(
+                `<div>
+                     Zone 3 - Stop #20: Simran Chavan (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7a5901191c1b318f19e485c4c840e2f8 = L.circleMarker(
+                [18.906856, 72.819233],
+                {"bubblingMouseEvents": true, "color": "#F4A261", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A261", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_4df71546fdfa2711c4f3c7fc7a90b5b6 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ee47c5c2899e908ab789de6a83ab532d = $(`<div id="html_ee47c5c2899e908ab789de6a83ab532d" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0031<br>             <b>Zone:</b> Cluster 3<br>             <b>Customer:</b> Manish Patel<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 11.96 kg<br>             <b>Stop #:</b> 21             </div>`)[0];
+                popup_4df71546fdfa2711c4f3c7fc7a90b5b6.setContent(html_ee47c5c2899e908ab789de6a83ab532d);
+            
+        
+
+        circle_marker_7a5901191c1b318f19e485c4c840e2f8.bindPopup(popup_4df71546fdfa2711c4f3c7fc7a90b5b6)
+        ;
+
+        
+    
+    
+            circle_marker_7a5901191c1b318f19e485c4c840e2f8.bindTooltip(
+                `<div>
+                     Zone 3 - Stop #21: Manish Patel (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3d7787936a5436216080a70e20c032da = L.circleMarker(
+                [18.903274, 72.827484],
+                {"bubblingMouseEvents": true, "color": "#F4A261", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A261", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_a5178294915a11cefc99688080f0a1aa = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_185989ae0e717fce3361de2982363444 = $(`<div id="html_185989ae0e717fce3361de2982363444" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0033<br>             <b>Zone:</b> Cluster 3<br>             <b>Customer:</b> Aarav Patil<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 10.29 kg<br>             <b>Stop #:</b> 22             </div>`)[0];
+                popup_a5178294915a11cefc99688080f0a1aa.setContent(html_185989ae0e717fce3361de2982363444);
+            
+        
+
+        circle_marker_3d7787936a5436216080a70e20c032da.bindPopup(popup_a5178294915a11cefc99688080f0a1aa)
+        ;
+
+        
+    
+    
+            circle_marker_3d7787936a5436216080a70e20c032da.bindTooltip(
+                `<div>
+                     Zone 3 - Stop #22: Aarav Patil (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1e5846e68c0ab6e5c46fa90d3d068ecf = L.circleMarker(
+                [18.901702, 72.829312],
+                {"bubblingMouseEvents": true, "color": "#F4A261", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A261", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_693eb1d9782d3e8befd0a749268ef17e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_798f537aa5d88943d626a0864bb2277e = $(`<div id="html_798f537aa5d88943d626a0864bb2277e" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0048<br>             <b>Zone:</b> Cluster 3<br>             <b>Customer:</b> Neha Tiwari<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 3.62 kg<br>             <b>Stop #:</b> 23             </div>`)[0];
+                popup_693eb1d9782d3e8befd0a749268ef17e.setContent(html_798f537aa5d88943d626a0864bb2277e);
+            
+        
+
+        circle_marker_1e5846e68c0ab6e5c46fa90d3d068ecf.bindPopup(popup_693eb1d9782d3e8befd0a749268ef17e)
+        ;
+
+        
+    
+    
+            circle_marker_1e5846e68c0ab6e5c46fa90d3d068ecf.bindTooltip(
+                `<div>
+                     Zone 3 - Stop #23: Neha Tiwari (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_43d713a5cb4ab3384ea7eaa0ee5c5ba5 = L.circleMarker(
+                [18.909415, 72.824869],
+                {"bubblingMouseEvents": true, "color": "#F4A261", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A261", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_b818f65d03b3ca05ec2b357685404e22 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f91df3cf7dad155fb44e7bd510f9af03 = $(`<div id="html_f91df3cf7dad155fb44e7bd510f9af03" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0034<br>             <b>Zone:</b> Cluster 3<br>             <b>Customer:</b> Rohan Merchant<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 1.67 kg<br>             <b>Stop #:</b> 24             </div>`)[0];
+                popup_b818f65d03b3ca05ec2b357685404e22.setContent(html_f91df3cf7dad155fb44e7bd510f9af03);
+            
+        
+
+        circle_marker_43d713a5cb4ab3384ea7eaa0ee5c5ba5.bindPopup(popup_b818f65d03b3ca05ec2b357685404e22)
+        ;
+
+        
+    
+    
+            circle_marker_43d713a5cb4ab3384ea7eaa0ee5c5ba5.bindTooltip(
+                `<div>
+                     Zone 3 - Stop #24: Rohan Merchant (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_228433abd4e08f8d95f92f3d1d0abfc1 = L.circleMarker(
+                [18.909819, 72.824082],
+                {"bubblingMouseEvents": true, "color": "#F4A261", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A261", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_201f7523fd7011ed97cf4c0920702aa7 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_060960fc1672b40e355ea8a9bafe9ac9 = $(`<div id="html_060960fc1672b40e355ea8a9bafe9ac9" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0032<br>             <b>Zone:</b> Cluster 3<br>             <b>Customer:</b> Rahul Fernandes<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 4.52 kg<br>             <b>Stop #:</b> 25             </div>`)[0];
+                popup_201f7523fd7011ed97cf4c0920702aa7.setContent(html_060960fc1672b40e355ea8a9bafe9ac9);
+            
+        
+
+        circle_marker_228433abd4e08f8d95f92f3d1d0abfc1.bindPopup(popup_201f7523fd7011ed97cf4c0920702aa7)
+        ;
+
+        
+    
+    
+            circle_marker_228433abd4e08f8d95f92f3d1d0abfc1.bindTooltip(
+                `<div>
+                     Zone 3 - Stop #25: Rahul Fernandes (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_88b4a66aabe22cd4b13783f0ad09d1b0 = L.circleMarker(
+                [18.915343, 72.823303],
+                {"bubblingMouseEvents": true, "color": "#F4A261", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A261", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_32e7c45fd4a900e6cebea5298875a66f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_2c42afbdd58349583ce8758d2f711aed = $(`<div id="html_2c42afbdd58349583ce8758d2f711aed" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0114<br>             <b>Zone:</b> Cluster 3<br>             <b>Customer:</b> Sameer Kulkarni<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 6.71 kg<br>             <b>Stop #:</b> 26             </div>`)[0];
+                popup_32e7c45fd4a900e6cebea5298875a66f.setContent(html_2c42afbdd58349583ce8758d2f711aed);
+            
+        
+
+        circle_marker_88b4a66aabe22cd4b13783f0ad09d1b0.bindPopup(popup_32e7c45fd4a900e6cebea5298875a66f)
+        ;
+
+        
+    
+    
+            circle_marker_88b4a66aabe22cd4b13783f0ad09d1b0.bindTooltip(
+                `<div>
+                     Zone 3 - Stop #26: Sameer Kulkarni (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7a8fe103ce77d366a03a0b61f8680183 = L.circleMarker(
+                [18.916326, 72.821358],
+                {"bubblingMouseEvents": true, "color": "#F4A261", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A261", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_d957e9b5efb9ec80eff28b700ad71ed3 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9f6c17f8e00e7cea431d2aa97fbce8bf = $(`<div id="html_9f6c17f8e00e7cea431d2aa97fbce8bf" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0046<br>             <b>Zone:</b> Cluster 3<br>             <b>Customer:</b> Gaurav Pandey<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 4.27 kg<br>             <b>Stop #:</b> 27             </div>`)[0];
+                popup_d957e9b5efb9ec80eff28b700ad71ed3.setContent(html_9f6c17f8e00e7cea431d2aa97fbce8bf);
+            
+        
+
+        circle_marker_7a8fe103ce77d366a03a0b61f8680183.bindPopup(popup_d957e9b5efb9ec80eff28b700ad71ed3)
+        ;
+
+        
+    
+    
+            circle_marker_7a8fe103ce77d366a03a0b61f8680183.bindTooltip(
+                `<div>
+                     Zone 3 - Stop #27: Gaurav Pandey (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_37f7bcdc066b929e5ae643482e0bf571 = L.circleMarker(
+                [18.920263, 72.819177],
+                {"bubblingMouseEvents": true, "color": "#F4A261", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A261", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_4cc781164964d1e177dc10e7faffcdcf = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_69f8f2d59c6813b34707243c2df57ca8 = $(`<div id="html_69f8f2d59c6813b34707243c2df57ca8" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0007<br>             <b>Zone:</b> Cluster 3<br>             <b>Customer:</b> Rohan Pawar<br>             <b>Area:</b> Colaba<br>             <b>Weight:</b> 5.0 kg<br>             <b>Stop #:</b> 28             </div>`)[0];
+                popup_4cc781164964d1e177dc10e7faffcdcf.setContent(html_69f8f2d59c6813b34707243c2df57ca8);
+            
+        
+
+        circle_marker_37f7bcdc066b929e5ae643482e0bf571.bindPopup(popup_4cc781164964d1e177dc10e7faffcdcf)
+        ;
+
+        
+    
+    
+            circle_marker_37f7bcdc066b929e5ae643482e0bf571.bindTooltip(
+                `<div>
+                     Zone 3 - Stop #28: Rohan Pawar (Colaba)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a95c403d8180ab28bfd9659b1c7c8183 = L.circleMarker(
+                [18.920559, 72.82587],
+                {"bubblingMouseEvents": true, "color": "#F4A261", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F4A261", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_91745693ef14770aacc0eb27cc13fbc8 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e1ad593705fa3a8319c60f5ba2429e47 = $(`<div id="html_e1ad593705fa3a8319c60f5ba2429e47" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0055<br>             <b>Zone:</b> Cluster 3<br>             <b>Customer:</b> Anjali Shah<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 10.7 kg<br>             <b>Stop #:</b> 29             </div>`)[0];
+                popup_91745693ef14770aacc0eb27cc13fbc8.setContent(html_e1ad593705fa3a8319c60f5ba2429e47);
+            
+        
+
+        circle_marker_a95c403d8180ab28bfd9659b1c7c8183.bindPopup(popup_91745693ef14770aacc0eb27cc13fbc8)
+        ;
+
+        
+    
+    
+            circle_marker_a95c403d8180ab28bfd9659b1c7c8183.bindTooltip(
+                `<div>
+                     Zone 3 - Stop #29: Anjali Shah (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_edf00766b9c71cf781161450ea2fe9f0 = L.polyline(
+                [[19.0657, 72.8687], [18.958085, 72.805919], [18.951196, 72.800775], [18.933835, 72.804847], [18.933221, 72.811238], [18.936423, 72.815424], [18.932221, 72.815678], [18.930305, 72.822706], [18.926703, 72.825596], [18.938328, 72.82705], [18.941978, 72.826097], [18.943788, 72.826418], [18.944603, 72.825986], [18.938516, 72.822977], [18.936562, 72.823655], [18.936083, 72.821362], [18.936144, 72.821325], [18.938147, 72.820094], [18.940803, 72.815708], [18.940363, 72.808705], [18.942841, 72.81578], [18.947463, 72.815462], [18.951878, 72.8145], [19.0657, 72.8687]],
+                {"bubblingMouseEvents": true, "color": "#9B5DE5", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#9B5DE5", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 3.5}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+            poly_line_edf00766b9c71cf781161450ea2fe9f0.bindTooltip(
+                `<div>
+                     Zone 4 Route (40.05 km)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f860e973b13e83ab3ca373b1031fbf9f = L.circleMarker(
+                [18.958085, 72.805919],
+                {"bubblingMouseEvents": true, "color": "#9B5DE5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9B5DE5", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_a3dc4842a2fc9f1650481602bf0d483d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_43cfb4e6235e10e11e1e7c1a66f7790a = $(`<div id="html_43cfb4e6235e10e11e1e7c1a66f7790a" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0100<br>             <b>Zone:</b> Cluster 4<br>             <b>Customer:</b> Arjun Mishra<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 4.84 kg<br>             <b>Stop #:</b> 1             </div>`)[0];
+                popup_a3dc4842a2fc9f1650481602bf0d483d.setContent(html_43cfb4e6235e10e11e1e7c1a66f7790a);
+            
+        
+
+        circle_marker_f860e973b13e83ab3ca373b1031fbf9f.bindPopup(popup_a3dc4842a2fc9f1650481602bf0d483d)
+        ;
+
+        
+    
+    
+            circle_marker_f860e973b13e83ab3ca373b1031fbf9f.bindTooltip(
+                `<div>
+                     Zone 4 - Stop #1: Arjun Mishra (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_898fee48e2c90f66f23064ebe8b80614 = L.circleMarker(
+                [18.951196, 72.800775],
+                {"bubblingMouseEvents": true, "color": "#9B5DE5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9B5DE5", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_214b79834717520b0db17370897276a3 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_757850be3eb31c52587b1ef0d6dbd000 = $(`<div id="html_757850be3eb31c52587b1ef0d6dbd000" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0058<br>             <b>Zone:</b> Cluster 4<br>             <b>Customer:</b> Vikram Gupta<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 4.94 kg<br>             <b>Stop #:</b> 2             </div>`)[0];
+                popup_214b79834717520b0db17370897276a3.setContent(html_757850be3eb31c52587b1ef0d6dbd000);
+            
+        
+
+        circle_marker_898fee48e2c90f66f23064ebe8b80614.bindPopup(popup_214b79834717520b0db17370897276a3)
+        ;
+
+        
+    
+    
+            circle_marker_898fee48e2c90f66f23064ebe8b80614.bindTooltip(
+                `<div>
+                     Zone 4 - Stop #2: Vikram Gupta (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ece3883d98524b4d9ba8bd9974a50c01 = L.circleMarker(
+                [18.933835, 72.804847],
+                {"bubblingMouseEvents": true, "color": "#9B5DE5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9B5DE5", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_0e47730c74596434bce609ab389e3d87 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4b3fde595ad0f05a3111824807b0424d = $(`<div id="html_4b3fde595ad0f05a3111824807b0424d" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0047<br>             <b>Zone:</b> Cluster 4<br>             <b>Customer:</b> Anjali Bhat<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 0.93 kg<br>             <b>Stop #:</b> 3             </div>`)[0];
+                popup_0e47730c74596434bce609ab389e3d87.setContent(html_4b3fde595ad0f05a3111824807b0424d);
+            
+        
+
+        circle_marker_ece3883d98524b4d9ba8bd9974a50c01.bindPopup(popup_0e47730c74596434bce609ab389e3d87)
+        ;
+
+        
+    
+    
+            circle_marker_ece3883d98524b4d9ba8bd9974a50c01.bindTooltip(
+                `<div>
+                     Zone 4 - Stop #3: Anjali Bhat (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b6b7e97f73fe735902f93fce9d6b8d3f = L.circleMarker(
+                [18.933221, 72.811238],
+                {"bubblingMouseEvents": true, "color": "#9B5DE5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9B5DE5", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_042d013f4e0ab64cecc54915d5f9724b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_2b0d7c0a0a0fbb40cf7885fefac33aaa = $(`<div id="html_2b0d7c0a0a0fbb40cf7885fefac33aaa" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0042<br>             <b>Zone:</b> Cluster 4<br>             <b>Customer:</b> Gaurav Patel<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 3.42 kg<br>             <b>Stop #:</b> 4             </div>`)[0];
+                popup_042d013f4e0ab64cecc54915d5f9724b.setContent(html_2b0d7c0a0a0fbb40cf7885fefac33aaa);
+            
+        
+
+        circle_marker_b6b7e97f73fe735902f93fce9d6b8d3f.bindPopup(popup_042d013f4e0ab64cecc54915d5f9724b)
+        ;
+
+        
+    
+    
+            circle_marker_b6b7e97f73fe735902f93fce9d6b8d3f.bindTooltip(
+                `<div>
+                     Zone 4 - Stop #4: Gaurav Patel (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1dfbd8141e795c1eb456d4c37ee8318a = L.circleMarker(
+                [18.936423, 72.815424],
+                {"bubblingMouseEvents": true, "color": "#9B5DE5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9B5DE5", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_b91f44d1662f7ae37d5178e38204d02a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_312adc67de3904ad933d5e9d54309d5a = $(`<div id="html_312adc67de3904ad933d5e9d54309d5a" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0091<br>             <b>Zone:</b> Cluster 4<br>             <b>Customer:</b> Ananya Kulkarni<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 6.17 kg<br>             <b>Stop #:</b> 5             </div>`)[0];
+                popup_b91f44d1662f7ae37d5178e38204d02a.setContent(html_312adc67de3904ad933d5e9d54309d5a);
+            
+        
+
+        circle_marker_1dfbd8141e795c1eb456d4c37ee8318a.bindPopup(popup_b91f44d1662f7ae37d5178e38204d02a)
+        ;
+
+        
+    
+    
+            circle_marker_1dfbd8141e795c1eb456d4c37ee8318a.bindTooltip(
+                `<div>
+                     Zone 4 - Stop #5: Ananya Kulkarni (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2dbfe63c70ba42f99a6b869155a5f1b4 = L.circleMarker(
+                [18.932221, 72.815678],
+                {"bubblingMouseEvents": true, "color": "#9B5DE5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9B5DE5", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_1722600c213e6ee10c09fd9a59c1c893 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_dbd55084ebd01c2aa9c0df62772d8e72 = $(`<div id="html_dbd55084ebd01c2aa9c0df62772d8e72" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0062<br>             <b>Zone:</b> Cluster 4<br>             <b>Customer:</b> Rohan Bhat<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 8.91 kg<br>             <b>Stop #:</b> 6             </div>`)[0];
+                popup_1722600c213e6ee10c09fd9a59c1c893.setContent(html_dbd55084ebd01c2aa9c0df62772d8e72);
+            
+        
+
+        circle_marker_2dbfe63c70ba42f99a6b869155a5f1b4.bindPopup(popup_1722600c213e6ee10c09fd9a59c1c893)
+        ;
+
+        
+    
+    
+            circle_marker_2dbfe63c70ba42f99a6b869155a5f1b4.bindTooltip(
+                `<div>
+                     Zone 4 - Stop #6: Rohan Bhat (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7aa7bb2ba8bbf332e686047594e7eaaa = L.circleMarker(
+                [18.930305, 72.822706],
+                {"bubblingMouseEvents": true, "color": "#9B5DE5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9B5DE5", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_9c0644dd1b6a2b22afa137d3e01c2095 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8717d692e926cd1fb79042c6598c873c = $(`<div id="html_8717d692e926cd1fb79042c6598c873c" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0065<br>             <b>Zone:</b> Cluster 4<br>             <b>Customer:</b> Rhea Gokhale<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 6.17 kg<br>             <b>Stop #:</b> 7             </div>`)[0];
+                popup_9c0644dd1b6a2b22afa137d3e01c2095.setContent(html_8717d692e926cd1fb79042c6598c873c);
+            
+        
+
+        circle_marker_7aa7bb2ba8bbf332e686047594e7eaaa.bindPopup(popup_9c0644dd1b6a2b22afa137d3e01c2095)
+        ;
+
+        
+    
+    
+            circle_marker_7aa7bb2ba8bbf332e686047594e7eaaa.bindTooltip(
+                `<div>
+                     Zone 4 - Stop #7: Rhea Gokhale (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c0ac853d9bf1dd60a098640dd5d14869 = L.circleMarker(
+                [18.926703, 72.825596],
+                {"bubblingMouseEvents": true, "color": "#9B5DE5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9B5DE5", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_13b345cb82c5f3177991d9728abf5611 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_3b916bdc52c3baba184af499204fd866 = $(`<div id="html_3b916bdc52c3baba184af499204fd866" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0118<br>             <b>Zone:</b> Cluster 4<br>             <b>Customer:</b> Gaurav Sharma<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 0.89 kg<br>             <b>Stop #:</b> 8             </div>`)[0];
+                popup_13b345cb82c5f3177991d9728abf5611.setContent(html_3b916bdc52c3baba184af499204fd866);
+            
+        
+
+        circle_marker_c0ac853d9bf1dd60a098640dd5d14869.bindPopup(popup_13b345cb82c5f3177991d9728abf5611)
+        ;
+
+        
+    
+    
+            circle_marker_c0ac853d9bf1dd60a098640dd5d14869.bindTooltip(
+                `<div>
+                     Zone 4 - Stop #8: Gaurav Sharma (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9952f6071ffcdfeaf3da2ca430a40b3a = L.circleMarker(
+                [18.938328, 72.82705],
+                {"bubblingMouseEvents": true, "color": "#9B5DE5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9B5DE5", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_58dee8145363e2779fe4deaac2413442 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9c6fca92b6190c894e550e4d91e838c5 = $(`<div id="html_9c6fca92b6190c894e550e4d91e838c5" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0070<br>             <b>Zone:</b> Cluster 4<br>             <b>Customer:</b> Anjali Kadam<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 3.22 kg<br>             <b>Stop #:</b> 9             </div>`)[0];
+                popup_58dee8145363e2779fe4deaac2413442.setContent(html_9c6fca92b6190c894e550e4d91e838c5);
+            
+        
+
+        circle_marker_9952f6071ffcdfeaf3da2ca430a40b3a.bindPopup(popup_58dee8145363e2779fe4deaac2413442)
+        ;
+
+        
+    
+    
+            circle_marker_9952f6071ffcdfeaf3da2ca430a40b3a.bindTooltip(
+                `<div>
+                     Zone 4 - Stop #9: Anjali Kadam (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5d30ecfa632cb643b266d574782076c0 = L.circleMarker(
+                [18.941978, 72.826097],
+                {"bubblingMouseEvents": true, "color": "#9B5DE5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9B5DE5", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_0ce0b17000fdad4a60b913a65c4b91fa = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_72c991a0d29c9ca11b572ad5573bc60d = $(`<div id="html_72c991a0d29c9ca11b572ad5573bc60d" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0097<br>             <b>Zone:</b> Cluster 4<br>             <b>Customer:</b> Rhea Shetty<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 6.67 kg<br>             <b>Stop #:</b> 10             </div>`)[0];
+                popup_0ce0b17000fdad4a60b913a65c4b91fa.setContent(html_72c991a0d29c9ca11b572ad5573bc60d);
+            
+        
+
+        circle_marker_5d30ecfa632cb643b266d574782076c0.bindPopup(popup_0ce0b17000fdad4a60b913a65c4b91fa)
+        ;
+
+        
+    
+    
+            circle_marker_5d30ecfa632cb643b266d574782076c0.bindTooltip(
+                `<div>
+                     Zone 4 - Stop #10: Rhea Shetty (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a12a368e1c02bf9f384dbe37e6f828a8 = L.circleMarker(
+                [18.943788, 72.826418],
+                {"bubblingMouseEvents": true, "color": "#9B5DE5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9B5DE5", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_d4e10134658093d8208112f60d0563f7 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_5c9b5e51080734417f64e3958f85caf1 = $(`<div id="html_5c9b5e51080734417f64e3958f85caf1" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0086<br>             <b>Zone:</b> Cluster 4<br>             <b>Customer:</b> Ananya Pandey<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 9.38 kg<br>             <b>Stop #:</b> 11             </div>`)[0];
+                popup_d4e10134658093d8208112f60d0563f7.setContent(html_5c9b5e51080734417f64e3958f85caf1);
+            
+        
+
+        circle_marker_a12a368e1c02bf9f384dbe37e6f828a8.bindPopup(popup_d4e10134658093d8208112f60d0563f7)
+        ;
+
+        
+    
+    
+            circle_marker_a12a368e1c02bf9f384dbe37e6f828a8.bindTooltip(
+                `<div>
+                     Zone 4 - Stop #11: Ananya Pandey (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a9666225ca49c66277a5046c803660d9 = L.circleMarker(
+                [18.944603, 72.825986],
+                {"bubblingMouseEvents": true, "color": "#9B5DE5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9B5DE5", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_2f701d6585f2831852ef1cd9ecebb3b8 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_406b34db2e97104b42e58781a5300345 = $(`<div id="html_406b34db2e97104b42e58781a5300345" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0099<br>             <b>Zone:</b> Cluster 4<br>             <b>Customer:</b> Gaurav Pawar<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 9.12 kg<br>             <b>Stop #:</b> 12             </div>`)[0];
+                popup_2f701d6585f2831852ef1cd9ecebb3b8.setContent(html_406b34db2e97104b42e58781a5300345);
+            
+        
+
+        circle_marker_a9666225ca49c66277a5046c803660d9.bindPopup(popup_2f701d6585f2831852ef1cd9ecebb3b8)
+        ;
+
+        
+    
+    
+            circle_marker_a9666225ca49c66277a5046c803660d9.bindTooltip(
+                `<div>
+                     Zone 4 - Stop #12: Gaurav Pawar (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f95c0e886471453a3dafbde483b992a7 = L.circleMarker(
+                [18.938516, 72.822977],
+                {"bubblingMouseEvents": true, "color": "#9B5DE5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9B5DE5", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_00371ca9c605dfa45d0068871f5f6b9b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_80e7226ba1a3c008d0d37fd475f89f1c = $(`<div id="html_80e7226ba1a3c008d0d37fd475f89f1c" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0095<br>             <b>Zone:</b> Cluster 4<br>             <b>Customer:</b> Ishita Patel<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 1.98 kg<br>             <b>Stop #:</b> 13             </div>`)[0];
+                popup_00371ca9c605dfa45d0068871f5f6b9b.setContent(html_80e7226ba1a3c008d0d37fd475f89f1c);
+            
+        
+
+        circle_marker_f95c0e886471453a3dafbde483b992a7.bindPopup(popup_00371ca9c605dfa45d0068871f5f6b9b)
+        ;
+
+        
+    
+    
+            circle_marker_f95c0e886471453a3dafbde483b992a7.bindTooltip(
+                `<div>
+                     Zone 4 - Stop #13: Ishita Patel (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ca69ef9704e1e22a3e3cd378277ba7d3 = L.circleMarker(
+                [18.936562, 72.823655],
+                {"bubblingMouseEvents": true, "color": "#9B5DE5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9B5DE5", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_e8faf6ed82421eed0f35271de6b2e293 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1d5d4b51c3317f29aac88fb68e6e10e7 = $(`<div id="html_1d5d4b51c3317f29aac88fb68e6e10e7" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0120<br>             <b>Zone:</b> Cluster 4<br>             <b>Customer:</b> Neha Shah<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 6.09 kg<br>             <b>Stop #:</b> 14             </div>`)[0];
+                popup_e8faf6ed82421eed0f35271de6b2e293.setContent(html_1d5d4b51c3317f29aac88fb68e6e10e7);
+            
+        
+
+        circle_marker_ca69ef9704e1e22a3e3cd378277ba7d3.bindPopup(popup_e8faf6ed82421eed0f35271de6b2e293)
+        ;
+
+        
+    
+    
+            circle_marker_ca69ef9704e1e22a3e3cd378277ba7d3.bindTooltip(
+                `<div>
+                     Zone 4 - Stop #14: Neha Shah (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6fcbbb519c3e78de8679b8bcdfdf53f8 = L.circleMarker(
+                [18.936083, 72.821362],
+                {"bubblingMouseEvents": true, "color": "#9B5DE5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9B5DE5", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_9c457a0fe244fe23da6bee327e5ce057 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_fedb90425c90c5427f14e08b6b1ac4ec = $(`<div id="html_fedb90425c90c5427f14e08b6b1ac4ec" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0081<br>             <b>Zone:</b> Cluster 4<br>             <b>Customer:</b> Anjali Sharma<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 6.02 kg<br>             <b>Stop #:</b> 15             </div>`)[0];
+                popup_9c457a0fe244fe23da6bee327e5ce057.setContent(html_fedb90425c90c5427f14e08b6b1ac4ec);
+            
+        
+
+        circle_marker_6fcbbb519c3e78de8679b8bcdfdf53f8.bindPopup(popup_9c457a0fe244fe23da6bee327e5ce057)
+        ;
+
+        
+    
+    
+            circle_marker_6fcbbb519c3e78de8679b8bcdfdf53f8.bindTooltip(
+                `<div>
+                     Zone 4 - Stop #15: Anjali Sharma (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1aa3f1aa2a328e6c09e0e57c1ae12d65 = L.circleMarker(
+                [18.936144, 72.821325],
+                {"bubblingMouseEvents": true, "color": "#9B5DE5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9B5DE5", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_c54e915fc1baf9bbcf04fd91e5b3a482 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_791e1031467460afaa305fbc174e7bc1 = $(`<div id="html_791e1031467460afaa305fbc174e7bc1" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0038<br>             <b>Zone:</b> Cluster 4<br>             <b>Customer:</b> Ananya Tiwari<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 6.28 kg<br>             <b>Stop #:</b> 16             </div>`)[0];
+                popup_c54e915fc1baf9bbcf04fd91e5b3a482.setContent(html_791e1031467460afaa305fbc174e7bc1);
+            
+        
+
+        circle_marker_1aa3f1aa2a328e6c09e0e57c1ae12d65.bindPopup(popup_c54e915fc1baf9bbcf04fd91e5b3a482)
+        ;
+
+        
+    
+    
+            circle_marker_1aa3f1aa2a328e6c09e0e57c1ae12d65.bindTooltip(
+                `<div>
+                     Zone 4 - Stop #16: Ananya Tiwari (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0246693b71de60f02f56ec556e0e4847 = L.circleMarker(
+                [18.938147, 72.820094],
+                {"bubblingMouseEvents": true, "color": "#9B5DE5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9B5DE5", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_4bdbc503211527a27d7eb964bd1b4000 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_92300e8422c487665ec195c63c9d6eb0 = $(`<div id="html_92300e8422c487665ec195c63c9d6eb0" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0041<br>             <b>Zone:</b> Cluster 4<br>             <b>Customer:</b> Rohan Rane<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 6.9 kg<br>             <b>Stop #:</b> 17             </div>`)[0];
+                popup_4bdbc503211527a27d7eb964bd1b4000.setContent(html_92300e8422c487665ec195c63c9d6eb0);
+            
+        
+
+        circle_marker_0246693b71de60f02f56ec556e0e4847.bindPopup(popup_4bdbc503211527a27d7eb964bd1b4000)
+        ;
+
+        
+    
+    
+            circle_marker_0246693b71de60f02f56ec556e0e4847.bindTooltip(
+                `<div>
+                     Zone 4 - Stop #17: Rohan Rane (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_86da9f1f9a1e5edb31152b91a13e60cf = L.circleMarker(
+                [18.940803, 72.815708],
+                {"bubblingMouseEvents": true, "color": "#9B5DE5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9B5DE5", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_0418aa1da4356ddec8caf5b7e595b057 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9605205c64de435dfef483e6a05fa7b1 = $(`<div id="html_9605205c64de435dfef483e6a05fa7b1" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0053<br>             <b>Zone:</b> Cluster 4<br>             <b>Customer:</b> Ishita Shah<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 1.58 kg<br>             <b>Stop #:</b> 18             </div>`)[0];
+                popup_0418aa1da4356ddec8caf5b7e595b057.setContent(html_9605205c64de435dfef483e6a05fa7b1);
+            
+        
+
+        circle_marker_86da9f1f9a1e5edb31152b91a13e60cf.bindPopup(popup_0418aa1da4356ddec8caf5b7e595b057)
+        ;
+
+        
+    
+    
+            circle_marker_86da9f1f9a1e5edb31152b91a13e60cf.bindTooltip(
+                `<div>
+                     Zone 4 - Stop #18: Ishita Shah (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0e3a37f9ac436bd41e79b366382b6f90 = L.circleMarker(
+                [18.940363, 72.808705],
+                {"bubblingMouseEvents": true, "color": "#9B5DE5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9B5DE5", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_997fbef355c6bac33b4ea46c9e088a6a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9a6bc4979c79e004b7d2c153a881cb07 = $(`<div id="html_9a6bc4979c79e004b7d2c153a881cb07" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0060<br>             <b>Zone:</b> Cluster 4<br>             <b>Customer:</b> Priya Patel<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 3.5 kg<br>             <b>Stop #:</b> 19             </div>`)[0];
+                popup_997fbef355c6bac33b4ea46c9e088a6a.setContent(html_9a6bc4979c79e004b7d2c153a881cb07);
+            
+        
+
+        circle_marker_0e3a37f9ac436bd41e79b366382b6f90.bindPopup(popup_997fbef355c6bac33b4ea46c9e088a6a)
+        ;
+
+        
+    
+    
+            circle_marker_0e3a37f9ac436bd41e79b366382b6f90.bindTooltip(
+                `<div>
+                     Zone 4 - Stop #19: Priya Patel (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4c26b00d5db2a219bd80e29015c7b84f = L.circleMarker(
+                [18.942841, 72.81578],
+                {"bubblingMouseEvents": true, "color": "#9B5DE5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9B5DE5", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_ef262b81f014acc2615acb2c29b19b77 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c2aca21ef882862bf3baa667221ae535 = $(`<div id="html_c2aca21ef882862bf3baa667221ae535" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0076<br>             <b>Zone:</b> Cluster 4<br>             <b>Customer:</b> Karan Gupta<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 11.53 kg<br>             <b>Stop #:</b> 20             </div>`)[0];
+                popup_ef262b81f014acc2615acb2c29b19b77.setContent(html_c2aca21ef882862bf3baa667221ae535);
+            
+        
+
+        circle_marker_4c26b00d5db2a219bd80e29015c7b84f.bindPopup(popup_ef262b81f014acc2615acb2c29b19b77)
+        ;
+
+        
+    
+    
+            circle_marker_4c26b00d5db2a219bd80e29015c7b84f.bindTooltip(
+                `<div>
+                     Zone 4 - Stop #20: Karan Gupta (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b07a1915130ce6916e4ff52084659b21 = L.circleMarker(
+                [18.947463, 72.815462],
+                {"bubblingMouseEvents": true, "color": "#9B5DE5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9B5DE5", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_6be317d662b7fbc2588f46ea11afa380 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_5a4e6ac9a741061f545aac794d539eab = $(`<div id="html_5a4e6ac9a741061f545aac794d539eab" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0108<br>             <b>Zone:</b> Cluster 4<br>             <b>Customer:</b> Karan Deshmukh<br>             <b>Area:</b> Fort / CSMT<br>             <b>Weight:</b> 4.19 kg<br>             <b>Stop #:</b> 21             </div>`)[0];
+                popup_6be317d662b7fbc2588f46ea11afa380.setContent(html_5a4e6ac9a741061f545aac794d539eab);
+            
+        
+
+        circle_marker_b07a1915130ce6916e4ff52084659b21.bindPopup(popup_6be317d662b7fbc2588f46ea11afa380)
+        ;
+
+        
+    
+    
+            circle_marker_b07a1915130ce6916e4ff52084659b21.bindTooltip(
+                `<div>
+                     Zone 4 - Stop #21: Karan Deshmukh (Fort / CSMT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1c87c96cfe329c5c697ef3b4c416f42c = L.circleMarker(
+                [18.951878, 72.8145],
+                {"bubblingMouseEvents": true, "color": "#9B5DE5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9B5DE5", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0e9dc9e25ca4f1753583e6a70c38feea);
+        
+    
+        var popup_8789852ddde75caefd3ac113f8b67d61 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1fc494a164a98ab2e8c03a930c8c929f = $(`<div id="html_1fc494a164a98ab2e8c03a930c8c929f" style="width: 100.0%; height: 100.0%;">             <b>Order:</b> MUM-0077<br>             <b>Zone:</b> Cluster 4<br>             <b>Customer:</b> Neha Deshmukh<br>             <b>Area:</b> Nariman Point / Marine Drive<br>             <b>Weight:</b> 5.83 kg<br>             <b>Stop #:</b> 22             </div>`)[0];
+                popup_8789852ddde75caefd3ac113f8b67d61.setContent(html_1fc494a164a98ab2e8c03a930c8c929f);
+            
+        
+
+        circle_marker_1c87c96cfe329c5c697ef3b4c416f42c.bindPopup(popup_8789852ddde75caefd3ac113f8b67d61)
+        ;
+
+        
+    
+    
+            circle_marker_1c87c96cfe329c5c697ef3b4c416f42c.bindTooltip(
+                `<div>
+                     Zone 4 - Stop #22: Neha Deshmukh (Nariman Point / Marine Drive)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
