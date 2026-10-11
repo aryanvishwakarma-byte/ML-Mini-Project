@@ -91,7 +91,7 @@ def format_table_row(row, values, is_even=False):
         r.font.size = Pt(9.5)
         r.font.color.rgb = RGBColor(0x21, 0x25, 0x29)
 
-def create_report(output_filename="Smart_Delivery_Zones_Project_Report.docx"):
+def create_report(output_filename="ML project report.docx"):
     doc = Document()
 
     for section in doc.sections:
@@ -163,6 +163,29 @@ def create_report(output_filename="Smart_Delivery_Zones_Project_Report.docx"):
         p1.paragraph_format.space_after = Pt(0)
         r1 = p1.add_run(val)
         r1.font.size = Pt(10)
+
+    # Space between tables
+    p_sp = doc.add_paragraph()
+    p_sp.paragraph_format.space_before = Pt(12)
+    p_sp.paragraph_format.space_after = Pt(4)
+    r_team_title = p_sp.add_run("Project Team Members:")
+    r_team_title.bold = True
+    r_team_title.font.name = "Calibri"
+    r_team_title.font.size = Pt(11)
+    r_team_title.font.color.rgb = COLOR_PRIMARY
+
+    # Team Members Table
+    team_members = [
+        ("1", "Kshitij Gupta", "16014224031"),
+        ("2", "Bhargav Jadhav", "16014224035"),
+        ("3", "Aryan Vishwakarma", "16014224041"),
+        ("4", "Nikhil Kalambe", "16014224046")
+    ]
+    tbl_team = doc.add_table(rows=5, cols=3)
+    tbl_team.alignment = WD_TABLE_ALIGNMENT.CENTER
+    format_table_header(tbl_team.rows[0], ["Sr. No.", "Team Member Name", "Roll Number"])
+    for idx, (sr, name, roll) in enumerate(team_members):
+        format_table_row(tbl_team.rows[idx + 1], [sr, name, roll], is_even=(idx % 2 == 1))
 
     doc.add_page_break()
 
