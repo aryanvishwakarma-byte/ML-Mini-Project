@@ -29,9 +29,8 @@ st.title("🚚 Smart Delivery Zones: Mumbai Fleet Routing")
 st.markdown("""
 **An End-to-End Application of Unsupervised Machine Learning & Shortest Path Graph Optimization**
 
-* **Clustering Algorithms:** **K-Means Clustering** (with K-Means++ centroid initialization) & **DBSCAN** (Density-Based Spatial Clustering with Noise Detection).
-* **Cluster Validation Techniques:** **Elbow Method** (Within-Cluster Sum of Squares / Inertia minimization) & **Silhouette Analysis** (Inter vs. Intra cluster separation scoring).
-* **Shortest Path Optimization:** **Dijkstra's Algorithm**, **Greedy Nearest Neighbor TSP**, and **2-Opt Edge-Exchange Local Search** for closed-loop truck delivery circuits starting from the central BKC depot.
+* **Clustering Algorithms:** **K-Means Clustering** & **DBSCAN** (Density-Based Spatial Clustering with Noise Detection).
+* **Shortest Path Optimization:** Evaluates both **Dijkstra's Algorithm** and **Greedy Nearest Neighbor TSP** for closed-loop truck delivery circuits starting from the central BKC depot, automatically selecting whichever achieves the shortest path.
 """)
 
 st.markdown("---")
@@ -55,7 +54,7 @@ algorithm = st.sidebar.selectbox(
     "Select Clustering Algorithm",
     options=["kmeans", "dbscan"],
     format_func=lambda x: {
-        "kmeans": "K-Means (Lloyd's + K-Means++)",
+        "kmeans": "K-Means",
         "dbscan": "DBSCAN (Density-Based Spatial)"
     }[x]
 )
@@ -122,8 +121,9 @@ clustered_df, model, scaler = cluster_delivery_zones(
 
 # Run shortest path routing per cluster
 cluster_results = {}
-total_unopt = 0.0
-total_opt = 0.0
+total_shortest = 0.0
+total_dijkstra = 0.0
+total_greedy = 0.0
 summary_rows = []
 
 for c_id in sorted(clustered_df["cluster"].unique()):
@@ -136,13 +136,15 @@ for c_id in sorted(clustered_df["cluster"].unique()):
     route_res = solve_cluster_route(sub_df, depot_info)
     cluster_results[c_id] = route_res
     
-    init_km = route_res["initial_distance_km"]
-    opt_km = route_res["optimized_distance_km"]
-    saved_km = round(init_km - opt_km, 2)
-    pct = ((init_km - opt_km) / init_km * 100) if init_km > 0 else 0
+    # Extract distances with safe fallback
+    dijkstra_km = route_res.get("dijkstra_distance_km", route_res.get("initial_distance_km", 0.0))
+    greedy_km = route_res.get("greedy_distance_km", route_res.get("initial_distance_km", 0.0))
+    chosen_km = route_res.get("shortest_distance_km", route_res.get("optimized_distance_km", min(dijkstra_km, greedy_km)))
+    chosen_method = route_res.get("selected_method", "Dijkstra" if dijkstra_km <= greedy_km else "Greedy TSP")
     
-    total_unopt += init_km
-    total_opt += opt_km
+    total_dijkstra += dijkstra_km
+    total_greedy += greedy_km
+    total_shortest += chosen_km
     
     color_hex = get_cluster_color(c_id)
     color_label = get_cluster_color_label(c_id)
@@ -151,10 +153,10 @@ for c_id in sorted(clustered_df["cluster"].unique()):
         "Zone": f"Zone {c_id}",
         "Map Color": color_label,
         "Assigned Stops": route_res["num_deliveries"],
-        "Initial TSP Distance": f"{init_km:.2f} km",
-        "Optimized Shortest Path": f"{opt_km:.2f} km",
-        "Distance Saved": f"{saved_km:.2f} km",
-        "Optimization %": f"{pct:.1f}%"
+        "Dijkstra Tour": f"{dijkstra_km:.2f} km",
+        "Greedy TSP Tour": f"{greedy_km:.2f} km",
+        "Selected Shortest": f"{chosen_km:.2f} km",
+        "Winning Algorithm": f"🏆 {chosen_method}"
     })
 
 summary_table = pd.DataFrame(summary_rows)
@@ -164,9 +166,11 @@ with tab1:
     col1, col2, col3, col4 = st.columns(4)
     col1.metric("Active Delivery Zones", len(cluster_results))
     col2.metric("Active Deliveries", len(active_deliveries))
-    col3.metric("Optimized Total Distance", f"{total_opt:.2f} km")
-    total_reduction_pct = ((total_unopt - total_opt) / total_unopt * 100) if total_unopt > 0 else 0
-    col4.metric("Distance Saved (2-Opt)", f"{total_unopt - total_opt:.2f} km", delta=f"{total_reduction_pct:.1f}% reduction")
+    col3.metric("Selected Shortest Distance", f"{total_shortest:.2f} km")
+    # Show comparison against whichever algorithm was longer overall
+    baseline_km = max(total_dijkstra, total_greedy)
+    saved_km = baseline_km - total_shortest
+    col4.metric("Dijkstra vs Greedy Eval", f"{len(cluster_results)} Zones", delta="Optimal chosen per zone")
     
     st.subheader("🗺️ Interactive Mumbai Delivery Map")
     st.caption("Each colored line represents a distinct truck route starting and ending at the Central BKC Logistics Hub.")
@@ -179,7 +183,7 @@ with tab1:
     components.html(html_data, height=580)
     
     st.subheader("📊 Route Optimization & Zone Color Legend")
-    st.caption("The table below matches each delivery zone directly to the route color shown on the map above:")
+    st.caption("We execute both Dijkstra's Algorithm and Greedy Nearest Neighbor TSP on each zone and select whichever yields the shortest path:")
     
     # Clean, reliable Streamlit native dataframe table
     st.dataframe(
@@ -201,7 +205,9 @@ with tab2:
             res = cluster_results[selected_zone]
             zone_color_label = get_cluster_color_label(selected_zone)
             zone_hex = get_cluster_color(selected_zone)
-            st.markdown(f"**Dispatched Route for Zone {selected_zone}** (Color: **{zone_color_label}** `{zone_hex}`): **{res['num_deliveries']} customer stops**, **{res['optimized_distance_km']} km** total round-trip distance.")
+            method_used = res.get('selected_method', 'Shortest Route')
+            dist_used = res.get('shortest_distance_km', res.get('optimized_distance_km', 0.0))
+            st.markdown(f"**Dispatched Route for Zone {selected_zone}** (Color: **{zone_color_label}** `{zone_hex}` | Method: **{method_used}**): **{res['num_deliveries']} customer stops**, **{dist_used} km** total round-trip distance.")
             st.dataframe(
                 res["ordered_nodes_df"][["step", "order_id", "customer_name", "area", "package_weight_kg", "latitude", "longitude"]], 
                 use_container_width=True

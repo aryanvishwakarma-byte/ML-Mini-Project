@@ -70,12 +70,14 @@ def generate_interactive_map(cluster_results, depot_info, output_html="outputs/m
         
         # Draw shortest path polyline
         coordinates = list(zip(df_route["latitude"], df_route["longitude"]))
+        dist_val = res.get('shortest_distance_km', res.get('optimized_distance_km', 0.0))
+        method_str = f" [{res.get('selected_method')}]" if 'selected_method' in res else ""
         folium.PolyLine(
             locations=coordinates,
             color=color,
             weight=3.5,
             opacity=0.85,
-            tooltip=f"Zone {cluster_id} Route ({res['optimized_distance_km']} km)"
+            tooltip=f"Zone {cluster_id} Route ({dist_val} km){method_str}"
         ).add_to(m)
         
         # Add stop markers (skip depot duplicate entries)
@@ -122,6 +124,8 @@ def plot_static_clusters_and_routes(cluster_results, depot_info, output_png="out
         df_route = res["ordered_nodes_df"]
         
         # Plot route polyline
+        dist_val = res.get('shortest_distance_km', res.get('optimized_distance_km', 0.0))
+        method_str = f" via {res.get('selected_method')}" if 'selected_method' in res else ""
         ax.plot(
             df_route["longitude"], 
             df_route["latitude"], 
@@ -129,7 +133,7 @@ def plot_static_clusters_and_routes(cluster_results, depot_info, output_png="out
             linestyle="-", 
             linewidth=1.8, 
             alpha=0.8, 
-            label=f"Zone {cluster_id}: {res['num_deliveries']} stops ({res['optimized_distance_km']} km)"
+            label=f"Zone {cluster_id}: {res['num_deliveries']} stops ({dist_val} km{method_str})"
         )
         
         # Plot customer delivery nodes

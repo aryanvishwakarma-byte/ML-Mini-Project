@@ -1,9 +1,9 @@
 step,order_id,customer_name,area,latitude,longitude,package_weight_kg,is_depot
 0,DEPOT-000,Main Mumbai Central Logistics Hub (BKC),Bandra Kurla Complex,19.0657,72.8687,0.0,1
 1,MUM-0023,Manish Kadam,Colaba,18.895383,72.831548,3.34,0
-2,MUM-0006,Varun Patel,Colaba,18.882379,72.828133,8.37,0
-3,MUM-0015,Arjun Pawar,Colaba,18.882167,72.827534,10.26,0
-4,MUM-0009,Pooja Pawar,Colaba,18.88056,72.802173,8.86,0
+2,MUM-0022,Simran Shetty,Colaba,18.893545,72.825679,2.44,0
+3,MUM-0011,Arjun Chavan,Colaba,18.888581,72.823358,1.36,0
+4,MUM-0029,Aditya Kadam,Colaba,18.888092,72.815523,11.32,0
 5,MUM-0012,Karan Gokhale,Colaba,18.887943,72.805152,8.63,0
 6,MUM-0024,Manish Bhat,Colaba,18.89383,72.802789,11.73,0
 7,MUM-0035,Ananya Pandey,Colaba,18.894875,72.801573,5.66,0
@@ -13,7 +13,7 @@ step,order_id,customer_name,area,latitude,longitude,package_weight_kg,is_depot
 11,MUM-0020,Aditya Sharma,Colaba,18.897411,72.810383,3.63,0
 12,MUM-0030,Gaurav Nair,Colaba,18.897301,72.810835,3.47,0
 13,MUM-0028,Rohan Kadam,Colaba,18.894814,72.807904,4.25,0
-14,MUM-0029,Aditya Kadam,Colaba,18.888092,72.815523,11.32,0
-15,MUM-0011,Arjun Chavan,Colaba,18.888581,72.823358,1.36,0
-16,MUM-0022,Simran Shetty,Colaba,18.893545,72.825679,2.44,0
+14,MUM-0009,Pooja Pawar,Colaba,18.88056,72.802173,8.86,0
+15,MUM-0015,Arjun Pawar,Colaba,18.882167,72.827534,10.26,0
+16,MUM-0006,Varun Patel,Colaba,18.882379,72.828133,8.37,0
 17,DEPOT-000,Main Mumbai Central Logistics Hub (BKC),Bandra Kurla Complex,19.0657,72.8687,0.0,1

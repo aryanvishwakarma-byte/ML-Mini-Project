@@ -36,8 +36,9 @@ def run_pipeline(data_path="data/mumbai_deliveries.csv", n_clusters=4, algorithm
     
     print(f"\n[Step 2] Solving Shortest Path Routing within Each Delivery Zone...")
     cluster_results = {}
-    total_unoptimized_km = 0.0
-    total_optimized_km = 0.0
+    total_dijkstra_km = 0.0
+    total_greedy_km = 0.0
+    total_shortest_km = 0.0
     
     routes_summary = []
     
@@ -52,34 +53,34 @@ def run_pipeline(data_path="data/mumbai_deliveries.csv", n_clusters=4, algorithm
         route_res = solve_cluster_route(sub_df, depot_info)
         cluster_results[c_id] = route_res
         
-        init_km = route_res["initial_distance_km"]
-        opt_km = route_res["optimized_distance_km"]
-        pct_improvement = ((init_km - opt_km) / init_km * 100) if init_km > 0 else 0
+        dijkstra_km = route_res["dijkstra_distance_km"]
+        greedy_km = route_res["greedy_distance_km"]
+        shortest_km = route_res["shortest_distance_km"]
+        method = route_res["selected_method"]
         
-        total_unoptimized_km += init_km
-        total_optimized_km += opt_km
+        total_dijkstra_km += dijkstra_km
+        total_greedy_km += greedy_km
+        total_shortest_km += shortest_km
         
         routes_summary.append({
             "Zone": f"Zone {c_id}",
             "Map Color": get_cluster_color(c_id),
             "Stops": route_res["num_deliveries"],
-            "Initial TSP (km)": init_km,
-            "Optimized TSP (km)": opt_km,
-            "Distance Saved (km)": round(init_km - opt_km, 2),
-            "Improvement (%)": f"{pct_improvement:.1f}%"
+            "Dijkstra Tour (km)": dijkstra_km,
+            "Greedy TSP (km)": greedy_km,
+            "Selected Shortest (km)": shortest_km,
+            "Winning Algorithm": method
         })
         
         route_res["ordered_nodes_df"].to_csv(f"outputs/zone_{c_id}_itinerary.csv", index=False)
         
     summary_df = pd.DataFrame(routes_summary)
-    print("\n--- Route Optimization Summary ---")
+    print("\n--- Route Optimization Summary (Dijkstra vs Greedy TSP) ---")
     print(summary_df.to_string(index=False))
-    print("-" * 50)
-    print(f"Total Fleet Distance (Greedy TSP):     {total_unoptimized_km:.2f} km")
-    print(f"Total Fleet Distance (2-Opt Shortest):   {total_optimized_km:.2f} km")
-    overall_saved = total_unoptimized_km - total_optimized_km
-    overall_pct = (overall_saved / total_unoptimized_km * 100) if total_unoptimized_km > 0 else 0
-    print(f"Total Distance Reduced:                {overall_saved:.2f} km ({overall_pct:.1f}% reduction)")
+    print("-" * 65)
+    print(f"Total Fleet Distance (Dijkstra Tour):  {total_dijkstra_km:.2f} km")
+    print(f"Total Fleet Distance (Greedy TSP):     {total_greedy_km:.2f} km")
+    print(f"Total Fleet Distance (Selected Shortest): {total_shortest_km:.2f} km")
     
     print(f"\n[Step 3] Generating Route Maps and Visualizations...")
     html_map = generate_interactive_map(cluster_results, depot_info, "outputs/mumbai_route_map.html")
